@@ -1,0 +1,2745 @@
+PMID- 40442373
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250709
+LR  - 20260514
+IS  - 1548-7105 (Electronic)
+IS  - 1548-7091 (Print)
+IS  - 1548-7091 (Linking)
+VI  - 22
+IP  - 7
+DP  - 2025 Jul
+TI  - A visual-omics foundation model to bridge histopathology with spatial 
+      transcriptomics.
+PG  - 1568-1582
+LID - 10.1038/s41592-025-02707-1 [doi]
+AB  - Artificial intelligence has revolutionized computational biology. Recent 
+      developments in omics technologies, including single-cell RNA sequencing and 
+      spatial transcriptomics, provide detailed genomic data alongside tissue 
+      histology. However, current computational models focus on either omics or image 
+      analysis, lacking their integration. To address this, we developed OmiCLIP, a 
+      visual-omics foundation model linking hematoxylin and eosin images and 
+      transcriptomics using tissue patches from Visium data. We transformed 
+      transcriptomic data into 'sentences' by concatenating top-expressed gene symbols 
+      from each patch. We curated a dataset of 2.2 million paired tissue images and 
+      transcriptomic data across 32 organs to train OmiCLIP integrating histology and 
+      transcriptomics. Building on OmiCLIP, our Loki platform offers five key 
+      functions: tissue alignment, annotation via bulk RNA sequencing or marker genes, 
+      cell-type decomposition, image-transcriptomics retrieval and spatial 
+      transcriptomics gene expression prediction from hematoxylin and eosin-stained 
+      images. Compared with 22 state-of-the-art models on 5 simulations, and 19 public 
+      and 4 in-house experimental datasets, Loki demonstrated consistent accuracy and 
+      robustness.
+CI  - © 2025. The Author(s).
+FAU - Chen, Weiqing
+AU  - Chen W
+AUID- ORCID: 0000-0003-3539-9210
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, USA.
+AD  - Department of Physiology, Biophysics & Systems Biology, Weill Cornell Graduate 
+      School of Medical Science, Cornell University, New York, NY, USA.
+FAU - Zhang, Pengzhi
+AU  - Zhang P
+AUID- ORCID: 0000-0001-6920-1490
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Tran, Tu N
+AU  - Tran TN
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Xiao, Yiwei
+AU  - Xiao Y
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Li, Shengyu
+AU  - Li S
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Shah, Vrutant V
+AU  - Shah VV
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+FAU - Cheng, Hao
+AU  - Cheng H
+AD  - Department of Biomedical Informatics, College of Medicine, The Ohio State 
+      University, Columbus, OH, USA.
+FAU - Brannan, Kristopher W
+AU  - Brannan KW
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+FAU - Youker, Keith
+AU  - Youker K
+AUID- ORCID: 0000-0003-2535-7973
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Lai, Li
+AU  - Lai L
+AUID- ORCID: 0000-0002-5731-2705
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Fang, Longhou
+AU  - Fang L
+AUID- ORCID: 0000-0003-1653-5221
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Yang, Yu
+AU  - Yang Y
+AD  - Department of Pathology, Immunology and Laboratory Medicine, College of Medicine, 
+      University of Florida, Gainesville, FL, USA.
+FAU - Le, Nhat-Tu
+AU  - Le NT
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Abe, Jun-Ichi
+AU  - Abe JI
+AUID- ORCID: 0000-0001-7439-7774
+AD  - Department of Cardiology, The University of Texas MD Anderson Cancer Center, 
+      Houston, TX, USA.
+FAU - Chen, Shu-Hsia
+AU  - Chen SH
+AD  - Center for Immunotherapy, Neal Cancer Center, Houston Methodist Research 
+      Institute, Houston, TX, USA.
+FAU - Ma, Qin
+AU  - Ma Q
+AUID- ORCID: 0000-0002-3264-8392
+AD  - Department of Biomedical Informatics, College of Medicine, The Ohio State 
+      University, Columbus, OH, USA.
+FAU - Chen, Ken
+AU  - Chen K
+AUID- ORCID: 0000-0003-4013-5279
+AD  - Department of Bioinformatics and Computational Biology, The University of Texas 
+      MD Anderson Cancer Center, Houston, TX, USA.
+FAU - Song, Qianqian
+AU  - Song Q
+AUID- ORCID: 0000-0002-4455-5302
+AD  - Department of Health Outcomes and Biomedical Informatics, College of Medicine, 
+      University of Florida, Gainesville, FL, USA.
+FAU - Cooke, John P
+AU  - Cooke JP
+AD  - Department of Physiology, Biophysics & Systems Biology, Weill Cornell Graduate 
+      School of Medical Science, Cornell University, New York, NY, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA.
+FAU - Wang, Guangyu
+AU  - Wang G
+AUID- ORCID: 0000-0003-4803-7200
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, USA. gwang2@houstonmethodist.org.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, USA. gwang2@houstonmethodist.org.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      USA. gwang2@houstonmethodist.org.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, USA. gwang2@houstonmethodist.org.
+LA  - eng
+GR  - R01 HL169204/HL/NHLBI NIH HHS/United States
+GR  - R35 GM151089/GM/NIGMS NIH HHS/United States
+GR  - R35GM150460/U.S. Department of Health & Human Services | NIH | National Institute 
+      of General Medical Sciences (NIGMS)/
+GR  - R56 HL169204/HL/NHLBI NIH HHS/United States
+GR  - R35 GM150460/GM/NIGMS NIH HHS/United States
+GR  - R01 CA284315/CA/NCI NIH HHS/United States
+GR  - R01HL169204-01A1/U.S. Department of Health & Human Services | NIH | National 
+      Heart, Lung, and Blood Institute (NHLBI)/
+GR  - K22 NS112678/NS/NINDS NIH HHS/United States
+GR  - RR220017/Cancer Prevention and Research Institute of Texas (Cancer Prevention 
+      Research Institute of Texas)/
+PT  - Journal Article
+DEP - 20250529
+PL  - United States
+TA  - Nat Methods
+JT  - Nature methods
+JID - 101215604
+SB  - IM
+UOF - Res Sq. 2025 Apr 16:rs.3.rs-5183775. doi: 10.21203/rs.3.rs-5183775/v1. PMID: 
+      40321764
+MH  - Humans
+MH  - *Transcriptome
+MH  - *Computational Biology/methods
+MH  - *Gene Expression Profiling/methods
+MH  - *Genomics/methods
+MH  - Image Processing, Computer-Assisted/methods
+MH  - Artificial Intelligence
+MH  - Single-Cell Analysis
+PMC - PMC12240810
+MID - NIHMS2092004
+COIS- Competing interests: The authors declare no competing interests.
+EDAT- 2025/05/30 01:59
+MHDA- 2025/07/10 00:35
+PMCR- 2025/05/29
+CRDT- 2025/05/29 23:30
+PHST- 2024/09/30 00:00 [received]
+PHST- 2025/04/15 00:00 [accepted]
+PHST- 2025/07/10 00:35 [medline]
+PHST- 2025/05/30 01:59 [pubmed]
+PHST- 2025/05/29 23:30 [entrez]
+PHST- 2025/05/29 00:00 [pmc-release]
+AID - 10.1038/s41592-025-02707-1 [pii]
+AID - 2707 [pii]
+AID - 10.1038/s41592-025-02707-1 [doi]
+PST - ppublish
+SO  - Nat Methods. 2025 Jul;22(7):1568-1582. doi: 10.1038/s41592-025-02707-1. Epub 2025 
+      May 29.
+
+PMID- 41407925
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260213
+LR  - 20260214
+IS  - 1548-7105 (Electronic)
+IS  - 1548-7091 (Linking)
+VI  - 23
+IP  - 2
+DP  - 2026 Feb
+TI  - High-parameter spatial multi-omics through histology-anchored integration.
+PG  - 373-386
+LID - 10.1038/s41592-025-02926-6 [doi]
+AB  - Spatial omics face challenges in achieving high-parameter, multi-omics 
+      coprofiling. Serial-section profiling of complementary panels mitigates technical 
+      trade-offs but introduces the spatial diagonal integration problem. To address 
+      this, here we present SpatialEx and its extension SpatialEx+, computational 
+      frameworks leveraging histology as a universal anchor to integrate spatial 
+      molecular data across tissue sections. SpatialEx combines a pretrained 
+      hematoxylin and eosin foundation model with hypergraph and contrastive learning 
+      to predict single-cell omics from histology, encoding multi-neighborhood spatial 
+      dependencies and global tissue context. SpatialEx+ further introduces an omics 
+      cycle module that encourages cross-omics consistency via slice-invariant 
+      mappings, enabling seamless integration without comeasured training data. 
+      Extensive validations show superior hematoxylin and eosin-to-omics prediction, 
+      panel diagonal integration and omics diagonal integration across various 
+      biological scenarios. The frameworks scale to datasets exceeding 1 million cells, 
+      maintain robustness with nonoverlapping or heterogeneous sections and support 
+      unlimited omics layers in principle. Our work makes multimodal spatial profiling 
+      broadly accessible.
+CI  - © 2025. The Author(s), under exclusive licence to Springer Nature America, Inc.
+FAU - Liu, Yonghao
+AU  - Liu Y
+AD  - Key Laboratory of Symbolic Computation and Knowledge Engineering of the Ministry 
+      of Education, College of Computer Science and Technology, Jilin University, 
+      Changchun, China.
+FAU - Wang, Chuyao
+AU  - Wang C
+AUID- ORCID: 0009-0003-0057-2826
+AD  - Key Laboratory of Symbolic Computation and Knowledge Engineering of the Ministry 
+      of Education, College of Computer Science and Technology, Jilin University, 
+      Changchun, China.
+FAU - Wang, Zhikang
+AU  - Wang Z
+AUID- ORCID: 0000-0001-9587-1965
+AD  - Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan 
+      University Pudong Medical Center, Institute of Science and Technology for 
+      Brain-Inspired Intelligence, MOE Key Laboratory of Computational Neuroscience and 
+      Brain-Inspired Intelligence, Center for Integrative Spatial-Omics Research, Fudan 
+      University, Shanghai, China.
+AD  - Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan 
+      University Pudong Medical Center, Fudan University, Shanghai, China.
+AD  - Biomedicine Discovery Institute and Department of Biochemistry and Molecular 
+      Biology, Monash University, Melbourne, Victoria, Australia.
+FAU - Chen, Liang
+AU  - Chen L
+AUID- ORCID: 0000-0001-6644-477X
+AD  - Department of Computer Science and Technology, College of Mathematics and 
+      Computer, Shantou University, Shantou, China.
+FAU - Li, Zhi
+AU  - Li Z
+AD  - National Clinical Research Center for Laboratory Medicine, Department of 
+      Laboratory Medicine, The First Hospital of China Medical University, Shenyang, 
+      China.
+FAU - Song, Jiangning
+AU  - Song J
+AUID- ORCID: 0000-0001-8031-9086
+AD  - Biomedicine Discovery Institute and Department of Biochemistry and Molecular 
+      Biology, Monash University, Melbourne, Victoria, Australia.
+FAU - Zou, Qi
+AU  - Zou Q
+AUID- ORCID: 0000-0002-8662-5874
+AD  - Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan 
+      University Pudong Medical Center, Institute of Science and Technology for 
+      Brain-Inspired Intelligence, MOE Key Laboratory of Computational Neuroscience and 
+      Brain-Inspired Intelligence, Center for Integrative Spatial-Omics Research, Fudan 
+      University, Shanghai, China.
+AD  - Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan 
+      University Pudong Medical Center, Fudan University, Shanghai, China.
+AD  - Center of Intelligent Medicine, School of Control Science and Engineering, 
+      Shandong University, Jinan, China.
+FAU - Gao, Rui
+AU  - Gao R
+AD  - Center of Intelligent Medicine, School of Control Science and Engineering, 
+      Shandong University, Jinan, China.
+FAU - Qian, Bin-Zhi
+AU  - Qian BZ
+AUID- ORCID: 0000-0002-5796-1078
+AD  - Fudan University Shanghai Cancer Center, Department of Oncology, Shanghai Medical 
+      College, The Human Phenome Institute, Zhangjiang-Fudan International Innovation 
+      Center, Fudan University, Shanghai, China.
+FAU - Feng, Xiaoyue
+AU  - Feng X
+AUID- ORCID: 0000-0003-3954-1333
+AD  - Key Laboratory of Symbolic Computation and Knowledge Engineering of the Ministry 
+      of Education, College of Computer Science and Technology, Jilin University, 
+      Changchun, China. fengxy@jlu.edu.cn.
+FAU - Guan, Renchu
+AU  - Guan R
+AUID- ORCID: 0000-0002-7162-7826
+AD  - Key Laboratory of Symbolic Computation and Knowledge Engineering of the Ministry 
+      of Education, College of Computer Science and Technology, Jilin University, 
+      Changchun, China. guanrenchu@jlu.edu.cn.
+FAU - Yuan, Zhiyuan
+AU  - Yuan Z
+AUID- ORCID: 0000-0002-9367-4236
+AD  - Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan 
+      University Pudong Medical Center, Institute of Science and Technology for 
+      Brain-Inspired Intelligence, MOE Key Laboratory of Computational Neuroscience and 
+      Brain-Inspired Intelligence, Center for Integrative Spatial-Omics Research, Fudan 
+      University, Shanghai, China. zhiyuan@fudan.edu.cn.
+AD  - Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan 
+      University Pudong Medical Center, Fudan University, Shanghai, China. 
+      zhiyuan@fudan.edu.cn.
+LA  - eng
+PT  - Journal Article
+DEP - 20251217
+PL  - United States
+TA  - Nat Methods
+JT  - Nature methods
+JID - 101215604
+SB  - IM
+MH  - Humans
+MH  - *Single-Cell Analysis/methods
+MH  - *Genomics/methods
+MH  - *Computational Biology/methods
+MH  - Multiomics
+COIS- Competing interests: The authors declare no competing interests.
+EDAT- 2025/12/18 01:31
+MHDA- 2026/02/14 05:30
+CRDT- 2025/12/17 23:28
+PHST- 2025/03/03 00:00 [received]
+PHST- 2025/10/21 00:00 [accepted]
+PHST- 2026/02/14 05:30 [medline]
+PHST- 2025/12/18 01:31 [pubmed]
+PHST- 2025/12/17 23:28 [entrez]
+AID - 10.1038/s41592-025-02926-6 [pii]
+AID - 10.1038/s41592-025-02926-6 [doi]
+PST - ppublish
+SO  - Nat Methods. 2026 Feb;23(2):373-386. doi: 10.1038/s41592-025-02926-6. Epub 2025 
+      Dec 17.
+
+PMID- 41839892
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260711
+LR  - 20260813
+IS  - 2041-1723 (Electronic)
+IS  - 2041-1723 (Linking)
+VI  - 17
+IP  - 1
+DP  - 2026 Mar 16
+TI  - FineST: contrastive learning integrates histology and spatial transcriptomics for 
+      nuclei-resolved ligand-receptor analysis.
+LID - 10.1038/s41467-026-70528-7 [doi]
+LID - 4645
+AB  - Spatial transcriptomics (ST) has emerged as a powerful tool for analyzing 
+      cell-cell communication (CCC) across various biological processes, ranging from 
+      embryonic development to cancer progression. However, its limited resolution and 
+      high data sparsity hinder the detailed characterization of CCC patterns within 
+      complex tissues. Here, we introduce FineST, a deep contrastive learning model 
+      that leverages a histology foundation model to fuse ST and histology images, 
+      enabling Fine-grained Spatial Transcriptomics analysis. This approach facilitates 
+      precise nuclei segmentation, high-resolution RNA expression imputation, and the 
+      identification of intricate ligand-receptor interactions. Using both colorectal 
+      cancer VisiumHD and breast cancer Xenium datasets, we demonstrate that FineST 
+      significantly outperforms existing methods in high-resolution RNA imputation, 
+      cell type prediction, and CCC pattern discovery. With focused application to the 
+      Visium platform, FineST reveals novel biological insights into tumor-immune 
+      interactions across multiple cancer types, including invasive fronts in breast 
+      cancer, tertiary lymphoid structures in nasopharyngeal carcinoma, and PD-1 
+      therapy resistance barriers in hepatocellular carcinoma. These findings highlight 
+      a new paradigm in ST analysis through the integration of readily available 
+      histology images.
+CI  - © 2026. The Author(s).
+FAU - Li, Lingyu
+AU  - Li L
+AUID- ORCID: 0000-0002-4559-2711
+AD  - School of Biomedical Sciences, The University of Hong Kong, Hong Kong SAR, China.
+FAU - Wang, Tianjie
+AU  - Wang T
+AD  - School of Biomedical Sciences, The University of Hong Kong, Hong Kong SAR, China.
+FAU - Liang, Zhuo
+AU  - Liang Z
+AD  - School of Computing and Data Science, The University of Hong Kong, Hong Kong SAR, 
+      China.
+FAU - Yu, Huajian
+AU  - Yu H
+AD  - School of Biomedical Sciences, The University of Hong Kong, Hong Kong SAR, China.
+FAU - Ma, Stephanie
+AU  - Ma S
+AUID- ORCID: 0000-0002-2029-7943
+AD  - School of Biomedical Sciences, The University of Hong Kong, Hong Kong SAR, China.
+AD  - State Key Laboratory of Liver Research, The University of Hong Kong, Hong Kong 
+      SAR, China.
+AD  - InnoHK-Centre for Translational Stem Cell Biology, Hong Kong Science Park, Hong 
+      Kong SAR, China.
+FAU - Yu, Lequan
+AU  - Yu L
+AUID- ORCID: 0000-0002-9315-6527
+AD  - School of Computing and Data Science, The University of Hong Kong, Hong Kong SAR, 
+      China. lqyu@hku.hk.
+FAU - Huang, Yuanhua
+AU  - Huang Y
+AUID- ORCID: 0000-0003-3124-9186
+AD  - School of Biomedical Sciences, The University of Hong Kong, Hong Kong SAR, China. 
+      yuanhua@hku.hk.
+AD  - School of Computing and Data Science, The University of Hong Kong, Hong Kong SAR, 
+      China. yuanhua@hku.hk.
+AD  - InnoHK-Centre for Translational Stem Cell Biology, Hong Kong Science Park, Hong 
+      Kong SAR, China. yuanhua@hku.hk.
+LA  - eng
+GR  - T12-705-24-R/Research Grants Council, University Grants Committee (RGC, UGC)/
+GR  - YCRG-C7004-22Y/Research Grants Council, University Grants Committee (RGC, UGC)/
+GR  - 62222217/National Natural Science Foundation of China (National Science 
+      Foundation of China)/
+PT  - Journal Article
+DEP - 20260316
+PL  - England
+TA  - Nat Commun
+JT  - Nature communications
+JID - 101528555
+RN  - 0 (Ligands)
+SB  - IM
+MH  - Spatial Transcriptomics/methods
+MH  - Humans
+MH  - *Cell Nucleus/metabolism/genetics
+MH  - Ligands
+MH  - Cell Communication/genetics
+MH  - Animals
+MH  - Female
+MH  - *Deep Learning
+MH  - Breast Neoplasms/genetics/pathology
+MH  - Colorectal Neoplasms/genetics/pathology
+PMC - PMC13201544
+COIS- Competing interests: The authors declare no competing interests.
+EDAT- 2026/03/17 06:48
+MHDA- 2026/05/26 00:30
+PMCR- 2026/03/16
+CRDT- 2026/03/17 00:16
+PHST- 2025/11/27 00:00 [received]
+PHST- 2026/02/20 00:00 [accepted]
+PHST- 2026/05/26 00:30 [medline]
+PHST- 2026/03/17 06:48 [pubmed]
+PHST- 2026/03/17 00:16 [entrez]
+PHST- 2026/03/16 00:00 [pmc-release]
+AID - 10.1038/s41467-026-70528-7 [pii]
+AID - 70528 [pii]
+AID - 10.1038/s41467-026-70528-7 [doi]
+PST - epublish
+SO  - Nat Commun. 2026 Mar 16;17(1):4645. doi: 10.1038/s41467-026-70528-7.
+
+PMID- 38106010
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20260307
+IS  - 2692-8205 (Electronic)
+IS  - 2692-8205 (Linking)
+DP  - 2023 Dec 10
+TI  - ATAT: Automated Tissue Alignment and Traversal in Spatial Transcriptomics with 
+      Self-Supervised Learning.
+LID - 2023.12.08.570839 [pii]
+LID - 10.1101/2023.12.08.570839 [doi]
+AB  - Spatial transcriptomics (ST) has enhanced RNA analysis in tissue biopsies, but 
+      interpreting these data is challenging without expert input. We present Automated 
+      Tissue Alignment and Traversal (ATAT), a novel computational framework designed 
+      to enhance ST analysis in the context of multiple and complex tissue 
+      architectures and morphologies, such as those found in biopsies of the 
+      gastrointestinal tract. ATAT utilizes self-supervised contrastive learning on 
+      hematoxylin and eosin (H&E) stained images to automate the alignment and 
+      traversal of ST data. This approach addresses a critical gap in current ST 
+      analysis methodologies, which rely heavily on manual annotation and pathologist 
+      expertise to delineate regions of interest for accurate gene expression modeling. 
+      Our framework not only streamlines the alignment of multiple ST samples, but also 
+      demonstrates robustness in modeling gene expression transitions across specific 
+      regions. Additionally, we highlight the ability of ATAT to traverse complex 
+      tissue topologies in real-world cases from various individuals and conditions. 
+      Our method successfully elucidates differences in immune infiltration patterns 
+      across the intestinal wall, enabling the modeling of transcriptional changes 
+      across histological layers. We show that ATAT achieves comparable performance to 
+      the state-of-the-art method, while alleviating the burden of manual annotation 
+      and enabling alignment of tissue samples with complex morphologies.
+FAU - Song, Steven
+AU  - Song S
+AUID- ORCID: 0000-0001-5868-3877
+AD  - Department of Computer Science, University of Chicago, IL 60637, USA.
+AD  - Interdisciplinary Scientist Training Program, University of Chicago, Chicago, IL 
+      60637, USA.
+FAU - Mohsin, Emaan
+AU  - Mohsin E
+AD  - Department of Pathology, University of Chicago, Chicago, IL 60637, USA.
+FAU - Zhang, Renyu
+AU  - Zhang R
+AD  - Department of Computer Science, University of Chicago, IL 60637, USA.
+FAU - Kuznetsov, Andrey
+AU  - Kuznetsov A
+AD  - Department of Pathology, University of Chicago, Chicago, IL 60637, USA.
+FAU - Shen, Le
+AU  - Shen L
+AD  - Department of Pathology, University of Chicago, Chicago, IL 60637, USA.
+FAU - Grossman, Robert L
+AU  - Grossman RL
+AUID- ORCID: 0000-0003-3741-5739
+AD  - Department of Computer Science, University of Chicago, IL 60637, USA.
+AD  - Department of Medicine, University of Chicago, Chicago, IL 60637, USA.
+FAU - Weber, Christopher R
+AU  - Weber CR
+AD  - Department of Pathology, University of Chicago, Chicago, IL 60637, USA.
+FAU - Khan, Aly A
+AU  - Khan AA
+AD  - Department of Pathology, University of Chicago, Chicago, IL 60637, USA.
+AD  - Committee on Immunology, University of Chicago, Chicago, IL 60637, USA.
+AD  - Institute for Population and Precision Health, University of Chicago, Chicago, IL 
+      60637, USA.
+AD  - Department of Family Medicine, University of Chicago, Chicago, IL 60637, USA.
+LA  - eng
+GR  - DP2 AI177884/AI/NIAID NIH HHS/United States
+GR  - P30 DK042086/DK/NIDDK NIH HHS/United States
+GR  - R01 DK138072/DK/NIDDK NIH HHS/United States
+GR  - UL1 TR002389/TR/NCATS NIH HHS/United States
+PT  - Journal Article
+PT  - Preprint
+DEP - 20231210
+PL  - United States
+TA  - bioRxiv
+JT  - bioRxiv : the preprint server for biology
+JID - 101680187
+PMC - PMC10723486
+EDAT- 2023/12/18 06:41
+MHDA- 2023/12/18 06:42
+PMCR- 2023/12/15
+CRDT- 2023/12/18 04:31
+PHST- 2023/12/18 06:41 [pubmed]
+PHST- 2023/12/18 06:42 [medline]
+PHST- 2023/12/18 04:31 [entrez]
+PHST- 2023/12/15 00:00 [pmc-release]
+AID - 2023.12.08.570839 [pii]
+AID - 10.1101/2023.12.08.570839 [doi]
+PST - epublish
+SO  - bioRxiv [Preprint]. 2023 Dec 10:2023.12.08.570839. doi: 
+      10.1101/2023.12.08.570839.
+
+PMID- 40321764
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20250709
+IS  - 2693-5015 (Electronic)
+IS  - 2693-5015 (Linking)
+DP  - 2025 Apr 16
+TI  - A visual-omics foundation model to bridge histopathology image with 
+      transcriptomics.
+LID - rs.3.rs-5183775 [pii]
+LID - 10.21203/rs.3.rs-5183775/v1 [doi]
+AB  - Artificial intelligence has revolutionized computational biology. Recent 
+      developments in omics technologies, including single-cell RNA sequencing 
+      (scRNA-seq) and spatial transcriptomics (ST), provide detailed genomic data 
+      alongside tissue histology. However, current computational models focus on either 
+      omics or image analysis, lacking their integration. To address this, we developed 
+      OmiCLIP, a visual-omics foundation model linking hematoxylin and eosin (H&E) 
+      images and transcriptomics using tissue patches from Visium data. We transformed 
+      transcriptomic data into "sentences" by concatenating top-expressed gene symbols 
+      from each patch. We curated a dataset of 2.2 million paired tissue images and 
+      transcriptomic data across 32 organs to train OmiCLIP integrating histology and 
+      transcriptomics. Building on OmiCLIP, our Loki platform offers five key 
+      functions: tissue alignment, annotation via bulk RNA-seq or marker genes, cell 
+      type decomposition, image-transcriptomics retrieval, and ST gene expression 
+      prediction from H&E images. Compared with 22 state-of-the-art models on 5 
+      simulations, 19 public, and 4 in-house experimental datasets, Loki demonstrated 
+      consistent accuracy and robustness.
+FAU - Chen, Weiqing
+AU  - Chen W
+AUID- ORCID: 0000-0003-3539-9210
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+AD  - Department of Physiology, Biophysics & Systems Biology, Weill Cornell Graduate 
+      School of Medical Science, Cornell University, New York, NY, 10065, USA.
+FAU - Zhang, Pengzhi
+AU  - Zhang P
+AUID- ORCID: 0000-0001-6920-1490
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Tran, Tu N
+AU  - Tran TN
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Xiao, Yiwei
+AU  - Xiao Y
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Li, Shengyu
+AU  - Li S
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Shah, Vrutant V
+AU  - Shah VV
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+FAU - Cheng, Hao
+AU  - Cheng H
+AD  - Department of Biomedical Informatics, College of Medicine, The Ohio State 
+      University, Columbus, OH, 43210, USA.
+FAU - Brannan, Kristopher W
+AU  - Brannan KW
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+FAU - Youker, Keith
+AU  - Youker K
+AUID- ORCID: 0000-0003-2535-7973
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Li, Lai
+AU  - Li L
+AUID- ORCID: 0000-0002-5731-2705
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Fang, Longhou
+AU  - Fang L
+AUID- ORCID: 0000-0003-1653-5221
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Yang, Yu
+AU  - Yang Y
+AD  - Department of Pathology, Immunology and Laboratory Medicine, College of Medicine, 
+      University of Florida, Gainesville, FL, 32608, USA.
+FAU - Le, Nhat-Tu
+AU  - Le NT
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Abe, Jun-Ichi
+AU  - Abe JI
+AUID- ORCID: 0000-0001-7439-7774
+AD  - Department of Cardiology, The University of Texas MD Anderson Cancer Center, 
+      Houston, TX, 77030, USA.
+FAU - Chen, Shu-Hsia
+AU  - Chen SH
+AD  - Center for Immunotherapy, Neal Cancer Center, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+FAU - Ma, Qin
+AU  - Ma Q
+AUID- ORCID: 0000-0002-3264-8392
+AD  - Department of Biomedical Informatics, College of Medicine, The Ohio State 
+      University, Columbus, OH, 43210, USA.
+FAU - Chen, Ken
+AU  - Chen K
+AUID- ORCID: 0000-0003-4013-5279
+AD  - Department of Bioinformatics and Computational Biology, The University of Texas 
+      MD Anderson Cancer Center, Houston, TX, 77030, USA.
+FAU - Song, Qianqian
+AU  - Song Q
+AUID- ORCID: 0000-0002-4455-5302
+AD  - Department of Health Outcomes and Biomedical Informatics, College of Medicine, 
+      University of Florida, Gainesville, FL, 32611, USA.
+FAU - Cooke, John P
+AU  - Cooke JP
+AD  - Department of Physiology, Biophysics & Systems Biology, Weill Cornell Graduate 
+      School of Medical Science, Cornell University, New York, NY, 10065, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+FAU - Wang, Guangyu
+AU  - Wang G
+AUID- ORCID: 0000-0003-4803-7200
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research 
+      Institute, Houston, TX, 77030, USA.
+AD  - Center for Cardiovascular Regeneration, Houston Methodist Research Institute, 
+      Houston, TX, 77030, USA.
+AD  - Center for RNA Therapeutics, Houston Methodist Research Institute, Houston, TX, 
+      77030, USA.
+AD  - Department of Cardiothoracic Surgery, Weill Cornell Medicine, Cornell University, 
+      New York, NY, 10065, USA.
+LA  - eng
+GR  - K22 NS112678/NS/NINDS NIH HHS/United States
+GR  - R01 CA284315/CA/NCI NIH HHS/United States
+GR  - R01 HL169204/HL/NHLBI NIH HHS/United States
+GR  - R35 GM150460/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Preprint
+DEP - 20250416
+PL  - United States
+TA  - Res Sq
+JT  - Research square
+JID - 101768035
+UIN - Nat Methods. 2025 Jul;22(7):1568-1582. doi: 10.1038/s41592-025-02707-1. PMID: 
+      40442373
+PMC - PMC12047990
+COIS- Competing interests The authors declare no competing interests.
+EDAT- 2025/05/05 06:26
+MHDA- 2025/05/05 06:27
+PMCR- 2025/05/02
+CRDT- 2025/05/05 05:31
+PHST- 2025/05/05 06:26 [pubmed]
+PHST- 2025/05/05 06:27 [medline]
+PHST- 2025/05/05 05:31 [entrez]
+PHST- 2025/05/02 00:00 [pmc-release]
+AID - rs.3.rs-5183775 [pii]
+AID - 10.21203/rs.3.rs-5183775/v1 [doi]
+PST - epublish
+SO  - Res Sq [Preprint]. 2025 Apr 16:rs.3.rs-5183775. doi: 10.21203/rs.3.rs-5183775/v1.
+
+PMID- 39266614
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20240912
+LR  - 20241217
+IS  - 2399-3642 (Electronic)
+IS  - 2399-3642 (Linking)
+VI  - 7
+IP  - 1
+DP  - 2024 Sep 12
+TI  - A graph self-supervised residual learning framework for domain identification and 
+      data integration of spatial transcriptomics.
+PG  - 1123
+LID - 10.1038/s42003-024-06814-1 [doi]
+LID - 1123
+AB  - Spatial transcriptomics (ST) technologies allow for comprehensive 
+      characterization of gene expression patterns in the context of tissue 
+      microenvironment. However, accurately identifying domains with spatial coherence 
+      in both gene expression and histology in situ and effectively integrating data 
+      from multi-sample remains challenging. Here, we propose ResST, a graph 
+      self-supervised residual learning model based on graph neural network and Margin 
+      Disparity Discrepancy (MDD) theory. ResST aggregates gene expression, biological 
+      effects, spatial location, and morphological information to capture nonlinear 
+      relationships between a cell and surrounding cells for spatial domain 
+      identification. Also, ResST integrates multiple ST datasets and aligns latent 
+      embeddings based on MDD theory for correcting batch effects. Results show that 
+      ResST identifies continuous spatial domains at a finer scale in ten ST datasets 
+      acquired with different technologies. Moreover, ResST efficiently integrated data 
+      from multiple tissue sections vertically or horizontally while correcting batch 
+      effects. Overall, ResST demonstrates exceptional performance in analyzing ST 
+      datasets.
+CI  - © 2024. The Author(s).
+FAU - Huang, Jinjin
+AU  - Huang J
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+FAU - Fu, Xiaoqian
+AU  - Fu X
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+AD  - Academy of Medical Science, Zhengzhou University, Zhengzhou, China.
+FAU - Zhang, Zhuangli
+AU  - Zhang Z
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+FAU - Xie, Yinfeng
+AU  - Xie Y
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+FAU - Liu, Shangkun
+AU  - Liu S
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+AD  - Academy of Medical Science, Zhengzhou University, Zhengzhou, China.
+FAU - Wang, Yarong
+AU  - Wang Y
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+FAU - Zhao, Zhihong
+AU  - Zhao Z
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China.
+FAU - Peng, Youmei
+AU  - Peng Y
+AUID- ORCID: 0000-0002-8450-9263
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan 
+      Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, 
+      Zhengzhou, China. pengym@zzu.edu.cn.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20240912
+PL  - England
+TA  - Commun Biol
+JT  - Communications biology
+JID - 101719179
+SB  - IM
+MH  - *Transcriptome
+MH  - Humans
+MH  - *Gene Expression Profiling/methods
+MH  - Supervised Machine Learning
+MH  - Neural Networks, Computer
+MH  - Algorithms
+MH  - Computational Biology/methods
+PMC - PMC11393357
+COIS- The authors declare no competing interests.
+EDAT- 2024/09/13 00:46
+MHDA- 2024/09/13 00:47
+PMCR- 2024/09/12
+CRDT- 2024/09/12 23:22
+PHST- 2024/01/20 00:00 [received]
+PHST- 2024/08/30 00:00 [accepted]
+PHST- 2024/09/13 00:47 [medline]
+PHST- 2024/09/13 00:46 [pubmed]
+PHST- 2024/09/12 23:22 [entrez]
+PHST- 2024/09/12 00:00 [pmc-release]
+AID - 10.1038/s42003-024-06814-1 [pii]
+AID - 6814 [pii]
+AID - 10.1038/s42003-024-06814-1 [doi]
+PST - epublish
+SO  - Commun Biol. 2024 Sep 12;7(1):1123. doi: 10.1038/s42003-024-06814-1.
+
+PMID- 41238784
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20251114
+LR  - 20251117
+IS  - 2398-6352 (Electronic)
+IS  - 2398-6352 (Linking)
+VI  - 8
+IP  - 1
+DP  - 2025 Nov 14
+TI  - STPath: a generative foundation model for integrating spatial transcriptomics and 
+      whole-slide images.
+PG  - 659
+LID - 10.1038/s41746-025-02020-3 [doi]
+LID - 659
+AB  - Spatial transcriptomics (ST) offers insights into gene expression patterns and 
+      their spatial context within the tumor microenvironment, but remains limited by 
+      the scalability of current sequencing technologies. Existing approaches infer ST 
+      from whole-slide images (WSIs) using pretrained encoders, yet are restricted by 
+      narrow gene coverage, organ-specific training, and dataset-specific fine-tuning. 
+      In light of this, we present STPath, a generative foundation model pretrained on 
+      large-scale WSIs paired with ST profiles. This extensive pretraining enables 
+      STPath to directly predict gene expression across 38,984 genes and 17 organs 
+      without downstream fine-tuning. STPath integrates histology images, gene 
+      expression, organ type, and sequencing technology modality within a 
+      geometry-aware Transformer, trained via masked gene expression prediction with 
+      tailored noise schedules to capture gene-gene dependencies and enable 
+      high-quality inference. Evaluated on six tasks spanning 23 datasets and 14 
+      biomarkers, including expression prediction, spot imputation, spatial clustering, 
+      biomarker prediction, mutation prediction, and survival prediction, STPath 
+      demonstrates strong applicability for scalable ST-based pathology applications.
+CI  - © 2025. The Author(s).
+FAU - Huang, Tinglin
+AU  - Huang T
+AD  - Department of Computer Science, Yale University, New Haven, CT, USA.
+FAU - Liu, Tianyu
+AU  - Liu T
+AD  - Interdepartmental Program in Computational Biology & Bioinformatics, Yale 
+      University, New Haven, CT, USA.
+AD  - Department of Biostatistics, Yale University, New Haven, CT, USA.
+FAU - Babadi, Mehrtash
+AU  - Babadi M
+AD  - Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+AD  - Isomorphic Labs, London, UK.
+FAU - Ying, Rex
+AU  - Ying R
+AD  - Department of Computer Science, Yale University, New Haven, CT, USA. 
+      rex.ying@yale.edu.
+FAU - Jin, Wengong
+AU  - Jin W
+AD  - Broad Institute of MIT and Harvard, Cambridge, MA, USA. w.jin@northeastern.edu.
+AD  - Khoury College of Computer Sciences, Northeastern University, Boston, MA, USA. 
+      w.jin@northeastern.edu.
+LA  - eng
+PT  - Journal Article
+DEP - 20251114
+PL  - England
+TA  - NPJ Digit Med
+JT  - NPJ digital medicine
+JID - 101731738
+PMC - PMC12618518
+COIS- Competing interests: The authors declare no competing interests.
+EDAT- 2025/11/15 00:29
+MHDA- 2025/11/15 00:30
+PMCR- 2025/11/14
+CRDT- 2025/11/14 23:31
+PHST- 2025/05/23 00:00 [received]
+PHST- 2025/09/20 00:00 [accepted]
+PHST- 2025/11/15 00:30 [medline]
+PHST- 2025/11/15 00:29 [pubmed]
+PHST- 2025/11/14 23:31 [entrez]
+PHST- 2025/11/14 00:00 [pmc-release]
+AID - 10.1038/s41746-025-02020-3 [pii]
+AID - 2020 [pii]
+AID - 10.1038/s41746-025-02020-3 [doi]
+PST - epublish
+SO  - NPJ Digit Med. 2025 Nov 14;8(1):659. doi: 10.1038/s41746-025-02020-3.
+
+PMID- 41890030
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20260406
+LR  - 20260829
+IS  - 2692-8205 (Electronic)
+IS  - 2692-8205 (Linking)
+DP  - 2026 Mar 18
+TI  - SpatialFusion: A lightweight multimodal foundation model for pathway-informed 
+      spatial niche mapping.
+LID - 2026.03.16.712056 [pii]
+LID - 10.64898/2026.03.16.712056 [doi]
+AB  - Foundation models enable knowledge transfer across data modalities and tasks, yet 
+      foundation models for spatial biology remain in their early stages, largely 
+      centered on encoding single-cell representations in spatial context without fully 
+      integrating transcriptomic and morphological information to delineate functional 
+      niches. Here we introduce SpatialFusion, a lightweight multimodal foundation 
+      model that identifies biologically coherent microenvironments defined by distinct 
+      pathway activation patterns rather than spatial proximity alone. SpatialFusion 
+      integrates paired histopathology, gene expression, and inferred pathway activity 
+      into a unified representation. Compared with two specialist niche-detection 
+      methods and four spatial foundation models, SpatialFusion performs competitively 
+      and consistently resolves fine-grained spatial niches with unique pathway-level 
+      signatures. Applying the model to two Visium HD cohorts uncovered a pre-malignant 
+      niche in morphologically normal mucosa adjacent to colorectal tumors and revealed 
+      distinct malignant microenvironments in non-small cell lung cancer that were 
+      predictive of tumor stage. Overall, SpatialFusion offers a versatile framework 
+      for multimodal spatial analysis, enabling the discovery of new morpho-molecular 
+      niches with significant biological and clinical relevance.
+FAU - Yates, Josephine
+AU  - Yates J
+AUID- ORCID: 0000-0001-8346-4502
+AD  - Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard, 
+      Cambridge, USA, 02142.
+AD  - Department of Medical Oncology, Dana Farber Cancer Institute, Boston, MA and 
+      Harvard Medical School.
+FAU - Shavakhi, Mitra
+AU  - Shavakhi M
+AUID- ORCID: 0000-0003-0719-0786
+AD  - Department of Medical Oncology, Dana Farber Cancer Institute, Boston, MA and 
+      Harvard Medical School.
+FAU - Choueiri, Toni K
+AU  - Choueiri TK
+AUID- ORCID: 0000-0002-9201-3217
+AD  - Department of Medical Oncology, Dana Farber Cancer Institute, Boston, MA and 
+      Harvard Medical School.
+FAU - Van Allen, Eliezer M
+AU  - Van Allen EM
+AUID- ORCID: 0000-0002-0201-4444
+AD  - Department of Medical Oncology, Dana Farber Cancer Institute, Boston, MA and 
+      Harvard Medical School.
+AD  - Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+AD  - Division of Medical Sciences, Harvard University, Boston, MA, USA.
+AD  - Parker Institute for Cancer Immunotherapy, Dana-Farber Cancer Institute, Boston, 
+      MA, USA.
+FAU - Uhler, Caroline
+AU  - Uhler C
+AUID- ORCID: 0000-0002-7008-0216
+AD  - Eric and Wendy Schmidt Center at the Broad Institute of MIT and Harvard, 
+      Cambridge, USA, 02142.
+AD  - Department of Electrical Engineering and Computer Science, Massachusetts 
+      Institute of Technology, Cambridge, MA, USA.
+LA  - eng
+GR  - DP2 AT012345/AT/NCCIH NIH HHS/United States
+PT  - Journal Article
+PT  - Preprint
+DEP - 20260318
+PL  - United States
+TA  - bioRxiv
+JT  - bioRxiv : the preprint server for biology
+JID - 101680187
+PMC - PMC13015419
+COIS- Conflicts of interest E.M.V.A., advisory/consulting: Enara Bio, Manifold Bio, 
+      Monte Rosa, Novartis Institute for Biomedical Research, Serinus Bio, and 
+      TracerDx. Research support: Novartis, BMS, Sanofi, and NextPoint. Equity: Tango 
+      Therapeutics, Genome Medical, Genomic Life, Enara Bio, Manifold Bio, Microsoft, 
+      Monte Rosa, Riva Therapeutics, Serinus Bio, Syapse, and TracerDx. Travel 
+      reimbursement: none. Patents: institutional patents filed on chromatin mutations 
+      and immunotherapy response, and methods for clinical interpretation; intermittent 
+      legal consulting on patents for Foaley & Hoag. Editorial boards: Science 
+      Advances.
+EDAT- 2026/03/27 07:14
+MHDA- 2026/03/27 07:15
+PMCR- 2026/03/25
+CRDT- 2026/03/27 05:09
+PHST- 2026/03/27 07:14 [pubmed]
+PHST- 2026/03/27 07:15 [medline]
+PHST- 2026/03/27 05:09 [entrez]
+PHST- 2026/03/25 00:00 [pmc-release]
+AID - 2026.03.16.712056 [pii]
+AID - 10.64898/2026.03.16.712056 [doi]
+PST - epublish
+SO  - bioRxiv [Preprint]. 2026 Mar 18:2026.03.16.712056. doi: 
+      10.64898/2026.03.16.712056.
+
+PMID- 42620094
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20260820
+LR  - 20260829
+IS  - 2692-8205 (Electronic)
+IS  - 2692-8205 (Linking)
+DP  - 2026 Aug 6
+TI  - Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable 
+      Digital Pathology at Single-Cell Resolution.
+LID - 2026.07.31.741265 [pii]
+LID - 10.64898/2026.07.31.741265 [doi]
+AB  - Paired histopathology and spatial transcriptomics data are advancing our 
+      understanding of tissue biology and disease, but modeling both modalities at 
+      single-cell resolution while mapping local and distal cell-cell interdependencies 
+      remains computationally prohibitive. Here we introduce TissueFormer, a framework 
+      for pretraining foundation models with linear rather than quadratic computational 
+      complexity, overcoming a long-standing barrier to modeling long-range 
+      dependencies at scale. Trained on over 17 million image-expression pairs from 
+      1.2K tissue slides, TissueFormer excels at predicting spatial gene expression 
+      from histology images at cellular resolution and scales to diagnostic tasks at 
+      the cell, region, and slide levels. Additionally, by identifying both long and 
+      short-range cell-cell interdependencies, our model enables the generation of 
+      testable hypotheses about disease mechanisms and staging, as demonstrated in lung 
+      fibrosis and breast cancer.
+FAU - Wu, Qitian
+AU  - Wu Q
+FAU - Gong, Qiyu
+AU  - Gong Q
+FAU - Yuan, Luezhen
+AU  - Yuan L
+FAU - Li, Zhiyi
+AU  - Li Z
+FAU - Ashenberg, Orr
+AU  - Ashenberg O
+FAU - Chen, Fei
+AU  - Chen F
+AUID- ORCID: 0000-0003-2308-3649
+FAU - Xavier, Ramnik
+AU  - Xavier R
+FAU - Uhler, Caroline
+AU  - Uhler C
+LA  - eng
+GR  - DP2 AT012345/AT/NCCIH NIH HHS/United States
+PT  - Journal Article
+PT  - Preprint
+DEP - 20260806
+PL  - United States
+TA  - bioRxiv
+JT  - bioRxiv : the preprint server for biology
+JID - 101680187
+PMC - PMC13484522
+EDAT- 2026/08/20 11:41
+MHDA- 2026/08/20 11:42
+PMCR- 2026/08/18
+CRDT- 2026/08/20 06:10
+PHST- 2026/08/20 11:42 [medline]
+PHST- 2026/08/20 11:41 [pubmed]
+PHST- 2026/08/20 06:10 [entrez]
+PHST- 2026/08/18 00:00 [pmc-release]
+AID - 2026.07.31.741265 [pii]
+AID - 10.64898/2026.07.31.741265 [doi]
+PST - epublish
+SO  - bioRxiv [Preprint]. 2026 Aug 6:2026.07.31.741265. doi: 
+      10.64898/2026.07.31.741265.
+
+PMID- 42449400
+OWN - NLM
+STAT- Publisher
+LR  - 20260715
+IS  - 1756-994X (Electronic)
+IS  - 1756-994X (Linking)
+DP  - 2026 Jul 14
+TI  - Trimodal, uncertainty-guided whole-slide framework for genome-scale spatial 
+      expression and image-only virtual perturbation in cancer cohorts.
+LID - 10.1186/s13073-026-01713-y [doi]
+AB  - Spatial transcriptomics is powerful but costly; hematoxylin and eosin (H&E) 
+      images are routine. We present Coladan-human3K, the largest human spatial 
+      transcriptomics resource (~ 3,000 profiles), and Coladan, a trimodal (image, 
+      language, spatial-gene) whole-slide framework predicting genome-wide genes per 
+      spot with calibrated uncertainty while preserving foundation-model 
+      representations. Across 32 Visium datasets, Coladan improves Pearson correlation 
+      from 0.230 to 0.431 (~ 1.9 ×), shows pathway-level enrichment consistency, and 
+      transfers zero-shot to VisiumHD and spot-level Xenium. Classification token (CLS) 
+      embedding-only perturbation performs on par with expression-based baselines, 
+      enabling image-only virtual perturbation without measured expression, illustrated 
+      on normal and cancer prostate sections for in-situ hypothesis generation.
+CI  - © 2026. The Author(s).
+FAU - Wang, Zijun
+AU  - Wang Z
+AUID- ORCID: 0009-0003-2531-5818
+AD  - Department of Thoracic Surgery, National Cancer Center/National Clinical Research 
+      Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking 
+      Union Medical College, Beijing, 100021, P.R. China.
+AD  - State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+      Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+      Sciences and Peking Union Medical College, Beijing, 100021, P.R. China.
+FAU - Yang, Chongyi
+AU  - Yang C
+AD  - National Cancer Center/National Clinical Research Center for Cancer/Cancer 
+      Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, 
+      Beijing, 100021, P.R. China.
+FAU - Tang, Xiaoya
+AU  - Tang X
+AD  - Department of Thoracic Surgery, National Cancer Center/National Clinical Research 
+      Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking 
+      Union Medical College, Beijing, 100021, P.R. China.
+AD  - State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+      Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+      Sciences and Peking Union Medical College, Beijing, 100021, P.R. China.
+FAU - Yin, Enzhi
+AU  - Yin E
+AD  - Department of Thoracic Surgery, National Cancer Center/National Clinical Research 
+      Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking 
+      Union Medical College, Beijing, 100021, P.R. China.
+AD  - State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+      Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+      Sciences and Peking Union Medical College, Beijing, 100021, P.R. China.
+FAU - Yao, Yuxin
+AU  - Yao Y
+AD  - Department of Thoracic Surgery, National Cancer Center/National Clinical Research 
+      Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking 
+      Union Medical College, Beijing, 100021, P.R. China.
+AD  - State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+      Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+      Sciences and Peking Union Medical College, Beijing, 100021, P.R. China.
+FAU - Luo, Yuejun
+AU  - Luo Y
+AD  - Department of Orthopaedic Oncology Surgery, Beijing Jishuitan Hospital, Capital 
+      Medical University, Beijing, 100035, China.
+AD  - National Center for Orthopedics, Beijing, 100035, China.
+AD  - Beijing Research Institute of Traumatology and Orthopaedics, Beijing, 100035, 
+      China.
+FAU - He, Jie
+AU  - He J
+AD  - Department of Thoracic Surgery, National Cancer Center/National Clinical Research 
+      Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking 
+      Union Medical College, Beijing, 100021, P.R. China. prof.jiehe@gmail.com.
+AD  - State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+      Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+      Sciences and Peking Union Medical College, Beijing, 100021, P.R. China. 
+      prof.jiehe@gmail.com.
+FAU - Sun, Nan
+AU  - Sun N
+AUID- ORCID: 0000-0001-6812-9917
+AD  - Department of Thoracic Surgery, National Cancer Center/National Clinical Research 
+      Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking 
+      Union Medical College, Beijing, 100021, P.R. China. sunnan@cicams.ac.cn.
+AD  - State Key Laboratory of Molecular Oncology, National Cancer Center/National 
+      Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical 
+      Sciences and Peking Union Medical College, Beijing, 100021, P.R. China. 
+      sunnan@cicams.ac.cn.
+LA  - eng
+GR  - 2024ZD0533300/Noncommunicable Chronic Diseases-National Science and Technology 
+      Major Project/
+GR  - JQ25027/Beijing Municipal Natural Science Foundation/
+PT  - Journal Article
+DEP - 20260714
+PL  - England
+TA  - Genome Med
+JT  - Genome medicine
+JID - 101475844
+SB  - IM
+OTO - NOTNLM
+OT  - Digital pathology
+OT  - Genome-wide expression
+OT  - Mixture of experts
+OT  - Multimodal models
+OT  - Spatial transcriptomics
+OT  - Uncertainty estimation
+OT  - Virtual perturbation
+OT  - Whole-slide images
+COIS- Declarations. Ethics approval and consent to participate: Not applicable. Consent 
+      for publication: Not applicable. Competing interests: The authors declare no 
+      competing interests.
+EDAT- 2026/07/15 06:36
+MHDA- 2026/07/15 06:36
+CRDT- 2026/07/15 00:14
+PHST- 2025/10/15 00:00 [received]
+PHST- 2026/06/29 00:00 [accepted]
+PHST- 2026/07/15 06:36 [medline]
+PHST- 2026/07/15 06:36 [pubmed]
+PHST- 2026/07/15 00:14 [entrez]
+AID - 10.1186/s13073-026-01713-y [pii]
+AID - 10.1186/s13073-026-01713-y [doi]
+PST - aheadofprint
+SO  - Genome Med. 2026 Jul 14. doi: 10.1186/s13073-026-01713-y.
+
+PMID- 42085414
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260810
+LR  - 20260810
+IS  - 2998-4165 (Electronic)
+IS  - 2998-4165 (Linking)
+VI  - 23
+IP  - 4
+DP  - 2026 Jul-Aug
+TI  - DiffuST: A Latent Diffusion Model for Spatial Transcriptomics Denoising.
+PG  - 1596-1607
+LID - 10.1109/TCBBIO.2026.3690748 [doi]
+AB  - Spatial transcriptomics technologies have enabled comprehensive measurements of 
+      gene expression profiles while retaining spatial information, with most platforms 
+      also providing matched pathology images. However, noise resulting from low RNA 
+      capture efficiency and experimental steps needed to keep spatial information may 
+      corrupt the biological signals and obstruct analyses. Here, we develop a latent 
+      diffusion model DiffuST to denoise spatial transcriptomics. DiffuST employs a 
+      graph autoencoder and a pre-trained model to extract different-scale features 
+      from spatial information and pathology images. Then, a latent diffusion model is 
+      leveraged to map different scales of features to the same space for denoising. 
+      The evaluation based on various spatial transcriptomics datasets showed the 
+      superiority of DiffuST over existing denoising methods. Furthermore, the results 
+      demonstrated that DiffuST can enhance downstream analysis of spatial 
+      transcriptomics and yield significant biological insights.
+FAU - Jiao, Shaoqing
+AU  - Jiao S
+FAU - Lu, Dazhi
+AU  - Lu D
+FAU - Zeng, Xi
+AU  - Zeng X
+FAU - Wang, Tao
+AU  - Wang T
+FAU - Wang, Yongtian
+AU  - Wang Y
+FAU - Dong, Yunwei
+AU  - Dong Y
+FAU - Peng, Jiajie
+AU  - Peng J
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - IEEE Trans Comput Biol Bioinform
+JT  - IEEE transactions on computational biology and bioinformatics
+JID - 9919068173606676
+SB  - IM
+MH  - *Spatial Transcriptomics/methods
+MH  - Autoencoder
+MH  - Algorithms
+MH  - Animals
+MH  - Humans
+MH  - *Computational Biology/methods
+MH  - Signal-To-Noise Ratio
+MH  - *Gene Expression Profiling/methods
+MH  - Transcriptome/genetics
+EDAT- 2026/05/05 18:32
+MHDA- 2026/08/10 18:36
+CRDT- 2026/05/05 13:34
+PHST- 2026/08/10 18:36 [medline]
+PHST- 2026/05/05 18:32 [pubmed]
+PHST- 2026/05/05 13:34 [entrez]
+AID - 10.1109/TCBBIO.2026.3690748 [doi]
+PST - ppublish
+SO  - IEEE Trans Comput Biol Bioinform. 2026 Jul-Aug;23(4):1596-1607. doi: 
+      10.1109/TCBBIO.2026.3690748.
+
+PMID- 42134991
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260603
+LR  - 20260722
+IS  - 1549-5469 (Electronic)
+IS  - 1088-9051 (Linking)
+VI  - 36
+IP  - 6
+DP  - 2026 Jun 1
+TI  - Accurate delineation of cellular niches via integrated spatial transcriptomics 
+      and histological imaging with SYMOL.
+PG  - 1209-1220
+LID - 10.1101/gr.281603.125 [doi]
+AB  - Spatial transcriptomics enable fine-scale characterization of spatial 
+      heterogeneity and cellular niches within tissues, and have substantially advanced 
+      our understanding of tissue architecture and functional organization. However, 
+      existing spatial transcriptomic integration methods often struggle to effectively 
+      capture the rich morphological information provided by the histology and thus 
+      further limit their capacity for comprehensive cross-modality learning. In this 
+      paper, we present SYMOL, a unified synergistic self-supervised multimodal 
+      framework that integrates spatial coordinates, gene expression, and histological 
+      images covering both multichannel immunohistochemistry (IHC) and hematoxylin and 
+      eosin (H&E) stains for effective spatial transcriptomic integration and 
+      representation learning. Specifically, SYMOL extracts distinct visual 
+      characteristics via several pretrained large vision models and synergistically 
+      aggregates cross-modal features into unified morphology-aware embeddings. 
+      Comprehensive benchmarking on multiple publicly available spatial transcriptomic 
+      data sets with multichannel IHC images and H&E images shows that SYMOL 
+      consistently surpasses state-of-the-art methods in various downstream tasks, 
+      including cellular niche identification, multislice integration, cross-data set 
+      label transfer, and gene expression enhancement. In addition, SYMOL accurately 
+      delineates tumor microenvironment in lung tissues with histopathological imaging 
+      and enables fine-scale mapping of cellular niches in the mouse brain, thereby 
+      demonstrating both clinical relevance and robustness in complex neuroanatomical 
+      settings.
+CI  - © 2026 Wang et al.; Published by Cold Spring Harbor Laboratory Press.
+FAU - Wang, Daoyuan
+AU  - Wang D
+AUID- ORCID: 0000-0001-8463-4104
+AD  - School of Computer Science and Engineering, Central South University, Changsha 
+      410083, China.
+FAU - Zhou, Fengyi
+AU  - Zhou F
+AD  - School of Computer Science and Engineering, Central South University, Changsha 
+      410083, China.
+FAU - Chen, Wenlan
+AU  - Chen W
+AD  - School of Computer Science and Engineering, Central South University, Changsha 
+      410083, China.
+FAU - Liang, Cheng
+AU  - Liang C
+AUID- ORCID: 0000-0003-3832-0969
+AD  - School of Computer Science and Artificial Intelligence, Shandong Normal 
+      University, Jinan 250358, China alcs417@sdnu.edu.cn guofei@csu.edu.cn.
+FAU - Guo, Fei
+AU  - Guo F
+AD  - School of Computer Science and Engineering, Central South University, Changsha 
+      410083, China; alcs417@sdnu.edu.cn guofei@csu.edu.cn.
+LA  - eng
+PT  - Journal Article
+DEP - 20260601
+PL  - United States
+TA  - Genome Res
+JT  - Genome research
+JID - 9518021
+SB  - IM
+MH  - *Spatial Transcriptomics/methods
+MH  - Animals
+MH  - Humans
+MH  - Mice
+MH  - Tumor Microenvironment/genetics
+MH  - Immunohistochemistry
+MH  - *Image Processing, Computer-Assisted/methods
+MH  - *Transcriptome
+EDAT- 2026/05/15 00:31
+MHDA- 2026/06/03 18:38
+CRDT- 2026/05/14 21:13
+PHST- 2025/10/29 00:00 [received]
+PHST- 2026/04/15 00:00 [accepted]
+PHST- 2026/06/03 18:38 [medline]
+PHST- 2026/05/15 00:31 [pubmed]
+PHST- 2026/05/14 21:13 [entrez]
+AID - gr.281603.125 [pii]
+AID - 10.1101/gr.281603.125 [doi]
+PST - epublish
+SO  - Genome Res. 2026 Jun 1;36(6):1209-1220. doi: 10.1101/gr.281603.125.
+
+PMID- 39804726
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250430
+LR  - 20260513
+IS  - 2047-217X (Electronic)
+IS  - 2047-217X (Linking)
+VI  - 14
+DP  - 2025 Jan 6
+TI  - Unveiling patterns in spatial transcriptomics data: a novel approach utilizing 
+      graph attention autoencoder and multiscale deep subspace clustering network.
+LID - 10.1093/gigascience/giae103 [doi]
+LID - giae103
+AB  - BACKGROUND: The accurate deciphering of spatial domains, along with the 
+      identification of differentially expressed genes and the inference of cellular 
+      trajectory based on spatial transcriptomic (ST) data, holds significant potential 
+      for enhancing our understanding of tissue organization and biological functions. 
+      However, most of spatial clustering methods can neither decipher complex 
+      structures in ST data nor entirely employ features embedded in different layers. 
+      RESULTS: This article introduces STMSGAL, a novel framework for analyzing ST data 
+      by incorporating graph attention autoencoder and multiscale deep subspace 
+      clustering. First, STMSGAL constructs ctaSNN, a cell type-aware shared nearest 
+      neighbor graph, using Louvian clustering exclusively based on gene expression 
+      profiles. Subsequently, it integrates expression profiles and ctaSNN to generate 
+      spot latent representations using a graph attention autoencoder and multiscale 
+      deep subspace clustering. Lastly, STMSGAL implements spatial clustering, 
+      differential expression analysis, and trajectory inference, providing 
+      comprehensive capabilities for thorough data exploration and interpretation. 
+      STMSGAL was evaluated against 7 methods, including SCANPY, SEDR, CCST, DeepST, 
+      GraphST, STAGATE, and SiGra, using four 10x Genomics Visium datasets, 1 mouse 
+      visual cortex STARmap dataset, and 2 Stereo-seq mouse embryo datasets. The 
+      comparison showcased STMSGAL's remarkable performance across Davies-Bouldin, 
+      Calinski-Harabasz, S_Dbw, and ARI values. STMSGAL significantly enhanced the 
+      identification of layer structures across ST data with different spatial 
+      resolutions and accurately delineated spatial domains in 2 breast cancer tissues, 
+      adult mouse brain (FFPE), and mouse embryos. CONCLUSIONS: STMSGAL can serve as an 
+      essential tool for bridging the analysis of cellular spatial organization and 
+      disease pathology, offering valuable insights for researchers in the field.
+CI  - © The Author(s) 2025. Published by Oxford University Press GigaScience.
+FAU - Zhou, Liqian
+AU  - Zhou L
+AD  - School of Computer Science, Hunan University of Technology, Zhuzhou 412007, 
+      Hunan, China.
+FAU - Peng, Xinhuai
+AU  - Peng X
+AD  - School of Computer Science, Hunan University of Technology, Zhuzhou 412007, 
+      Hunan, China.
+FAU - Chen, Min
+AU  - Chen M
+AD  - School of Computer Science, Hunan Institute of Technology, Hengyang 421002, 
+      Hunan, China.
+FAU - He, Xianzhi
+AU  - He X
+AD  - School of Computer Science, Hunan University of Technology, Zhuzhou 412007, 
+      Hunan, China.
+FAU - Tian, Geng
+AU  - Tian G
+AUID- ORCID: 0000-0001-5752-4436
+AD  - Geneis (Beijing) Co. Ltd., Beijing 100102, China.
+FAU - Yang, Jialiang
+AU  - Yang J
+AUID- ORCID: 0000-0003-4689-8672
+AD  - Geneis (Beijing) Co. Ltd., Beijing 100102, China.
+FAU - Peng, Lihong
+AU  - Peng L
+AUID- ORCID: 0000-0002-2321-3901
+AD  - School of Computer Science, Hunan University of Technology, Zhuzhou 412007, 
+      Hunan, China.
+AD  - College of Life Science and Chemistry, Hunan University of Technology, Zhuzhou 
+      412007, Hunan, China.
+LA  - eng
+GR  - 62072172/National Natural Science Foundation of China/
+GR  - 2021JJ30219/Natural Science Foundation of Hunan Province/
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - Gigascience
+JT  - GigaScience
+JID - 101596872
+SB  - IM
+MH  - Animals
+MH  - Humans
+MH  - Mice
+MH  - Algorithms
+MH  - *Autoencoder
+MH  - Cluster Analysis
+MH  - *Computational Biology/methods
+MH  - *Gene Expression Profiling/methods
+MH  - Software
+MH  - *Transcriptome
+PMC - PMC11727722
+OTO - NOTNLM
+OT  - cell type–aware spatial neighbor network
+OT  - deep subspace clustering
+OT  - differential expression analysis
+OT  - graph attention autoencoder
+OT  - latent embedding feature learning
+OT  - multiscale self-expression
+OT  - self-supervised learning
+OT  - spatial transcriptomics
+OT  - trajectory inference
+COIS- G. Tian and J-L. Yang are employees and shareholders of Geneis (Beijing) Co. Ltd. 
+      The remaining authors declare no competing interests.
+EDAT- 2025/01/13 18:20
+MHDA- 2025/01/13 18:21
+PMCR- 2025/01/13
+CRDT- 2025/01/13 12:13
+PHST- 2024/02/07 00:00 [received]
+PHST- 2024/07/06 00:00 [revised]
+PHST- 2024/11/21 00:00 [accepted]
+PHST- 2025/01/13 18:21 [medline]
+PHST- 2025/01/13 18:20 [pubmed]
+PHST- 2025/01/13 12:13 [entrez]
+PHST- 2025/01/13 00:00 [pmc-release]
+AID - 7953196 [pii]
+AID - giae103 [pii]
+AID - 10.1093/gigascience/giae103 [doi]
+PST - ppublish
+SO  - Gigascience. 2025 Jan 6;14:giae103. doi: 10.1093/gigascience/giae103.
+
+PMID- 40174325
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20250413
+LR  - 20260707
+IS  - 1361-8423 (Electronic)
+IS  - 1361-8415 (Linking)
+VI  - 102
+DP  - 2025 May
+TI  - TriDeNT : Triple deep network training for privileged knowledge distillation in 
+      histopathology.
+PG  - 103479
+LID - S1361-8415(25)00027-1 [pii]
+LID - 10.1016/j.media.2025.103479 [doi]
+AB  - Computational pathology models rarely utilise data that will not be available for 
+      inference. This means most models cannot learn from highly informative data such 
+      as additional immunohistochemical (IHC) stains and spatial transcriptomics. We 
+      present TriDeNT , a novel self-supervised method for utilising privileged data 
+      that is not available during inference to improve performance. We demonstrate the 
+      efficacy of this method for a range of different paired data including 
+      immunohistochemistry, spatial transcriptomics and expert nuclei annotations. In 
+      all settings, TriDeNT outperforms other state-of-the-art methods in downstream 
+      tasks, with observed improvements of up to 101%. Furthermore, we provide 
+      qualitative and quantitative measurements of the features learned by these models 
+      and how they differ from baselines. TriDeNT offers a novel method to distil 
+      knowledge from scarce or costly data during training, to create significantly 
+      better models for routine inputs.
+CI  - Copyright © 2025 The Authors. Published by Elsevier B.V. All rights reserved.
+FAU - Farndale, Lucas
+AU  - Farndale L
+AD  - School of Cancer Sciences, University of Glasgow, Scotland, UK; Cancer Research 
+      UK Scotland Institute, Scotland, UK; School of Computing Science, University of 
+      Glasgow, Scotland, UK; School of Mathematics and Statistics, University of 
+      Glasgow, Scotland, UK. Electronic address: lucas.farndale@glasgow.ac.uk.
+FAU - Insall, Robert
+AU  - Insall R
+AD  - School of Cancer Sciences, University of Glasgow, Scotland, UK; Cancer Research 
+      UK Scotland Institute, Scotland, UK; Division of Biosciences, University College 
+      London, England, UK.
+FAU - Yuan, Ke
+AU  - Yuan K
+AD  - School of Cancer Sciences, University of Glasgow, Scotland, UK; Cancer Research 
+      UK Scotland Institute, Scotland, UK; School of Computing Science, University of 
+      Glasgow, Scotland, UK. Electronic address: ke.yuan@glasgow.ac.uk.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20250318
+PL  - Netherlands
+TA  - Med Image Anal
+JT  - Medical image analysis
+JID - 9713490
+SB  - IM
+MH  - Humans
+MH  - *Deep Learning
+MH  - Immunohistochemistry
+OTO - NOTNLM
+OT  - Amyotrophic lateral sclerosis
+OT  - Cancer
+OT  - Immunohistochemistry
+OT  - Multi-modality
+OT  - Self-supervised representation learning
+OT  - Spatial transcriptomics
+COIS- Declaration of competing interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2025/04/03 00:25
+MHDA- 2025/04/14 00:25
+CRDT- 2025/04/02 18:03
+PHST- 2024/02/08 00:00 [received]
+PHST- 2025/01/13 00:00 [revised]
+PHST- 2025/01/21 00:00 [accepted]
+PHST- 2025/04/14 00:25 [medline]
+PHST- 2025/04/03 00:25 [pubmed]
+PHST- 2025/04/02 18:03 [entrez]
+AID - S1361-8415(25)00027-1 [pii]
+AID - 10.1016/j.media.2025.103479 [doi]
+PST - ppublish
+SO  - Med Image Anal. 2025 May;102:103479. doi: 10.1016/j.media.2025.103479. Epub 2025 
+      Mar 18.
+
+PMID- 42425050
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260804
+LR  - 20260804
+IS  - 1361-8423 (Electronic)
+IS  - 1361-8415 (Linking)
+VI  - 113
+DP  - 2026 Sep
+TI  - STAG: Biologically guided spatial transcriptomics prediction via hypergraph 
+      learning.
+PG  - 104206
+LID - S1361-8415(26)00275-6 [pii]
+LID - 10.1016/j.media.2026.104206 [doi]
+AB  - Spatial transcriptomics (ST) enables spatially resolved gene expression profiling 
+      within intact tissue sections. However, its widespread adoption is constrained by 
+      the high cost and low throughput of current sequencing-based protocols. This has 
+      motivated growing interest in computationally predicting gene expression directly 
+      from routinely acquired histology images. Existing methods are largely restricted 
+      to isolated 2D tissue slices and fail to capture richer spatial relationships or 
+      structured dependencies among spot-level gene expression profiles. In this paper, 
+      we propose STAG, a dual-branch framework for gene-aware expression prediction and 
+      spatial context modeling. A Query branch predicts ST expression for an individual 
+      target spot, while a Neighbor branch acts as an auxiliary branch to model 
+      structured relationships among multiple spots. By leveraging hypergraph learning, 
+      the Neighbor branch captures higher-order spatial and molecular dependencies, 
+      enabling unified modeling of both intra-slice and inter-slice relationships. This 
+      design supports standard 2D settings (a single slice) and naturally extends to 3D 
+      scenarios when adjacent tissue sections are available. Moreover, STAG leverages 
+      gene semantic information as biological guidance by encoding gene names with a 
+      foundation model, enabling coordinated gene-aware interactions beyond independent 
+      gene prediction. STAG achieves an average gain of 5.16% in PCC@250 across six 
+      datasets. Under highly variable gene selection, STAG maintains the lowest RMSE 
+      and highest PCC@50 across three datasets. The effectiveness of the learned 
+      representations is further demonstrated in pseudo-3D prediction and downstream 
+      cancer classification tasks. Code is available at 
+      https://github.com/MCPathology/STAG.
+CI  - Copyright © 2026 The Authors. Published by Elsevier B.V. All rights reserved.
+FAU - Qu, Mingcheng
+AU  - Qu M
+AD  - Faculty of Computing, Harbin Institute of Technology, Harbin, China.
+FAU - Zhao, Yuchuan
+AU  - Zhao Y
+AD  - Faculty of Computing, Harbin Institute of Technology, Harbin, China.
+FAU - Yang, Guang
+AU  - Yang G
+AD  - Faculty of Computing, Harbin Institute of Technology, Harbin, China.
+FAU - Di, Donglin
+AU  - Di D
+AD  - Faculty of Computing, Harbin Institute of Technology, Harbin, China.
+FAU - Su, Xiu
+AU  - Su X
+AD  - School of Artificial Intelligence, Central South University, Changsha, China.
+FAU - Xu, Hongyan
+AU  - Xu H
+AD  - School of Computer Science and Engineering, Central South University, Changsha, 
+      China.
+FAU - Song, Yang
+AU  - Song Y
+AD  - School of Computer Science and Engineering, University of New South Wales, 
+      Australia.
+FAU - Fan, Lei
+AU  - Fan L
+AD  - School of Computer Science and Engineering, University of New South Wales, 
+      Australia. Electronic address: lei.fan1@unsw.edu.au.
+LA  - eng
+PT  - Journal Article
+DEP - 20260708
+PL  - Netherlands
+TA  - Med Image Anal
+JT  - Medical image analysis
+JID - 9713490
+SB  - IM
+MH  - Spatial Transcriptomics/methods
+MH  - Algorithms
+MH  - Humans
+MH  - *Gene Expression Profiling/methods
+MH  - *Machine Learning
+OTO - NOTNLM
+OT  - Contrastive learning
+OT  - Cross-modal alignment
+OT  - Hypergraph learning
+OT  - Spatial transcriptomics
+OT  - Whole-slide images
+COIS- Declaration of competing interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2026/07/10 04:10
+MHDA- 2026/08/05 00:44
+CRDT- 2026/07/09 18:11
+PHST- 2026/01/23 00:00 [received]
+PHST- 2026/05/22 00:00 [revised]
+PHST- 2026/07/02 00:00 [accepted]
+PHST- 2026/08/05 00:44 [medline]
+PHST- 2026/07/10 04:10 [pubmed]
+PHST- 2026/07/09 18:11 [entrez]
+AID - S1361-8415(26)00275-6 [pii]
+AID - 10.1016/j.media.2026.104206 [doi]
+PST - ppublish
+SO  - Med Image Anal. 2026 Sep;113:104206. doi: 10.1016/j.media.2026.104206. Epub 2026 
+      Jul 8.
+
+PMID- 42237201
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260808
+LR  - 20260813
+IS  - 1756-994X (Electronic)
+IS  - 1756-994X (Linking)
+VI  - 18
+IP  - 1
+DP  - 2026 Jun 4
+TI  - MGCL-ST: multi-view graph contrastive learning for spatial transcriptomics 
+      imputation.
+LID - 10.1186/s13073-026-01683-1 [doi]
+LID - 120
+AB  - High-resolution, continuous spatial gene expression profiling is critical for 
+      dissecting complex tissue microenvironments, yet current spatial transcriptomics 
+      (ST) platforms suffer from spatial gaps and insufficient resolution. Here, we 
+      present MGCL-ST, a multi-view graph contrastive learning method for 
+      super-resolution ST imputation. By jointly modeling local and global spatial 
+      graphs with histological features derived from a pathology foundation model, 
+      MGCL-ST accurately imputes unmeasured gene expression across the tissue space. 
+      Evaluated across three diverse platforms, MGCL-ST outperforms state-of-the-art 
+      methods in imputation accuracy and spatial clustering, significantly enhancing 
+      biological interpretability and enabling the precise mapping of tumor 
+      microenvironments. MGCL-ST is available at https://github.com/guxin2002/MGCL-ST .
+CI  - © 2026. The Author(s).
+FAU - Chen, Jiazhou
+AU  - Chen J
+AD  - School of Computer Science and Technology, Guangdong University of Technology, 
+      Guangzhou, 510006, China.
+FAU - Huang, Weitian
+AU  - Huang W
+AD  - School of Future Technology, South China University of Technology, Guangzhou, 
+      510006, China.
+FAU - Chen, Xiaojia
+AU  - Chen X
+AD  - School of Computer Science and Technology, Guangdong University of Technology, 
+      Guangzhou, 510006, China.
+FAU - Ding, Siqi
+AU  - Ding S
+AD  - School of Computer Science and Engineering, South China University of Technology, 
+      Guangzhou, 510006, China.
+FAU - Liao, Yi
+AU  - Liao Y
+AD  - School of Computer Science and Engineering, South China University of Technology, 
+      Guangzhou, 510006, China.
+FAU - Cai, Shangyan
+AU  - Cai S
+AD  - Department of Computer Science, Hong Kong Baptist University, Kowloon Tong, Hong 
+      Kong.
+AD  - Division of Science and Technology, Beijing Normal-Hong Kong Baptist University, 
+      Zhuhai, 519000, China.
+FAU - Cai, Hongmin
+AU  - Cai H
+AD  - School of Future Technology, South China University of Technology, Guangzhou, 
+      510006, China. hmcai@scut.edu.cn.
+AD  - School of Computer Science and Engineering, South China University of Technology, 
+      Guangzhou, 510006, China. hmcai@scut.edu.cn.
+LA  - eng
+GR  - 2024YFF1206603/National Key Research and Development Program of China/
+GR  - 62272326/National Natural Science Foundation of China/
+GR  - 62325204/National Natural Science Foundation of China/
+GR  - SKXRC2025375/Guangdong Provincial Association for Science and Technology Youth 
+      Talent Cultivation Program/
+GR  - 2025B0101130001/Guangdong S&T Program/
+PT  - Journal Article
+DEP - 20260604
+PL  - England
+TA  - Genome Med
+JT  - Genome medicine
+JID - 101475844
+SB  - IM
+MH  - *Spatial Transcriptomics/methods
+MH  - Humans
+MH  - *Gene Expression Profiling/methods
+MH  - Tumor Microenvironment/genetics
+MH  - *Machine Learning
+MH  - *Transcriptome
+MH  - Algorithms
+MH  - *Software
+PMC - PMC13450143
+OTO - NOTNLM
+OT  - Contrastive learning
+OT  - Gene expression imputation
+OT  - Super-resolution
+COIS- Declarations. Ethics approval and consent to participate: Not applicable. Consent 
+      for publication: Not applicable. Competing interests: The authors declare no 
+      competing interests.
+EDAT- 2026/06/04 06:32
+MHDA- 2026/08/08 09:15
+PMCR- 2026/06/04
+CRDT- 2026/06/04 00:27
+PHST- 2025/07/02 00:00 [received]
+PHST- 2026/05/26 00:00 [accepted]
+PHST- 2026/08/08 09:15 [medline]
+PHST- 2026/06/04 06:32 [pubmed]
+PHST- 2026/06/04 00:27 [entrez]
+PHST- 2026/06/04 00:00 [pmc-release]
+AID - 10.1186/s13073-026-01683-1 [pii]
+AID - 1683 [pii]
+AID - 10.1186/s13073-026-01683-1 [doi]
+PST - epublish
+SO  - Genome Med. 2026 Jun 4;18(1):120. doi: 10.1186/s13073-026-01683-1.
+
+PMID- 41799653
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20260813
+IS  - 0277-786X (Print)
+IS  - 1996-756X (Electronic)
+IS  - 0277-786X (Linking)
+VI  - 13413
+DP  - 2025 Feb
+TI  - Renal Cell Type and State Estimation in Brightfield Histology Images: A Pilot 
+      Study on Diabetic Nephropathy.
+LID - 134130H [pii]
+LID - 10.1117/12.3047996 [doi]
+AB  - Multi-omics data, such as 10X Genomics Visium (spatial transcriptomics), measure 
+      gene expressions, molecular pathway activities, and can predict cell types/states 
+      but are often expensive and inaccessible in clinical settings. Thus, despite the 
+      emergence of multi-omics technologies, histopathological assessments under 
+      brightfield microscopy remain the diagnostic gold standard. In this work, we 
+      examine machine learning-based pipelines for predicting cell types/states from 
+      brightfield histology images using state-of-the-art (SOTA) deep learning (DL) 
+      models, aiming to enhance diagnostics and prognostics in clinical medicine. Our 
+      proposed pipeline consists of two stages: (1) an Image-To-Text retrieval Network 
+      (ITTN) that leverages the CONtrastive learning from Captions for Histopathology 
+      (CONCH) model to assign histopathological text prompt from brightfield histology 
+      image, and (2) a Vision Language Model (VLM), which is built on the same CONCH 
+      model used in ITTN but incorporates a regression head to predict cell type/state 
+      proportions based on the paired image and text inputs. During training, we 
+      classify the image into one of four structural types (glomerulus, tubules, 
+      vessels, and interstitium) using the ITTN. These classification labels are then 
+      used to construct a new text prompt with a suitable histopathological description 
+      for each image in the test set. The new text prompt and raw image are used as 
+      paired inputs to the VLM to predict cell types/states. We also utilize SOTA 
+      models, such as CONCH (using only the vision encoder), ViT, and ResNet, which 
+      employ image-only inputs in separate regression pipelines. We experimented and 
+      tested our proposed pipelines on a set of 10X Visium formalin-fixed 
+      paraffin-embedded whole slides images of diabetic nephropathy samples collected 
+      at Indiana University. Our experiments yielded a mean squared error of 0.0027 for 
+      the proposed pipeline, showing improvements of 20.59%, 27.03%, and 32.50% over 
+      CONCH (image only), ViT, and ResNet, respectively. The proposed pipeline aims to 
+      bridge the gap between traditional histopathology and molecular diagnostics, 
+      enhancing disease diagnosis and prognosis.
+FAU - Fermin, Jamie L
+AU  - Fermin JL
+AD  - Dept. of Electrical and Computer Engineering, Univ. of Florida, Gainesville, FL.
+FAU - Border, Samuel
+AU  - Border S
+AD  - Dept. of Biomedical Engineering, Univ. of Florida, Gainesville, FL.
+FAU - Naglah, Ahmed
+AU  - Naglah A
+AD  - Univ. of Florida Intelligent Critical Care Center, Gainesville, FL.
+FAU - Shickel, Benjamin
+AU  - Shickel B
+AD  - Univ. of Florida Intelligent Critical Care Center, Gainesville, FL.
+FAU - La Rosa, Patricio S
+AU  - La Rosa PS
+AD  - Seed Production Innovation, Crop Science Division, Bayer Company, St. Louis, MO.
+FAU - Tomaszewski, John E
+AU  - Tomaszewski JE
+AD  - Dept. of Pathology & Anatomical Sciences, Univ. at Buffalo, Buffalo, NY.
+FAU - Jain, Sanjay
+AU  - Jain S
+AD  - Div. of Nephrology, Dept. of Medicine, Washington Univ. School of Medicine, St. 
+      Louis, MO.
+FAU - El-Achkar, Tarek M
+AU  - El-Achkar TM
+AD  - Div. of Nephrology, Dept. of Medicine. Indiana Univ. School of Medicine, 
+      Indianapolis, ID.
+FAU - Eadon, Michael T
+AU  - Eadon MT
+AD  - Div. of Nephrology, Dept. of Medicine. Indiana Univ. School of Medicine, 
+      Indianapolis, ID.
+FAU - Sarder, Pinaki
+AU  - Sarder P
+AD  - Univ. of Florida Intelligent Critical Care Center, Gainesville, FL.
+AD  - Div. of Nephrology, Hypertension, and Renal Transplantation - Quantitative Health 
+      Section, Dept. of Medicine, Univ. of Florida, Gainesville, FL.
+LA  - eng
+GR  - R01 DK114485/DK/NIDDK NIH HHS/United States
+PT  - Journal Article
+DEP - 20250410
+PL  - United States
+TA  - Proc SPIE Int Soc Opt Eng
+JT  - Proceedings of SPIE--the International Society for Optical Engineering
+JID - 101524122
+PMC - PMC12965466
+MID - NIHMS2077547
+OTO - NOTNLM
+OT  - Diabetic nephropathy
+OT  - digital pathology
+OT  - foundation model
+OT  - gene expression
+OT  - regression
+OT  - spatial transcriptomics
+EDAT- 2025/02/01 00:00
+MHDA- 2025/02/01 00:01
+PMCR- 2026/03/07
+CRDT- 2026/03/09 06:20
+PHST- 2025/02/01 00:01 [medline]
+PHST- 2025/02/01 00:00 [pubmed]
+PHST- 2026/03/09 06:20 [entrez]
+PHST- 2026/03/07 00:00 [pmc-release]
+AID - 134130H [pii]
+AID - 10.1117/12.3047996 [doi]
+PST - ppublish
+SO  - Proc SPIE Int Soc Opt Eng. 2025 Feb;13413:134130H. doi: 10.1117/12.3047996. Epub 
+      2025 Apr 10.
+
+PMID- 42442210
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260804
+LR  - 20260804
+IS  - 1361-8423 (Electronic)
+IS  - 1361-8415 (Linking)
+VI  - 113
+DP  - 2026 Sep
+TI  - SPADE: Spatial transcriptomics and pathology alignment using a mixture of data 
+      experts for an expressive latent space.
+PG  - 104197
+LID - S1361-8415(26)00266-5 [pii]
+LID - 10.1016/j.media.2026.104197 [doi]
+AB  - The rapid growth of digital pathology and advances in self-supervised deep 
+      learning have enabled the development of foundational models for various 
+      pathology tasks across diverse diseases. While multimodal approaches integrating 
+      diverse data sources have emerged, a critical gap remains in the comprehensive 
+      integration of whole-slide images (WSIs) with spatial transcriptomics (ST), which 
+      is crucial for capturing critical molecular heterogeneity beyond standard 
+      hematoxylin & eosin (H&E) staining. We introduce SPADE, a foundation model that 
+      integrates histopathology with ST data to guide image representation learning 
+      within a unified framework, in effect creating an ST-informed latent space. SPADE 
+      leverages a mixture-of-data experts technique, where experts are created via 
+      two-stage imaging feature-space clustering using contrastive learning to learn 
+      representations of co-registered WSI patches and gene expression profiles. 
+      Pre-trained on the comprehensive HEST-1k dataset, SPADE is evaluated on 20 
+      downstream tasks, demonstrating significantly superior few-shot performance 
+      compared to baseline models, highlighting the benefits of integrating 
+      morphological and molecular information into one latent space. Code and 
+      pretrained weights are available at https://github.com/uclabair/SPADE.
+CI  - Copyright © 2026 The Authors. Published by Elsevier B.V. All rights reserved.
+FAU - Redekop, Ekaterina
+AU  - Redekop E
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Radiological Sciences, 
+      University of California, Los Angeles, CA, United States; Department of 
+      Bioengineering, University of California, Los Angeles, CA, United States.
+FAU - Pleasure, Mara
+AU  - Pleasure M
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Radiological Sciences, 
+      University of California, Los Angeles, CA, United States; Medical Informatics 
+      Home Area, University of California, Los Angeles, CA, United States.
+FAU - Wang, Zichen
+AU  - Wang Z
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Radiological Sciences, 
+      University of California, Los Angeles, CA, United States; Department of 
+      Bioengineering, University of California, Los Angeles, CA, United States.
+FAU - Ivezic, Vedrana
+AU  - Ivezic V
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Radiological Sciences, 
+      University of California, Los Angeles, CA, United States; Medical Informatics 
+      Home Area, University of California, Los Angeles, CA, United States.
+FAU - Flores, Kimberly E
+AU  - Flores KE
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Pathology, University of 
+      California, Los Angeles, CA, United States.
+FAU - Emert, Benjamin
+AU  - Emert B
+AD  - Department of Pathology, University of California, Los Angeles, CA, United 
+      States.
+FAU - Sisk, Anthony
+AU  - Sisk A
+AD  - Department of Pathology, University of California, Los Angeles, CA, United 
+      States.
+FAU - Speier, William
+AU  - Speier W
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Radiological Sciences, 
+      University of California, Los Angeles, CA, United States; Department of 
+      Bioengineering, University of California, Los Angeles, CA, United States; Medical 
+      Informatics Home Area, University of California, Los Angeles, CA, United States.
+FAU - Arnold, Corey W
+AU  - Arnold CW
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los 
+      Angeles, 90024, CA, United States; Department of Radiological Sciences, 
+      University of California, Los Angeles, CA, United States; Department of 
+      Pathology, University of California, Los Angeles, CA, United States; Department 
+      of Bioengineering, University of California, Los Angeles, CA, United States; 
+      Medical Informatics Home Area, University of California, Los Angeles, CA, United 
+      States. Electronic address: cwarnold@mednet.ucla.edu.
+LA  - eng
+PT  - Journal Article
+DEP - 20260709
+PL  - Netherlands
+TA  - Med Image Anal
+JT  - Medical image analysis
+JID - 9713490
+SB  - IM
+MH  - Spatial Transcriptomics/methods
+MH  - Humans
+MH  - *Deep Learning
+MH  - *Image Interpretation, Computer-Assisted/methods
+MH  - Algorithms
+OTO - NOTNLM
+OT  - Contrastive learning
+OT  - Digital pathology
+OT  - Mixture of data experts
+OT  - Self supervision
+OT  - Spatial transcriptomics
+COIS- Declaration of competing interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2026/07/14 00:35
+MHDA- 2026/08/05 00:44
+CRDT- 2026/07/13 18:06
+PHST- 2025/10/14 00:00 [received]
+PHST- 2026/05/22 00:00 [revised]
+PHST- 2026/06/24 00:00 [accepted]
+PHST- 2026/08/05 00:44 [medline]
+PHST- 2026/07/14 00:35 [pubmed]
+PHST- 2026/07/13 18:06 [entrez]
+AID - S1361-8415(26)00266-5 [pii]
+AID - 10.1016/j.media.2026.104197 [doi]
+PST - ppublish
+SO  - Med Image Anal. 2026 Sep;113:104197. doi: 10.1016/j.media.2026.104197. Epub 2026 
+      Jul 9.
+
+PMID- 42709893
+OWN - NLM
+STAT- Publisher
+LR  - 20260908
+IS  - 1553-7358 (Electronic)
+IS  - 1553-734X (Linking)
+VI  - 22
+IP  - 9
+DP  - 2026 Sep 8
+TI  - Spatially guided translation from histology images to transcriptomic profiles 
+      using foundation model-driven contrastive learning.
+PG  - e1014762
+LID - 10.1371/journal.pcbi.1014762 [doi]
+AB  - Spatial transcriptomics (ST) enhances single-cell RNA sequencing by revealing 
+      transcript distribution, offering critical insights into heterogeneous diseases 
+      such as breast cancer. However, the high cost and lengthy processes of generating 
+      high-quality ST data limit clinical application. Recent deep learning methods 
+      predict ST from histology images, but often fail to capture both morphological 
+      features and spatial context. We introduce FOCST, a foundation model-driven 
+      framework for ST imputation that leverages spatial guided contrastive learning. 
+      FOCST begins with UNI, a large histopathology foundation model, to extract visual 
+      features from tissue images. These are integrated with expression data in a 
+      unified embedding space via contrastive learning, enabling cross-modal prediction 
+      and imputation. To further enhance spatial awareness, a graph neural network 
+      incorporates positional information, improving regional detection and 
+      interpretability.Benchmarking demonstrates FOCST's superior performance over 
+      state-of-the-art methods and alternative vision encoders (paired Wilcoxon 
+      signed-rank tests, FDR-adjusted p < 0.05, N = 6 images). Predicted profiles 
+      enable clinically relevant downstream analyses, including patient stratification 
+      by treatment response (ROC AUC (Receiver Operating Characteristic - Area Under 
+      the Curve) = 0.79). Our results highlight the promise of combining foundation 
+      models and spatially guided learning to efficiently generate ST insights, 
+      advancing cancer research and precision medicine.
+CI  - Copyright: © 2026 Huang et al. This is an open access article distributed under 
+      the terms of the Creative Commons Attribution License, which permits unrestricted 
+      use, distribution, and reproduction in any medium, provided the original author 
+      and source are credited.
+FAU - Huang, Zi Huai
+AU  - Huang ZH
+AD  - Department of Biochemistry, Western University, London, Canada.
+FAU - Xu, Ziyang
+AU  - Xu Z
+AD  - Department of Biochemistry, Western University, London, Canada.
+FAU - Hu, Pingzhao
+AU  - Hu P
+AUID- ORCID: 0000-0002-9546-2245
+AD  - Department of Biochemistry, Western University, London, Canada.
+AD  - Department of Computer Sciences, Western University, London, Canada.
+AD  - Division of Biostatistics, University of Toronto, Toronto, Canada.
+LA  - eng
+PT  - Journal Article
+DEP - 20260908
+PL  - United States
+TA  - PLoS Comput Biol
+JT  - PLoS computational biology
+JID - 101238922
+SB  - IM
+COIS- The authors have declared that no competing interests exist.
+EDAT- 2026/09/08 17:36
+MHDA- 2026/09/08 17:36
+CRDT- 2026/09/08 14:04
+PHST- 2025/09/14 00:00 [received]
+PHST- 2026/08/26 00:00 [accepted]
+PHST- 2026/09/08 17:36 [medline]
+PHST- 2026/09/08 17:36 [pubmed]
+PHST- 2026/09/08 14:04 [entrez]
+AID - PCOMPBIOL-D-25-01867 [pii]
+AID - 10.1371/journal.pcbi.1014762 [doi]
+PST - aheadofprint
+SO  - PLoS Comput Biol. 2026 Sep 8;22(9):e1014762. doi: 10.1371/journal.pcbi.1014762.
+
+PMID- 41551846
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20260122
+IS  - 3005-1460 (Electronic)
+IS  - 3005-1460 (Linking)
+VI  - 2
+IP  - 1
+DP  - 2026
+TI  - A multimodal framework to identify molecular mechanisms driving patient 
+      group-associated morphology through the integration of spatial transcriptomics 
+      and whole slide imaging.
+PG  - 9
+LID - 10.1038/s44387-025-00050-6 [doi]
+LID - 9
+AB  - Spatial organization of the disease microenvironment informs patient prognosis. 
+      Key modalities for studying spatial biology include H&E images (WSIs) for tissue 
+      structure and spatial transcriptomics (ST) for transcriptome-level programs. 
+      Spatial analysis aims to (1) identify markers linked to clinical outcome, (2) 
+      understand functional programs driving these associations, and (3) guide targeted 
+      therapies. Current research addresses these topics but offers limited 
+      explainability across the full morphology - molecular mechanism - outcome axis. 
+      Further, given the abundance of WSIs and limited availability of ST, there is a 
+      need for analyses integrating these complementary datasets. We present an 
+      AI-driven framework combining foundation-model features, multiple-instance 
+      learning, unsupervised clustering, and molecular analyses to identify mechanisms 
+      underlying outcome associated patterns. Applied to HER2+ breast cancer, we 
+      identify CCND1 and PTK6 signaling in tumor regions linked to trastuzumab 
+      resistance, consistent with prior studies. Our approach offers interpretable 
+      insights for multi-level resistance mechanisms, tissue-specific drug targeting, 
+      and precision medicine.
+CI  - © The Author(s) 2025.
+FAU - Kulkarni, Reva
+AU  - Kulkarni R
+AD  - Department of Bioinformatics and Computational Medicine, University of Michigan, 
+      Ann Arbor, MI USA. ROR: https://ror.org/00jmfr291. GRID: grid.214458.e. ISNI: 
+      0000000086837370
+FAU - Maddox, Avery
+AU  - Maddox A
+AD  - Department of Bioinformatics and Computational Medicine, University of Michigan, 
+      Ann Arbor, MI USA. ROR: https://ror.org/00jmfr291. GRID: grid.214458.e. ISNI: 
+      0000000086837370
+FAU - Bailey, Sara
+AU  - Bailey S
+AD  - Department of Pathology, University of Michigan, Ann Arbor, MI USA. ROR: 
+      https://ror.org/00jmfr291. GRID: grid.214458.e. ISNI: 0000000086837370
+FAU - Rao, Arvind
+AU  - Rao A
+AD  - Department of Bioinformatics and Computational Medicine, University of Michigan, 
+      Ann Arbor, MI USA. ROR: https://ror.org/00jmfr291. GRID: grid.214458.e. ISNI: 
+      0000000086837370
+AD  - Department of Biostatistics, University of Michigan, Ann Arbor, MI USA. ROR: 
+      https://ror.org/00jmfr291. GRID: grid.214458.e. ISNI: 0000000086837370
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor, MI USA. ROR: 
+      https://ror.org/00jmfr291. GRID: grid.214458.e. ISNI: 0000000086837370
+LA  - eng
+GR  - R37 CA214955/CA/NCI NIH HHS/United States
+GR  - T32 GM141746/GM/NIGMS NIH HHS/United States
+GR  - U01 CA287852/CA/NCI NIH HHS/United States
+PT  - Journal Article
+DEP - 20260116
+PL  - England
+TA  - NPJ Artif Intell
+JT  - NPJ artificial intelligence
+JID - 9919050936906676
+PMC - PMC12811125
+OTO - NOTNLM
+OT  - Biomarkers
+OT  - Cancer
+OT  - Computational biology and bioinformatics
+OT  - Oncology
+COIS- Competing interestsA.R serves as consultant to Tempus and Telperian, member for 
+      Voxel Analytics, LLC, and faculty advisor for TCS Ltd. Additionally, A.R. serves 
+      as Satish Dhawan Visting Professor at the Indian Institute of Science and 
+      Affiliate Investigator at Fred Hutchinson Cancer Research Center (FHCRC) in 
+      Seattle.
+EDAT- 2026/01/19 12:50
+MHDA- 2026/01/19 12:51
+PMCR- 2026/01/16
+CRDT- 2026/01/19 06:21
+PHST- 2025/07/15 00:00 [received]
+PHST- 2025/10/21 00:00 [accepted]
+PHST- 2026/01/19 12:51 [medline]
+PHST- 2026/01/19 12:50 [pubmed]
+PHST- 2026/01/19 06:21 [entrez]
+PHST- 2026/01/16 00:00 [pmc-release]
+AID - 50 [pii]
+AID - 10.1038/s44387-025-00050-6 [doi]
+PST - ppublish
+SO  - NPJ Artif Intell. 2026;2(1):9. doi: 10.1038/s44387-025-00050-6. Epub 2026 Jan 16.
+
+PMID- 42048193
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260713
+LR  - 20260713
+IS  - 1558-254X (Electronic)
+IS  - 0278-0062 (Linking)
+VI  - 45
+IP  - 7
+DP  - 2026 Jul
+TI  - DiffBulk: Enhancing Spatial Transcriptomic Prediction With Diffusion-Based 
+      Training.
+PG  - 3922-3933
+LID - 10.1109/TMI.2026.3688322 [doi]
+AB  - Spatial Transcriptomics (ST) technology detects gene expression from tissue 
+      biopsies, playing an emerging role in cancer diagnosis and precision medicine. 
+      However, the high cost of ST technology limits its broader application. Recently, 
+      deep learning approaches have provided insight into predicting gene expression 
+      based on H&E-stained histopathology images. Nevertheless, the relationship 
+      between morphological features and gene expression is highly complex. To address 
+      these challenges, we propose DiffBulk, a novel two-stage framework that leverages 
+      conditional diffusion models to learn expressive image representations enriched 
+      with gene expression information. In the first stage, we introduce a 
+      gene-to-image conditional diffusion model equipped with a permutation-invariant 
+      open-embedding gene encoder, which enables unified training across diverse gene 
+      panels. In the second stage, diffusion-derived features are fused with 
+      representations from a pathology foundation model, effectively bridging the 
+      domain gap and improving downstream gene expression prediction. We evaluate 
+      DiffBulk on high-quality Xenium ST data curated from the HEST dataset and the 
+      CrunchDAO challenge, constructing tile-level pseudo-bulk datasets for training 
+      and evaluation. Extensive experiments demonstrate that DiffBulk consistently 
+      outperforms state-of-the-art baselines across all metrics for gene expression 
+      prediction. These findings highlight the potential of diffusion-based gene-image 
+      representation learning and suggest promising directions for future research.
+FAU - Zhang, Bochong
+AU  - Zhang B
+FAU - Zhang, Tianyi
+AU  - Zhang T
+FAU - Xue, Qiaochu
+AU  - Xue Q
+FAU - Liu, Zeyu
+AU  - Liu Z
+FAU - Liao, Dankai
+AU  - Liao D
+FAU - Antoni, Timothy
+AU  - Antoni T
+FAU - Grace, Yeo Hui Ting
+AU  - Grace YHT
+FAU - Chen, Sicheng
+AU  - Chen S
+FAU - Lee, Hwee Kuan
+AU  - Lee HK
+FAU - Lyu, Shangqing
+AU  - Lyu S
+FAU - Jin, Yueming
+AU  - Jin Y
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - IEEE Trans Med Imaging
+JT  - IEEE transactions on medical imaging
+JID - 8310780
+SB  - IM
+MH  - *Spatial Transcriptomics/methods
+MH  - Humans
+MH  - *Deep Learning
+MH  - Algorithms
+MH  - *Image Processing, Computer-Assisted/methods
+EDAT- 2026/04/28 18:33
+MHDA- 2026/07/13 22:53
+CRDT- 2026/04/28 12:43
+PHST- 2026/07/13 22:53 [medline]
+PHST- 2026/04/28 18:33 [pubmed]
+PHST- 2026/04/28 12:43 [entrez]
+AID - 10.1109/TMI.2026.3688322 [doi]
+PST - ppublish
+SO  - IEEE Trans Med Imaging. 2026 Jul;45(7):3922-3933. doi: 10.1109/TMI.2026.3688322.
+
+PMID- 41223649
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20251208
+LR  - 20251208
+IS  - 1879-0534 (Electronic)
+IS  - 0010-4825 (Linking)
+VI  - 199
+DP  - 2025 Dec
+TI  - ClinSegAI: A post-processing framework for superior histopathology segmentation 
+      accuracy, radiomics feature preservation, and quantitative analysis.
+PG  - 111298
+LID - S0010-4825(25)01652-X [pii]
+LID - 10.1016/j.compbiomed.2025.111298 [doi]
+AB  - Accurate cell segmentation underpins reliable radiomics and multi-omic analysis 
+      in digital pathology, yet foundation-scale models often output masks that require 
+      further refinement for clinical use. This study presents ClinSegAI, a 
+      post-processing tool designed to refine cell segmentation outputs from the 
+      BiomedParse foundation model to preserve radiomic feature integrity in 
+      hematoxylin and eosin (H&E) stained whole slide images. The proposed pipeline 
+      analyzes whole-slide images, applies preprocessing, and uses BiomedParse for 
+      initial nucleus segmentation, followed by a refinement algorithm that corrects 
+      segmentation boundaries and merges or splits regions as needed to maintain 
+      morphological fidelity. ClinSegAI was evaluated on lung and other cancer 
+      pathology slides against six alternative segmentation approaches, including 
+      conventional digital pathology software and state-of-the-art deep learning 
+      models. It achieved the highest average Dice Similarity Coefficient (DSC) - near 
+      0.80 and substantially reduced segmentation errors, with the lowest 
+      95th-percentile Hausdorff distance (HD95) and average symmetric surface distance 
+      (ASSD) among all methods. Crucially, the refined segmentations preserved radiomic 
+      feature distributions (shape, intensity, and texture metrics) closer to ground 
+      truth, assessed with pooled two-sample t-statistics, improving the fidelity of 
+      quantitative features for downstream analysis. These improvements enable more 
+      reliable integration of histopathology with other modalities, for example, 
+      correlating precise spatial segmentations with spatial transcriptomic data, 
+      improving prognostic models, characterizing immune infiltration in the tumor 
+      microenvironment, and enhancing treatment response prediction from tissue images. 
+      ClinSegAI demonstrates how targeted post-processing built on a foundational 
+      visual transformer can bolster segmentation accuracy and radiomics reliability in 
+      computational pathology.
+CI  - Copyright © 2025 Elsevier Ltd. All rights reserved.
+FAU - Bhajaj, Prem
+AU  - Bhajaj P
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA.
+FAU - Nalubolu, Saiprakash
+AU  - Nalubolu S
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA.
+FAU - Gurram, Bhargavram
+AU  - Gurram B
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA.
+FAU - Srinivas, Mansi
+AU  - Srinivas M
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA.
+FAU - Choudhary, Rakesh
+AU  - Choudhary R
+AD  - Pathology Core Research Lab, SUNY Upstate University Hospital, Syracuse, NY, 
+      13210, USA.
+FAU - Dai, Weiying
+AU  - Dai W
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA.
+FAU - Wang, Ling
+AU  - Wang L
+AD  - Department of Biomedical Engineering, Watson College of Engineering & Applied 
+      Science, Binghamton University, Binghamton, NY, 13902, USA.
+FAU - Jamaspishvili, Tamara
+AU  - Jamaspishvili T
+AD  - Pathology Core Research Lab, SUNY Upstate University Hospital, Syracuse, NY, 
+      13210, USA.
+FAU - Ding, Zeyu
+AU  - Ding Z
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA.
+FAU - Guo, Nancy L
+AU  - Guo NL
+AD  - School of Computing, Watson College of Engineering & Applied Science, Binghamton 
+      University, Binghamton, NY, 13902, USA. Electronic address: nguo1@binghamton.edu.
+LA  - eng
+PT  - Journal Article
+DEP - 20251112
+PL  - United States
+TA  - Comput Biol Med
+JT  - Computers in biology and medicine
+JID - 1250250
+SB  - IM
+MH  - Humans
+MH  - *Image Processing, Computer-Assisted/methods
+MH  - Algorithms
+MH  - *Software
+MH  - *Neoplasms/diagnostic imaging/pathology
+MH  - Deep Learning
+MH  - Lung Neoplasms/diagnostic imaging/pathology
+MH  - *Image Interpretation, Computer-Assisted/methods
+MH  - Radiomics
+OTO - NOTNLM
+OT  - Deep-learning
+OT  - Histopathology
+OT  - Lung cancer
+OT  - Postprocessing
+OT  - Radiomics
+OT  - Segmentation
+OT  - Spatial-transcriptomics
+OT  - Visual transformer
+COIS- Declaration of competing interest Nancy Guo is the founder and CEO of Sostos Inc.
+EDAT- 2025/11/13 00:30
+MHDA- 2025/12/09 00:32
+CRDT- 2025/11/12 18:05
+PHST- 2025/05/26 00:00 [received]
+PHST- 2025/10/21 00:00 [revised]
+PHST- 2025/11/09 00:00 [accepted]
+PHST- 2025/12/09 00:32 [medline]
+PHST- 2025/11/13 00:30 [pubmed]
+PHST- 2025/11/12 18:05 [entrez]
+AID - S0010-4825(25)01652-X [pii]
+AID - 10.1016/j.compbiomed.2025.111298 [doi]
+PST - ppublish
+SO  - Comput Biol Med. 2025 Dec;199:111298. doi: 10.1016/j.compbiomed.2025.111298. Epub 
+      2025 Nov 12.
+
+PMID- 42627750
+OWN - NLM
+STAT- Publisher
+LR  - 20260821
+IS  - 1558-254X (Electronic)
+IS  - 0278-0062 (Linking)
+VI  - PP
+DP  - 2026 Aug 21
+TI  - RankByGene: Gene-Guided Histopathology Representation Learning Through 
+      Cross-Modal Ranking Consistency.
+LID - 10.1109/TMI.2026.3725898 [doi]
+AB  - Spatial transcriptomics (ST) provides essential spatial context by mapping gene 
+      expression within tissue, enabling detailed study of cellular heterogeneity and 
+      tissue organization. However, aligning ST data with histology images poses 
+      challenges due to inherent spatial distortions and modality-specific variations. 
+      Existing methods largely rely on direct alignment, which often fails to capture 
+      complex cross-modal relationships. To address these limitations, we propose a 
+      novel framework that aligns gene and image features using a ranking-based 
+      alignment loss, preserving relative similarity across modalities and enabling 
+      robust multi-scale alignment. To further enhance the alignment's stability, we 
+      employ self-supervised knowledge distillation with a teacher-student network 
+      architecture, which serves as an intra-modal stability regularizer that prevents 
+      image-representation drift during cross-modal alignment. Extensive experiments on 
+      seven public datasets that encompass gene expression prediction, slide-level 
+      classification, and survival analysis demonstrate the efficacy of our method, 
+      showing improved alignment and predictive performance over existing methods. Code 
+      is available at https://github.com/winston52/RankByGene.
+FAU - Huang, Wentao
+AU  - Huang W
+FAU - Xu, Meilong
+AU  - Xu M
+FAU - Hu, Xiaoling
+AU  - Hu X
+FAU - Abousamra, Shahira
+AU  - Abousamra S
+FAU - Ganguly, Aniruddha
+AU  - Ganguly A
+FAU - Kapse, Saarthak
+AU  - Kapse S
+FAU - Yurovsky, Alisa
+AU  - Yurovsky A
+FAU - Prasanna, Prateek
+AU  - Prasanna P
+FAU - Kurc, Tahsin
+AU  - Kurc T
+FAU - Saltz, Joel
+AU  - Saltz J
+FAU - Miller, Michael L
+AU  - Miller ML
+FAU - Chen, Chao
+AU  - Chen C
+LA  - eng
+PT  - Journal Article
+DEP - 20260821
+PL  - United States
+TA  - IEEE Trans Med Imaging
+JT  - IEEE transactions on medical imaging
+JID - 8310780
+SB  - IM
+EDAT- 2026/08/21 17:37
+MHDA- 2026/08/21 17:37
+CRDT- 2026/08/21 13:03
+PHST- 2026/08/21 17:37 [medline]
+PHST- 2026/08/21 17:37 [pubmed]
+PHST- 2026/08/21 13:03 [entrez]
+AID - 10.1109/TMI.2026.3725898 [doi]
+PST - aheadofprint
+SO  - IEEE Trans Med Imaging. 2026 Aug 21;PP. doi: 10.1109/TMI.2026.3725898.
+
+PMID- 42184117
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260717
+LR  - 20260813
+IS  - 1477-4054 (Electronic)
+IS  - 1467-5463 (Print)
+IS  - 1467-5463 (Linking)
+VI  - 27
+IP  - 3
+DP  - 2026 May 4
+TI  - Identifying batch-integrated domains from spatial transcriptomics via graph 
+      autoencoder with contrastive learning based on cross-modality and data 
+      augmentation.
+LID - 10.1093/bib/bbag248 [doi]
+LID - bbag248
+AB  - Spatially resolved transcriptomics (SRT) allows for the comprehensive profiling 
+      of gene expression while preserving spatial context, advancing the study of 
+      tissue architecture. However, existing computational approaches still face key 
+      limitations, particularly the insufficient exploitation of histology information 
+      and the lack of cross-modal meaningful contrastive strategies for biological 
+      analyses. To overcome these challenges, we propose GCAST, a graph contrastive 
+      autoencoder framework for spatial transcriptomics that seamlessly integrates 
+      multimodal SRT data. GCAST adopts a self-supervised strategy to derive 
+      biologically meaningful representations directly from histology images when 
+      available. GCAST constructs dual graph views based on data augmentation and 
+      introduces a novel contrastive learning designed to leverage histology-weighted 
+      and gene-weighted features and improve biological interpretability. In addition, 
+      GCAST employs a block-diagonal graph construction to automatically align multiple 
+      datasets, achieving batch-effect correction without manual intervention. The 
+      framework not only captures spatial gene expression patterns to identify tissue 
+      domains but also adapts to datasets with or without histological images and 
+      supports the integration of multiple datasets for joint analyses. Overall, GCAST 
+      provides a unified and biologically informed framework that has the potential to 
+      facilitate deeper analyses of spatial transcriptomics.
+CI  - © The Author(s) 2026. Published by Oxford University Press.
+FAU - Mao, Yexuan
+AU  - Mao Y
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Quan, Lijun
+AU  - Quan L
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+AD  - Collaborative Innovation Center of Novel Software Technology and 
+      Industrialization, Nanjing University, 163 Xianlin Avenue, Qixia District, 
+      Nanjing, Jiangsu 210023, China.
+AD  - Jiangsu Key Laboratory of Drug Discovery and Translational Research for Brain 
+      Diseases, Soochow University, 199 Renai Road, Suzhou Industrial Park, Suzhou, 
+      Jiangsu 215123, China.
+FAU - Chen, Xiangyu
+AU  - Chen X
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Wang, Siyuan
+AU  - Wang S
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Zhang, Guozheng
+AU  - Zhang G
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Li, Siqi
+AU  - Li S
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Jiang, Yelu
+AU  - Jiang Y
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Nie, Liangpeng
+AU  - Nie L
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+FAU - Wu, Tingfang
+AU  - Wu T
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+AD  - Collaborative Innovation Center of Novel Software Technology and 
+      Industrialization, Nanjing University, 163 Xianlin Avenue, Qixia District, 
+      Nanjing, Jiangsu 210023, China.
+AD  - Jiangsu Key Laboratory of Drug Discovery and Translational Research for Brain 
+      Diseases, Soochow University, 199 Renai Road, Suzhou Industrial Park, Suzhou, 
+      Jiangsu 215123, China.
+FAU - Meng, Lingkun
+AU  - Meng L
+AD  - China Mobile (Suzhou) Software Technology Company Limited, 58 Kunlunshan Road, 
+      Huqiu District, Suzhou, Jiangsu 215163, China.
+FAU - Lyu, Qiang
+AU  - Lyu Q
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East 
+      Road, Gusu District, Suzhou, Jiangsu 215006, China.
+AD  - Collaborative Innovation Center of Novel Software Technology and 
+      Industrialization, Nanjing University, 163 Xianlin Avenue, Qixia District, 
+      Nanjing, Jiangsu 210023, China.
+AD  - Jiangsu Key Laboratory of Drug Discovery and Translational Research for Brain 
+      Diseases, Soochow University, 199 Renai Road, Suzhou Industrial Park, Suzhou, 
+      Jiangsu 215123, China.
+LA  - eng
+GR  - 62272335/National Natural Science Foundation of China/
+GR  - Jiangsu Colleges and Universities QingLan/
+GR  - University-Industry Collaborative Education Program/
+GR  - Priority Academic Program Development of Jiangsu Higher Education Institutions/
+GR  - Collaborative Innovation Center of Novel Software Technology and 
+      Industrialization/
+PT  - Journal Article
+PL  - England
+TA  - Brief Bioinform
+JT  - Briefings in bioinformatics
+JID - 100912837
+SB  - IM
+MH  - Autoencoder
+MH  - *Spatial Transcriptomics
+MH  - Humans
+MH  - Gene Expression Profiling/methods
+MH  - Animals
+MH  - Algorithms
+MH  - *Transcriptome
+MH  - Graph Neural Networks
+MH  - Computational Biology/methods
+PMC - PMC13200541
+OTO - NOTNLM
+OT  - batch integration
+OT  - contrastive autoencoder
+OT  - domain identification
+OT  - spatially resolved transcriptomics
+COIS- None declared.
+EDAT- 2026/05/25 12:34
+MHDA- 2026/05/25 12:35
+PMCR- 2026/05/25
+CRDT- 2026/05/25 11:43
+PHST- 2025/12/08 00:00 [received]
+PHST- 2026/02/22 00:00 [revised]
+PHST- 2026/04/25 00:00 [accepted]
+PHST- 2026/05/25 12:35 [medline]
+PHST- 2026/05/25 12:34 [pubmed]
+PHST- 2026/05/25 11:43 [entrez]
+PHST- 2026/05/25 00:00 [pmc-release]
+AID - 8692754 [pii]
+AID - bbag248 [pii]
+AID - 10.1093/bib/bbag248 [doi]
+PST - ppublish
+SO  - Brief Bioinform. 2026 May 4;27(3):bbag248. doi: 10.1093/bib/bbag248.
+
+PMID- 40758493
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260307
+LR  - 20260309
+IS  - 2168-2208 (Electronic)
+IS  - 2168-2194 (Linking)
+VI  - 30
+IP  - 3
+DP  - 2026 Mar
+TI  - KAFSTExp: Kernel Adaptive Filtering With Nyström Approximation for Predicting 
+      Spatial Gene Expression From Histology Images.
+PG  - 2203-2216
+LID - 10.1109/JBHI.2025.3595101 [doi]
+AB  - Spatial transcriptomics (ST), known as an expensive medical examination, plays an 
+      important role in analyzing the spatial heterogeneity of tumors. When considering 
+      the correlation between tissue morphological patterns and gene profiles, 
+      predicting corresponding gene expression from pathology images obtained from 
+      affordable biopsies is regarded as an instantaneous and cost-effective 
+      alternative. However, accurately modeling the complex and nonlinear relationship 
+      between histological features and gene expression remains challenging. Existing 
+      deep learning models often struggle to generalize on limited ST datasets due to 
+      their large and overparameterized architectures. The primary advantage of kernel 
+      adaptive filtering (KAF) lies in its ability to transform a challenging nonlinear 
+      problem arising in the original space into a linear regression problem in the 
+      higher-dimensional feature space via kernel methods. Therefore, this paper 
+      proposes a framework called KAFSTExp, which utilizes the state-of-the-art 
+      pathology foundation model UNI to extract image feature vectors, and then 
+      introduces the kernel least mean square algorithm with Nyström approximation to 
+      predict the normalized transcript counts of specific genes. Extensive experiments 
+      show that KAFSTExp significantly improves prediction accuracy while reducing 
+      computational cost and training time. KAFSTExp demonstrates consistent 
+      performance gains across multiple ST datasets, achieving relative improvements in 
+      Pearson correlation coefficient ranging from 1.24% to 94.23%, with an average 
+      increase of 19.80% over the best-performing non-KAF methods. External validation 
+      and further clinical analysis confirm the generalization performance and clinical 
+      application value of the proposed KAFSTExp.
+FAU - Liu, Haoran
+AU  - Liu H
+FAU - Farahani, Hossein
+AU  - Farahani H
+FAU - Li, Xifeng
+AU  - Li X
+FAU - Xie, Yongle
+AU  - Xie Y
+FAU - Bashashati, Ali
+AU  - Bashashati A
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - IEEE J Biomed Health Inform
+JT  - IEEE journal of biomedical and health informatics
+JID - 101604520
+SB  - IM
+MH  - Humans
+MH  - Algorithms
+MH  - *Gene Expression Profiling/methods
+MH  - *Transcriptome/genetics
+MH  - *Image Processing, Computer-Assisted/methods
+MH  - Deep Learning
+MH  - *Image Interpretation, Computer-Assisted/methods
+EDAT- 2025/08/04 18:28
+MHDA- 2026/03/07 06:40
+CRDT- 2025/08/04 12:43
+PHST- 2026/03/07 06:40 [medline]
+PHST- 2025/08/04 18:28 [pubmed]
+PHST- 2025/08/04 12:43 [entrez]
+AID - 10.1109/JBHI.2025.3595101 [doi]
+PST - ppublish
+SO  - IEEE J Biomed Health Inform. 2026 Mar;30(3):2203-2216. doi: 
+      10.1109/JBHI.2025.3595101.
+
+PMID- 42245726
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20260605
+LR  - 20260813
+IS  - 2234-943X (Print)
+IS  - 2234-943X (Electronic)
+IS  - 2234-943X (Linking)
+VI  - 16
+DP  - 2026
+TI  - The translational paradox of AI in hepatocellular carcinoma: from algorithmic 
+      over-engineering to real-world clinical utility.
+PG  - 1848190
+LID - 10.3389/fonc.2026.1848190 [doi]
+LID - 1848190
+AB  - Synthesizing recent literature from 2025 to 2026, this mini-review critically 
+      evaluates the methodological evolution of artificial intelligence (AI) in 
+      hepatocellular carcinoma (HCC) from static pattern recognition to 
+      mechanism-driven spatial and imaging diagnostics. We expose a critical 
+      translational paradox: although self-supervised Vision Foundation Models (VFMs), 
+      unsupervised domain adaptation for H&E-based virtual molecular profiling, and 
+      AI-synergized spatial transcriptomics theoretically decode intratumoral 
+      heterogeneity and mitigate cross-etiology domain shifts, these complex 
+      architectures remain unvalidated in real-world multi-scanner cohorts. Conversely, 
+      robust comparative analyses challenge the prevailing multi-modal narrative by 
+      demonstrating that algorithmic utility is highly data-dependent: although complex 
+      AI is crucial for high-dimensional settings, traditional Cox models remain highly 
+      robust and competitive compared to highly engineered large language models (LLMs) 
+      in low-dimensional survival prediction, indicating that algorithmic complexity 
+      does not inevitably equal clinical utility. To break this translational impasse, 
+      this mini-review argues that the field must urgently pivot away from fragile 
+      post-hoc explainability toward inherently interpretable architectures-such as 
+      concept bottleneck models (CBMs)-and calls for the rigorous integration of these 
+      transparent systems into Phase II "window-of-opportunity" randomized trials and 
+      dynamic regulatory evaluation frameworks within the next 24 months.
+CI  - Copyright © 2026 Li, Yanase and Pang.
+FAU - Li, Chen
+AU  - Li C
+AD  - Qinghai Research Key Laboratory for Echinococcosis, Department of 
+      Hepatopancreatobiliary Surgery, Affiliated Hospital of Qinghai University, 
+      Xining, China.
+FAU - Yanase, Yuka
+AU  - Yanase Y
+AD  - Department of Breast Surgery, Graduate School of Medicine, Teikyo University, 
+      Tokyo, Japan.
+FAU - Pang, Ming-Quan
+AU  - Pang MQ
+AD  - Qinghai Research Key Laboratory for Echinococcosis, Department of 
+      Hepatopancreatobiliary Surgery, Affiliated Hospital of Qinghai University, 
+      Xining, China.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20260520
+PL  - Switzerland
+TA  - Front Oncol
+JT  - Frontiers in oncology
+JID - 101568867
+PMC - PMC13229836
+OTO - NOTNLM
+OT  - artificial intelligence
+OT  - hepatocellular carcinoma
+OT  - spatial transcriptomics
+OT  - unsupervised domain adaptation
+OT  - vision foundation models
+COIS- The author(s) declared that this work was conducted in the absence of any 
+      commercial or financial relationships that could be construed as a potential 
+      conflict of interest.
+EDAT- 2026/06/05 06:36
+MHDA- 2026/06/05 06:37
+PMCR- 2026/05/20
+CRDT- 2026/06/05 05:07
+PHST- 2026/04/05 00:00 [received]
+PHST- 2026/05/05 00:00 [revised]
+PHST- 2026/05/11 00:00 [accepted]
+PHST- 2026/06/05 06:37 [medline]
+PHST- 2026/06/05 06:36 [pubmed]
+PHST- 2026/06/05 05:07 [entrez]
+PHST- 2026/05/20 00:00 [pmc-release]
+AID - 10.3389/fonc.2026.1848190 [doi]
+PST - epublish
+SO  - Front Oncol. 2026 May 20;16:1848190. doi: 10.3389/fonc.2026.1848190. eCollection 
+      2026.

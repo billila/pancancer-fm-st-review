@@ -1,0 +1,1059 @@
+Provider: Europe PMC
+Content: text/plain; charset="UTF-8"
+
+TY  - GEN
+AN  - PPR1245151
+DO  - 10.64898/2026.05.30.728937
+TI  - SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology
+AU  - Xiao, Xinyu
+AU  - Li, Yunfei
+AU  - Zeng, Zheni
+AU  - Yan, Yukun
+AU  - Liu, Zhiyuan
+AU  - Liu, Zhenghao
+AU  - Xiang, Yujia
+AU  - Ye, Zhenbang
+AU  - Ying, Jianming
+AU  - Li, Yang
+AU  - Xie, Linhai
+AU  - He, Fuchu
+AB  - Histomorphology and spatial transcriptomics capture complementary aspects of tissue biology, but their relationships remain difficult to extract, align, and interpret at scale. Existing foundation models typically connect histology, omics, or language only pairwise, which limits their capacity to jointly infer molecular states, decode spatial tissue organization, and generate biologically grounded explanations. Here, we show SciCore-Omics , the first tri-modal foundation model linking histology images, spatial transcriptomics, and biological language. We constructed a spatially paired image–gene–text dataset comprising 151,182 spots across multiple tissues and performed a three-stage progressive training of SciCore-Omics on this dataset. Across gene expression prediction and spatial domain recognition, SciCore-Omics achieved 23.6–80.9% relative gains in task-specific metrics over the strongest external baselines. It further showed robust zero-shot generalization in histopathology classification, outperforming GPT-5 by 6.16 percentage points in mean accuracy across four benchmarks. Expert evaluation in 10 breast cancer cases confirmed its H&E-only case-level molecular reasoning capability. Together, our method demonstrates that a tri-modal framework can effectively bridge histomorphology and molecular state, providing a more general and interpretable foundation model for computational pathology and omics analysis.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1245151
+UR  - https://doi.org/10.64898/2026.05.30.728937
+ER  - 
+
+TY  - GEN
+AN  - PPR1256702
+DO  - 10.64898/2026.06.15.732498
+TI  - Morpho-FM: spatial molecular reconstruction from routine H&E histology using transcriptomic foundation-model priors
+AU  - Huang, Jinjin
+AU  - Feng, Xiao
+AU  - Qu, Lianghu
+AU  - Zheng, Lingling
+AB  - Routine haematoxylin and eosin (H&E) histology captures tissue architecture at clinical scale, but lacks a direct molecular readout of the transcriptional programmes that organise tumour epithelium, stroma, vasculature and immune compartments. Spatial transcriptomics provides this context, yet cost, workflow complexity and sparse sampling limit routine use. Most existing histology-to-expression models are trained de novo on small paired cohorts and therefore remain weakly constrained when extrapolating from sparse measurements to dense, tissue-wide molecular maps. Here we introduce Morpho-FM, a weakly supervised framework that predicts spatial gene expression from routine H&E whole-slide images by conditioning a pretrained single-cell transcriptomic foundation-model prior on local histological neighbourhoods. A lightweight morphology-to-transcriptome adapter maps cached whole-slide histology features into a transcriptomic decoder, enabling prediction at measured locations, dense full-section reconstruction, and re-aggregation to the original measurement support. Across harmonized prostate cancer benchmarks, Morpho-FM achieved the strongest overall performance among five representative methods, reaching mean per-gene Pearson correlations of 0.286 in rotating single-slide evaluation and 0.298 in multi-slide held-out validation. The framework reproduced this advantage across kidney cancer sections, achieved a mean correlation of 0.210 across 56 directed single-slide evaluations and retained measurable predictive signal after external transfer to clear-cell renal cell carcinoma sections. Controlled ablation analyses identified pretrained transcriptomic initialization as a reproducible source of performance gain exceeding that attributable to changes in the histology feature backbone. Beyond predictive accuracy benchmarks, Morpho-FM recovered ERBB2 -enriched tumour compartments, boundary-associated molecular gradients, and annotation-aligned tissue domains across Xenium and HER2ST breast cancer datasets. Together, these results support transcriptomic foundation-model priors as an effective constraint for morphology-conditioned molecular decoding and demonstrate the potential of Morpho-FM to extend spatial transcriptomic insight across routine pathology sections.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1256702
+UR  - https://doi.org/10.64898/2026.06.15.732498
+ER  - 
+
+TY  - JOUR
+AN  - 42709893
+DB  - PubMed
+DO  - 10.1371/journal.pcbi.1014762
+TI  - Spatially guided translation from histology images to transcriptomic profiles using foundation model-driven contrastive learning
+AU  - Huang, Zi Huai
+AU  - Xu, Ziyang
+AU  - Hu, Pingzhao
+IS  - 9
+VL  - 22
+DA  - 2026/09//
+PY  - 2026
+JO  - PLoS computational biology
+J2  - PLoS Comput Biol
+SN  - 1553-734X
+SP  - e1014762
+AB  - Spatial transcriptomics (ST) enhances single-cell RNA sequencing by revealing transcript distribution, offering critical insights into heterogeneous diseases such as breast cancer. However, the high cost and lengthy processes of generating high-quality ST data limit clinical application. Recent deep learning methods predict ST from histology images, but often fail to capture both morphological features and spatial context. We introduce FOCST, a foundation model-driven framework for ST imputation that leverages spatial guided contrastive learning. FOCST begins with UNI, a large histopathology foundation model, to extract visual features from tissue images. These are integrated with expression data in a unified embedding space via contrastive learning, enabling cross-modal prediction and imputation. To further enhance spatial awareness, a graph neural network incorporates positional information, improving regional detection and interpretability.Benchmarking demonstrates FOCST's superior performance over state-of-the-art methods and alternative vision encoders (paired Wilcoxon signed-rank tests, FDR-adjusted p < 0.05, N = 6 images). Predicted profiles enable clinically relevant downstream analyses, including patient stratification by treatment response (ROC AUC (Receiver Operating Characteristic - Area Under the Curve) = 0.79). Our results highlight the promise of combining foundation models and spatially guided learning to efficiently generate ST insights, advancing cancer research and precision medicine.
+AD  - Department of Biochemistry, Western University, London, Canada.
+LA  - eng
+UR  - http://europepmc.org/abstract/MED/42709893
+UR  - https://doi.org/10.1371/journal.pcbi.1014762
+ER  - 
+
+TY  - EJOUR
+AN  - 41839892
+DB  - PubMed
+DO  - 10.1038/s41467-026-70528-7
+TI  - FineST: contrastive learning integrates histology and spatial transcriptomics for nuclei-resolved ligand-receptor analysis
+AU  - Li, Lingyu
+AU  - Wang, Tianjie
+AU  - Liang, Zhuo
+AU  - Yu, Huajian
+AU  - Ma, Stephanie
+AU  - Yu, Lequan
+AU  - Huang, Yuanhua
+IS  - 1
+VL  - 17
+DA  - 2026/03//
+PY  - 2026
+T2  - Nature communications
+J2  - Nat Commun
+SN  - 2041-1723
+SP  - 4645
+AB  - Spatial transcriptomics (ST) has emerged as a powerful tool for analyzing cell-cell communication (CCC) across various biological processes, ranging from embryonic development to cancer progression. However, its limited resolution and high data sparsity hinder the detailed characterization of CCC patterns within complex tissues. Here, we introduce FineST, a deep contrastive learning model that leverages a histology foundation model to fuse ST and histology images, enabling Fine-grained Spatial Transcriptomics analysis. This approach facilitates precise nuclei segmentation, high-resolution RNA expression imputation, and the identification of intricate ligand-receptor interactions. Using both colorectal cancer VisiumHD and breast cancer Xenium datasets, we demonstrate that FineST significantly outperforms existing methods in high-resolution RNA imputation, cell type prediction, and CCC pattern discovery. With focused application to the Visium platform, FineST reveals novel biological insights into tumor-immune interactions across multiple cancer types, including invasive fronts in breast cancer, tertiary lymphoid structures in nasopharyngeal carcinoma, and PD-1 therapy resistance barriers in hepatocellular carcinoma. These findings highlight a new paradigm in ST analysis through the integration of readily available histology images.
+AD  - School of Biomedical Sciences, The University of Hong Kong, Hong Kong SAR, China.
+LA  - eng
+KW  - Cell Nucleus
+KW  - Deep Learning
+UR  - http://europepmc.org/abstract/MED/41839892
+UR  - https://doi.org/10.1038/s41467-026-70528-7
+UR  - https://europepmc.org/articles/PMC13201544
+UR  - https://europepmc.org/articles/PMC13201544?pdf=render
+ER  - 
+
+TY  - GEN
+AN  - PPR1245989
+DO  - 10.64898/2026.06.01.729028
+TI  - Integrating Histology with Spatial Molecular Programs Using a Multimodal Foundation Model
+AU  - Zhang, Zongxu
+AU  - Qin, Bowen
+AU  - Zhao, Yahui
+AU  - Qi, Zekun
+AU  - Xu, Hanlin
+AU  - Wang, Yunfeng
+AU  - Zheng, Wenjin
+AU  - Dai, Jiateng
+AU  - Chen, Anxin
+AU  - Wang, Nachuan
+AU  - Nie, Lanxi
+AU  - Zhang, Peng
+AU  - Zhang, Haorui
+AU  - Zhao, Yanping
+AU  - Xu, Tian
+AU  - Lin, Siyu
+AU  - Ren, Pengfei
+AU  - Zhang, Zhe
+AU  - Xue, Liyan
+AU  - Xue, Xuemin
+AU  - Yang, Zhaoyang
+AU  - Xu, Jiaqi
+AU  - Ma, Jiahao
+AU  - Pan, Deng
+AU  - Wang, Cunyu
+AU  - Liu, Zhihua
+AU  - Meng, Yuanguang
+AU  - Zeng, Zexian
+AB  - Histopathological assessment remains central to cancer diagnosis and stratification, yet its mechanistic interpretation remains limited without molecular context. To address this, we developed SQUALL, a multimodal foundation model integrating histology with spatial molecular programs. For pretraining, we assembled histMol , a large-scale corpus of 1.76 billion paired histology-spatial transcriptomics spots/bins across 33 tissues and 12 platforms from 3,446 tissue sections. Following pretraining, SQUALL enables transcriptome-wide virtual biomarker profiling, prognostically relevant spatial niches discovery, and integrative disease progression modeling. Leveraging its multimodal embeddings, SQUALL identifies niches associated with tertiary lymphoid structure (TLS) maturation and ovarian cancer relapse, reconstructs molecular trajectories of breast cancer invasion across 325,112 spots, and uncovers underlying transcriptional programs. Applied to whole-slide images from 898 patients, SQUALL outperforms existing pathology foundation models in outcome prediction while enabling interpretable risk stratification. Together, these results establish spatially aligned multimodal pretraining as a new paradigm for extending molecular insights into pathology images.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1245989
+UR  - https://doi.org/10.64898/2026.06.01.729028
+ER  - 
+
+TY  - GEN
+AN  - PPR1213517
+DO  - 10.64898/2026.04.21.717342
+TI  - H2O: A Foundation Model Bridging Histopathology to Spatial Multi-Omics Profiling
+AU  - Gu, Yunjie
+AU  - Wu, Zihan
+AU  - Yan, Rui
+AU  - Wang, Zhikang
+AU  - Li, Yuan
+AU  - Lin, Senlin
+AU  - Cui, Yan
+AU  - Lai, Haoran
+AU  - Luo, Xin
+AU  - Zhou, Shaohua Kevin
+AU  - Yuan, Zhiyuan
+AU  - Yao, Jianhua
+AB  - Spatial omics technologies have revolutionized the molecular profiling of tissues but remain constrained by high costs and limited scalability. While hematoxylin and eosin (H&E) staining is ubiquitous, it lacks molecular specificity. Here, we present H2O (Histopathology to Omics), a generalist AI framework that bridges the modality gap between histopathology and spatial multi-omics, enabling the direct inference of spatial transcriptomics (ST) and proteomics (SP) landscapes from routine H&E images. H2O integrates Vision Transformers (ViT) with Large Language Models (LLM) via contrastive learning to align histological morphology with semantic molecular knowledge. This cross-modal approach allows the model to incorporate spatial expression profiles into histological pattern recognition, effectively decoding the molecular heterogeneity underlying tissue morphology. Trained on a pan-tissue dataset of 1.3 million paired H&E-spatial patches across 25 organs and cancer types, H2O predicts spatial omics expression from histology with high concordance to sequenced measurements and consistently outperforms state-of-the-art models across three cancer benchmarks. Notably, H2O recovers the MIF-CD74/CD44 signaling axis directly from H&E images, highlighting its capacity to infer biologically meaningful cell-cell communication without molecular profiling. Applying on three additional public cohorts covering fetal and paediatric thymus tissues, human metastatic lymph node, and breast cancer, encompassing human development, 3D spatial frameworks, and integrative multi-omics, H2O yields biologically concordant insights, demonstrating superior accuracy, robustness, and generalizability across real-world applications in diverse scenarios. H2O converts routine histopathology into a portal for spatially resolved multi-omics profiling by computationally generating transcriptomic and proteomic landscapes, thereby enhancing tissue phenotyping and enabling scalable, integrative tissue-atlas construction.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1213517
+UR  - https://doi.org/10.64898/2026.04.21.717342
+ER  - 
+
+TY  - GEN
+AN  - PPR1257229
+DO  - 10.64898/2026.06.19.26356060
+TI  - DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology
+AU  - Nonchev, Kalin
+AU  - Dawo, Sebastian
+AU  - Silina, Karina
+AU  - Koelzer, Viktor
+AU  - Rätsch, Gunnar
+AB  - Spatial transcriptomics remains costly and low-throughput, limiting it to a small fraction of routine histology and leaving the molecular state of disease unmeasured in most patients. Predicting spatial expression from histology could address this gap, but existing methods are restricted to predefined genes and small cohorts. We present DeepSpot-M, a multimodal foundation model that predicts spatial expression by representing genes with embeddings from foundation models spanning DNA, RNA, proteins, single cells and biomedical text. By reformulating prediction as a query over genes, DeepSpot-M spans the protein-coding transcriptome and predicts genes unseen during training. Trained on a large pan-cancer dataset, it transfers to held-out cancers, outperforming specialised models trained on them, and adapts to new cohorts and single-cell assays from one slide via test-time adaptation. Applied to TCGA, it generates a virtual atlas of 28,664 slides across 32 cancers, recovering a pan-cancer map of malignancy from histology. The same query interface further enables transcriptome restoration, cross-species non-coding RNA inference, in silico variant-effect mapping and natural-language querying. We anticipate DeepSpot-M will provide a scalable foundation for virtual spatial transcriptomics and biomarker discovery.
+PB  - medRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1257229
+UR  - https://doi.org/10.64898/2026.06.19.26356060
+ER  - 
+
+TY  - JOUR
+AN  - 42442210
+DB  - PubMed
+DO  - 10.1016/j.media.2026.104197
+TI  - SPADE: Spatial transcriptomics and pathology alignment using a mixture of data experts for an expressive latent space
+AU  - Redekop, Ekaterina
+AU  - Pleasure, Mara
+AU  - Wang, Zichen
+AU  - Ivezic, Vedrana
+AU  - Flores, Kimberly E
+AU  - Emert, Benjamin
+AU  - Sisk, Anthony
+AU  - Speier, William
+AU  - Arnold, Corey W
+VL  - 113
+DA  - 2026/09//
+PY  - 2026
+JO  - Medical image analysis
+J2  - Med Image Anal
+SN  - 1361-8415
+SP  - 104197
+AB  - The rapid growth of digital pathology and advances in self-supervised deep learning have enabled the development of foundational models for various pathology tasks across diverse diseases. While multimodal approaches integrating diverse data sources have emerged, a critical gap remains in the comprehensive integration of whole-slide images (WSIs) with spatial transcriptomics (ST), which is crucial for capturing critical molecular heterogeneity beyond standard hematoxylin & eosin (H&E) staining. We introduce SPADE, a foundation model that integrates histopathology with ST data to guide image representation learning within a unified framework, in effect creating an ST-informed latent space. SPADE leverages a mixture-of-data experts technique, where experts are created via two-stage imaging feature-space clustering using contrastive learning to learn representations of co-registered WSI patches and gene expression profiles. Pre-trained on the comprehensive HEST-1k dataset, SPADE is evaluated on 20 downstream tasks, demonstrating significantly superior few-shot performance compared to baseline models, highlighting the benefits of integrating morphological and molecular information into one latent space. Code and pretrained weights are available at https://github.com/uclabair/SPADE.
+AD  - Biomedical AI Research Lab, University of California, 924 Westwood Blvd, Los Angeles, 90024, CA, United States; Department of Radiological Sciences, University of California, Los Angeles, CA, United States; Department of Bioengineering, University of California, Los Angeles, CA, United States.
+LA  - eng
+KW  - Image Interpretation, Computer-Assisted
+KW  - Deep Learning
+UR  - http://europepmc.org/abstract/MED/42442210
+UR  - https://doi.org/10.1016/j.media.2026.104197
+ER  - 
+
+TY  - JOUR
+AN  - 42048193
+DB  - PubMed
+DO  - 10.1109/tmi.2026.3688322
+TI  - DiffBulk: Enhancing Spatial Transcriptomic Prediction With Diffusion-Based Training
+AU  - Zhang, Bochong
+AU  - Zhang, Tianyi
+AU  - Xue, Qiaochu
+AU  - Liu, Zeyu
+AU  - Liao, Dankai
+AU  - Antoni, Timothy
+AU  - Grace, Yeo Hui Ting
+AU  - Chen, Sicheng
+AU  - Lee, Hwee Kuan
+AU  - Lyu, Shangqing
+AU  - Jin, Yueming
+IS  - 7
+VL  - 45
+DA  - 2026/07//
+PY  - 2026
+JO  - IEEE transactions on medical imaging
+J2  - IEEE Trans Med Imaging
+SN  - 0278-0062
+SP  - 3922
+EP  - 3933
+AB  - Spatial Transcriptomics (ST) technology detects gene expression from tissue biopsies, playing an emerging role in cancer diagnosis and precision medicine. However, the high cost of ST technology limits its broader application. Recently, deep learning approaches have provided insight into predicting gene expression based on H&E-stained histopathology images. Nevertheless, the relationship between morphological features and gene expression is highly complex. To address these challenges, we propose DiffBulk, a novel two-stage framework that leverages conditional diffusion models to learn expressive image representations enriched with gene expression information. In the first stage, we introduce a gene-to-image conditional diffusion model equipped with a permutation-invariant open-embedding gene encoder, which enables unified training across diverse gene panels. In the second stage, diffusion-derived features are fused with representations from a pathology foundation model, effectively bridging the domain gap and improving downstream gene expression prediction. We evaluate DiffBulk on high-quality Xenium ST data curated from the HEST dataset and the CrunchDAO challenge, constructing tile-level pseudo-bulk datasets for training and evaluation. Extensive experiments demonstrate that DiffBulk consistently outperforms state-of-the-art baselines across all metrics for gene expression prediction. These findings highlight the potential of diffusion-based gene-image representation learning and suggest promising directions for future research.
+LA  - eng
+KW  - Image Processing, Computer-Assisted
+KW  - Deep Learning
+KW  - Spatial Transcriptomics
+UR  - http://europepmc.org/abstract/MED/42048193
+UR  - https://doi.org/10.1109/TMI.2026.3688322
+ER  - 
+
+TY  - GEN
+AN  - PPR1294330
+DO  - 10.64898/2026.07.31.741265
+TI  - Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution
+AU  - Wu, Qitian
+AU  - Gong, Qiyu
+AU  - Yuan, Luezhen
+AU  - Li, Zhiyi
+AU  - Ashenberg, Orr
+AU  - Chen, Fei
+AU  - Xavier, Ramnik
+AU  - Uhler, Caroline
+AB  - Paired histopathology and spatial transcriptomics data are advancing our understanding of tissue biology and disease, but modeling both modalities at single-cell resolution while mapping local and distal cell-cell interdependencies remains computationally prohibitive. Here we introduce TissueFormer, a framework for pretraining foundation models with linear rather than quadratic computational complexity, overcoming a long-standing barrier to modeling long-range dependencies at scale. Trained on over 17 million image-expression pairs from 1.2K tissue slides, TissueFormer excels at predicting spatial gene expression from histology images at cellular resolution and scales to diagnostic tasks at the cell, region, and slide levels. Additionally, by identifying both long and short-range cell-cell interdependencies, our model enables the generation of testable hypotheses about disease mechanisms and staging, as demonstrated in lung fibrosis and breast cancer.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1294330
+UR  - https://doi.org/10.64898/2026.07.31.741265
+ER  - 
+
+TY  - JOUR
+AN  - 42085414
+DB  - PubMed
+DO  - 10.1109/tcbbio.2026.3690748
+TI  - DiffuST: A Latent Diffusion Model for Spatial Transcriptomics Denoising
+AU  - Jiao, Shaoqing
+AU  - Lu, Dazhi
+AU  - Zeng, Xi
+AU  - Wang, Tao
+AU  - Wang, Yongtian
+AU  - Dong, Yunwei
+AU  - Peng, Jiajie
+IS  - 4
+VL  - 23
+DA  - 2026///Jul-Aug
+PY  - 2026
+JO  - IEEE transactions on computational biology and bioinformatics
+J2  - IEEE Trans Comput Biol Bioinform
+SN  - 2998-4165
+SP  - 1596
+EP  - 1607
+AB  - Spatial transcriptomics technologies have enabled comprehensive measurements of gene expression profiles while retaining spatial information, with most platforms also providing matched pathology images. However, noise resulting from low RNA capture efficiency and experimental steps needed to keep spatial information may corrupt the biological signals and obstruct analyses. Here, we develop a latent diffusion model DiffuST to denoise spatial transcriptomics. DiffuST employs a graph autoencoder and a pre-trained model to extract different-scale features from spatial information and pathology images. Then, a latent diffusion model is leveraged to map different scales of features to the same space for denoising. The evaluation based on various spatial transcriptomics datasets showed the superiority of DiffuST over existing denoising methods. Furthermore, the results demonstrated that DiffuST can enhance downstream analysis of spatial transcriptomics and yield significant biological insights.
+LA  - eng
+KW  - Gene Expression Profiling
+KW  - Computational Biology
+KW  - Spatial Transcriptomics
+UR  - http://europepmc.org/abstract/MED/42085414
+UR  - https://doi.org/10.1109/TCBBIO.2026.3690748
+ER  - 
+
+TY  - JOUR
+AN  - 40442373
+DB  - PubMed
+DO  - 10.1038/s41592-025-02707-1
+TI  - A visual-omics foundation model to bridge histopathology with spatial transcriptomics
+AU  - Chen, Weiqing
+AU  - Zhang, Pengzhi
+AU  - Tran, Tu N
+AU  - Xiao, Yiwei
+AU  - Li, Shengyu
+AU  - Shah, Vrutant V
+AU  - Cheng, Hao
+AU  - Brannan, Kristopher W
+AU  - Youker, Keith
+AU  - Lai, Li
+AU  - Fang, Longhou
+AU  - Yang, Yu
+AU  - Le, Nhat-Tu
+AU  - Abe, Jun-Ichi
+AU  - Chen, Shu-Hsia
+AU  - Ma, Qin
+AU  - Chen, Ken
+AU  - Song, Qianqian
+AU  - Cooke, John P
+AU  - Wang, Guangyu
+IS  - 7
+VL  - 22
+DA  - 2025/07//
+PY  - 2025
+JO  - Nature methods
+J2  - Nat Methods
+SN  - 1548-7091
+SP  - 1568
+EP  - 1582
+AB  - Artificial intelligence has revolutionized computational biology. Recent developments in omics technologies, including single-cell RNA sequencing and spatial transcriptomics, provide detailed genomic data alongside tissue histology. However, current computational models focus on either omics or image analysis, lacking their integration. To address this, we developed OmiCLIP, a visual-omics foundation model linking hematoxylin and eosin images and transcriptomics using tissue patches from Visium data. We transformed transcriptomic data into 'sentences' by concatenating top-expressed gene symbols from each patch. We curated a dataset of 2.2 million paired tissue images and transcriptomic data across 32 organs to train OmiCLIP integrating histology and transcriptomics. Building on OmiCLIP, our Loki platform offers five key functions: tissue alignment, annotation via bulk RNA sequencing or marker genes, cell-type decomposition, image-transcriptomics retrieval and spatial transcriptomics gene expression prediction from hematoxylin and eosin-stained images. Compared with 22 state-of-the-art models on 5 simulations, and 19 public and 4 in-house experimental datasets, Loki demonstrated consistent accuracy and robustness.
+AD  - Center for Bioinformatics and Computational Biology, Houston Methodist Research Institute, Houston, TX, USA.
+LA  - eng
+KW  - Gene Expression Profiling
+KW  - Computational Biology
+KW  - Genomics
+KW  - Transcriptome
+UR  - http://europepmc.org/abstract/MED/40442373
+UR  - https://doi.org/10.1038/s41592-025-02707-1
+UR  - https://europepmc.org/articles/PMC12240810
+UR  - https://europepmc.org/articles/PMC12240810?pdf=render
+ER  - 
+
+TY  - GEN
+AN  - PPR1219270
+DO  - 10.64898/2026.03.16.712056
+TI  - SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping
+AU  - Yates, Josephine
+AU  - Shavakhi, Mitra
+AU  - Choueiri, Toni
+AU  - Van Allen, Eliezer
+AU  - Uhler, Caroline
+AB  - Foundation models enable knowledge transfer across data modalities and tasks, yet foundation models for spatial biology remain in their early stages, largely centered on encoding single-cell representations in spatial context without fully integrating transcriptomic and morphological information to delineate functional niches. Here we introduce SpatialFusion, a lightweight multimodal foundation model that identifies biologically coherent microenvironments defined by distinct pathway activation patterns rather than spatial proximity alone. SpatialFusion integrates paired histopathology, gene expression, and inferred pathway activity into a unified representation. Compared with two specialist niche-detection methods and four spatial foundation models, SpatialFusion performs competitively and consistently resolves fine-grained spatial niches with unique pathway-level signatures. Applying the model to two Visium HD cohorts uncovered a pre-malignant niche in morphologically normal mucosa adjacent to colorectal tumors and revealed distinct malignant microenvironments in non-small cell lung cancer that were predictive of tumor stage. Overall, SpatialFusion offers a versatile framework for multimodal spatial analysis, enabling the discovery of new morpho-molecular niches with significant biological and clinical relevance.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1219270
+UR  - https://doi.org/10.64898/2026.03.16.712056
+ER  - 
+
+TY  - GEN
+AN  - PPR953333
+DO  - 10.1101/2024.12.10.627865
+TI  - PathOmCLIP: Connecting tumor histology with spatial gene expression via locally enhanced contrastive learning of Pathology and Single-cell foundation model
+AU  - Lee, Yongju
+AU  - Liu, Xinhao
+AU  - Hao, Minsheng
+AU  - Liu, Tianyu
+AU  - Regev, Aviv
+AB  - Tumor morphological features from histology images are a cornerstone of clinical pathology, diagnostic biomarkers, and basic cancer biology research. Spatial transcriptomics, which provides spatially resolved gene expression profiles overlaid on histology images, offers a unique opportunity to integrate morphological and expression features, thereby deepening our understanding of tumor biology. However, spatial transcriptomics experiments with patient samples in either clinical trials or clinical care are costly and challenging, whereas histology images are generated routinely and available for many legacy prospective cohorts of disease progression and outcomes in well-annotated cohorts. Inferring spatial transcriptomics profiles computationally from these histology images would significantly expand our understanding of tumor biology, but paired data for training multi-modal spatial-histology models remains limited. Here, we tackle this challenge by incorporating performant foundation models pre-trained on massive datasets of pathology images and single-cell RNA-Seq, respectively, which provide useful embeddings to underpin multi-modal models. To this end, we developed PathOmCLIP, a model trained with contrastive loss to create a joint-embedding space between a histopathology foundation model and a single-cell RNA-seq foundation model. We incorporate a set transformer to gather localized neighborhood tumor architecture following contrastive training, which further enhances performance and is necessary to obtain robust results. We validate PathOmCLIP across five tumor types and achieve significant performance improvements in gene expression prediction tasks over other methods. PathOmCLIP can be applied to many archived histology images, unlocking valuable clinical information and facilitating new biomarker discoveries.
+PB  - bioRxiv
+PY  - 2024
+DA  - 2024///
+UR  - http://europepmc.org/abstract/PPR/PPR953333
+UR  - https://doi.org/10.1101/2024.12.10.627865
+UR  - https://doi.org/10.1101/2024.12.10.627865
+ER  - 
+
+TY  - EJOUR
+AN  - 41238784
+DB  - PubMed
+DO  - 10.1038/s41746-025-02020-3
+TI  - STPath: a generative foundation model for integrating spatial transcriptomics and whole-slide images
+AU  - Huang, Tinglin
+AU  - Liu, Tianyu
+AU  - Babadi, Mehrtash
+AU  - Ying, Rex
+AU  - Jin, Wengong
+IS  - 1
+VL  - 8
+DA  - 2025/11//
+PY  - 2025
+T2  - NPJ digital medicine
+J2  - NPJ Digit Med
+SN  - 2398-6352
+SP  - 659
+AB  - Spatial transcriptomics (ST) offers insights into gene expression patterns and their spatial context within the tumor microenvironment, but remains limited by the scalability of current sequencing technologies. Existing approaches infer ST from whole-slide images (WSIs) using pretrained encoders, yet are restricted by narrow gene coverage, organ-specific training, and dataset-specific fine-tuning. In light of this, we present STPath, a generative foundation model pretrained on large-scale WSIs paired with ST profiles. This extensive pretraining enables STPath to directly predict gene expression across 38,984 genes and 17 organs without downstream fine-tuning. STPath integrates histology images, gene expression, organ type, and sequencing technology modality within a geometry-aware Transformer, trained via masked gene expression prediction with tailored noise schedules to capture gene-gene dependencies and enable high-quality inference. Evaluated on six tasks spanning 23 datasets and 14 biomarkers, including expression prediction, spot imputation, spatial clustering, biomarker prediction, mutation prediction, and survival prediction, STPath demonstrates strong applicability for scalable ST-based pathology applications.
+AD  - Department of Computer Science, Yale University, New Haven, CT, USA.
+LA  - eng
+UR  - http://europepmc.org/abstract/MED/41238784
+UR  - https://doi.org/10.1038/s41746-025-02020-3
+UR  - https://europepmc.org/articles/PMC12618518
+UR  - https://europepmc.org/articles/PMC12618518?pdf=render
+ER  - 
+
+TY  - GEN
+AN  - PPR1004955
+DO  - 10.21203/rs.3.rs-5183775/v1
+TI  - A visual–omics foundation model to bridge histopathology image with transcriptomics
+AU  - Wang, Guangyu
+AU  - Chen, Weiqing
+AU  - Zhang, Pengzhi
+AU  - Tran, Tu
+AU  - Xiao, Yiwei
+AU  - Li, Shengyu
+AU  - Shah, Vrutant
+AU  - Brannan, Kristopher
+AU  - Youker, Keith
+AU  - Lai, Li
+AU  - Fang, Longhou
+AU  - Yang, Yu
+AU  - Le, Nhat-Tu
+AU  - Abe, Jun-Ichi
+AU  - Chen, Shu-Hsia
+AU  - Ma, Qin
+AU  - Chen, Ken
+AU  - Song, Qianqian
+AU  - Cooke, John
+AU  - Cheng, Hao
+AB  - <title>Abstract</title> <p>Artificial intelligence has revolutionized computational biology. Recent developments in omics technologies, including single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics (ST), provide detailed genomic data alongside tissue histology. However, current computational models focus on either omics or image analysis, lacking their integration. To address this, we developed OmiCLIP, a visual-omics foundation model linking hematoxylin and eosin (H&E) images and transcriptomics using tissue patches from Visium data. We transformed transcriptomic data into “sentences” by concatenating top-expressed gene symbols from each patch. We curated a dataset of 2.2 million paired tissue images and transcriptomic data across 32 organs to train OmiCLIP integrating histology and transcriptomics. Building on OmiCLIP, our Loki platform offers five key functions: tissue alignment, annotation via bulk RNA-seq or marker genes, cell type decomposition, image–transcriptomics retrieval, and ST gene expression prediction from H&E images. Compared with 22 state-of-the-art models on 5 simulations, 19 public, and 4 in-house experimental datasets, Loki demonstrated consistent accuracy and robustness.</p>
+PB  - Research Square
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1004955
+UR  - https://doi.org/10.21203/rs.3.rs-5183775/v1
+ER  - 
+
+TY  - GEN
+AN  - PPR1211102
+DO  - 10.64898/2026.05.05.722971
+TI  - BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis
+AU  - Liang, Zhuo
+AU  - Zhao, Weiqin
+AU  - Wang, Fuying
+AU  - Chen, Guangyong
+AU  - Huang, Yuanhua
+AU  - Yu, Lequan
+AB  - <h4>SUMMARY</h4> Recent studies have explored generating virtual spatial transcriptomics (ST) profiles from histological images, offering a promising alternative to laboratory-measured molecular profiling. However, existing approaches predominantly rely on single-organ models and require sub-stantial organ-specific training data, restricting their accuracy under challenging few-shot conditions in clincical practice, where less than 10 slides are available for specific organs or techniques. Here, we present BRIDGE, a multi-organ foundation model pre-trained on over 600,000 paired histology-ST profiles across 13 human organs and three sequencing techniques. By robustly aligning morphological features and genomic information within a shared multi-organ latent space, BRIDGE can leverage common biological knowledge across distinct tissues to enable accurate and generalizable pan-cancer molecular profiling. Without additional organ-specific fine-tuning, BRIDGE accurately predicts the spatial expression of 80 biomarker genes, achieving an average Pearson correlation coefficient (PCC) of 0.474—a 30% improvement over existing state-of-the-art models under three clinically challenging few-shot scenarios. With generated virtual ST, BRIDGE outperforms current state-of-the-art pathology foundation models in predicting cancer survival, achieving an average concordance index (C-index) of 0.724 across six TCGA cohorts. Notably, BRIDGE maintains exceptional performance even in zero-shot scenarios involving three cancer types not seen during its training, achieving an average C-index of 0.717, thereby demonstrating its strong generalization capability that transcends organ- and subtype-specific boundaries. Moreover, BRIDGE-generated virtual spatial transcriptomes match the prognostic accuracy of bulk RNA-seq, highlighting their potential as a spatially informative alternative to laboratory sequencing. In general, BRIDGE represents a data-efficient tool in virtual ST that facilitates biomedical discoveries in clinical few-shot contexts and advances diagnosis of understudied cancers without sufficient samples.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1211102
+UR  - https://doi.org/10.64898/2026.05.05.722971
+ER  - 
+
+TY  - JOUR
+AN  - 42184117
+DB  - PubMed
+DO  - 10.1093/bib/bbag248
+TI  - Identifying batch-integrated domains from spatial transcriptomics via graph autoencoder with contrastive learning based on cross-modality and data augmentation
+AU  - Mao, Yexuan
+AU  - Quan, Lijun
+AU  - Chen, Xiangyu
+AU  - Wang, Siyuan
+AU  - Zhang, Guozheng
+AU  - Li, Siqi
+AU  - Jiang, Yelu
+AU  - Nie, Liangpeng
+AU  - Wu, Tingfang
+AU  - Meng, Lingkun
+AU  - Lyu, Qiang
+IS  - 3
+VL  - 27
+DA  - 2026/05//
+PY  - 2026
+JO  - Briefings in bioinformatics
+J2  - Brief Bioinform
+SN  - 1467-5463
+SP  - bbag248
+AB  - Spatially resolved transcriptomics (SRT) allows for the comprehensive profiling of gene expression while preserving spatial context, advancing the study of tissue architecture. However, existing computational approaches still face key limitations, particularly the insufficient exploitation of histology information and the lack of cross-modal meaningful contrastive strategies for biological analyses. To overcome these challenges, we propose GCAST, a graph contrastive autoencoder framework for spatial transcriptomics that seamlessly integrates multimodal SRT data. GCAST adopts a self-supervised strategy to derive biologically meaningful representations directly from histology images when available. GCAST constructs dual graph views based on data augmentation and introduces a novel contrastive learning designed to leverage histology-weighted and gene-weighted features and improve biological interpretability. In addition, GCAST employs a block-diagonal graph construction to automatically align multiple datasets, achieving batch-effect correction without manual intervention. The framework not only captures spatial gene expression patterns to identify tissue domains but also adapts to datasets with or without histological images and supports the integration of multiple datasets for joint analyses. Overall, GCAST provides a unified and biologically informed framework that has the potential to facilitate deeper analyses of spatial transcriptomics.
+AD  - School of Computer Science and Technology, Soochow University, 333 Ganjiang East Road, Gusu District, Suzhou, Jiangsu 215006, China.
+LA  - eng
+KW  - Transcriptome
+KW  - Spatial Transcriptomics
+UR  - http://europepmc.org/abstract/MED/42184117
+UR  - https://doi.org/10.1093/bib/bbag248
+UR  - https://europepmc.org/articles/PMC13200541
+UR  - https://europepmc.org/articles/PMC13200541?pdf=render
+ER  - 
+
+TY  - JOUR
+AN  - 42627750
+DB  - PubMed
+DO  - 10.1109/tmi.2026.3725898
+TI  - RankByGene: Gene-Guided Histopathology Representation Learning Through Cross-Modal Ranking Consistency
+AU  - Huang, Wentao
+AU  - Xu, Meilong
+AU  - Hu, Xiaoling
+AU  - Abousamra, Shahira
+AU  - Ganguly, Aniruddha
+AU  - Kapse, Saarthak
+AU  - Yurovsky, Alisa
+AU  - Prasanna, Prateek
+AU  - Kurc, Tahsin
+AU  - Saltz, Joel
+AU  - Miller, Michael L
+AU  - Chen, Chao
+VL  - PP
+DA  - 2026/08//
+PY  - 2026
+JO  - IEEE transactions on medical imaging
+J2  - IEEE Trans Med Imaging
+SN  - 0278-0062
+AB  - Spatial transcriptomics (ST) provides essential spatial context by mapping gene expression within tissue, enabling detailed study of cellular heterogeneity and tissue organization. However, aligning ST data with histology images poses challenges due to inherent spatial distortions and modality-specific variations. Existing methods largely rely on direct alignment, which often fails to capture complex cross-modal relationships. To address these limitations, we propose a novel framework that aligns gene and image features using a ranking-based alignment loss, preserving relative similarity across modalities and enabling robust multi-scale alignment. To further enhance the alignment's stability, we employ self-supervised knowledge distillation with a teacher-student network architecture, which serves as an intra-modal stability regularizer that prevents image-representation drift during cross-modal alignment. Extensive experiments on seven public datasets that encompass gene expression prediction, slide-level classification, and survival analysis demonstrate the efficacy of our method, showing improved alignment and predictive performance over existing methods. Code is available at https://github.com/winston52/RankByGene.
+LA  - eng
+UR  - http://europepmc.org/abstract/MED/42627750
+UR  - https://doi.org/10.1109/TMI.2026.3725898
+ER  - 
+
+TY  - GEN
+AN  - PPR1229622
+DO  - 10.64898/2025.12.29.692457
+TI  - Generative AI Enables Breast Cancer Genomic Subtype Prediction from Histology Images
+AU  - Simon, Brennan
+AU  - Weiss, Clemens
+AU  - Chan, Darren
+AU  - Mangiante, Lise
+AU  - Ma, Zhicheng
+AU  - Smith, Nicholas
+AU  - Meisner, Allison
+AU  - Rae, James
+AU  - Speers, Corey
+AU  - Albain, Kathy
+AU  - Karakas, Cansu
+AU  - Bean, Gregory
+AU  - Mouron, Silvana
+AU  - Quintela-Fandino, Miguel
+AU  - Curtis, Christina
+AB  - Breast cancer subtyping is essential for precision oncology, influencing prognosis, treatment selection, and clinical trial design. The Integrative Subtype Classification (IC) categorizes breast tumors into groups with distinct long-term outcomes based on genomic and correlated transcriptomic features. This method relies on sequencing data, which, despite decreasing costs, is not always available in research or clinical settings. Here we introduce PATH-IC, a computational pathology model that predicts ER+ breast cancer IC subtype risk of relapse categories from routine histology data. We enhance the current state-of-the-art computational pathology approach with BERGERON, which leverages generative AI to correct class imbalance and reduce overfitting, showing that synthetic data improves PATH-IC’s performance by the equivalent of 41% more real training samples. PATH-IC achieves a testing AUROC of 0.814, with predictions correlating to Oncotype DX scores and long-term relapse risk. Using attention-based model interpretation and CRAWFORD, a novel embedding-to-image foundation model, we demonstrate that PATH-IC identifies expected tumor microenvironment patterns for IC subtypes and highlights heterochromatin condensation as a key feature of high-risk tumors. Matched single-cell spatial transcriptomics confirm IC subtype-specific gene expression patterns identified by PATH-IC, including active metabolic, proliferative, and proteostasis pathways in the high-risk group. PATH-IC advances computational pathology through generative AI, enabling subtype inference from histopathology data.
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1229622
+UR  - https://doi.org/10.64898/2025.12.29.692457
+ER  - 
+
+TY  - GEN
+AN  - PPR1064462
+DO  - 10.1101/2025.08.07.669202
+TI  - Inferring spatial gene expression from tissue images using large-scale histology foundation model with SpaFoundation
+AU  - Zhang, Ning
+AU  - Long, Yahui
+AU  - Xia, Sibo
+AU  - Jia, Pengzhen
+AU  - Jin, Yujie
+AU  - Chen, Siqi
+AU  - Chen, Jinmiao
+AU  - Li, Min
+AB  - Spatial transcriptomics (ST) has revolutionized biological research by enabling the joint profiling of gene expression and spatial context, along with histological images. However, current existing ST technologies remain high-cost and time-consuming, hindering their broader clinical applications. Although computational methods have been developed to infer gene expression directly from histology images, these methods still suffer from limited accuracy and spatial resolution due to insufficient training data and model capacity. Here, we introduce SpaFoundation, a large-scale histology foundation model designed to accurately predict spatial gene expression from tissue images. SpaFoundation employs a teacher-student Vision Transformer (ViT) architecture to learn generalizable histological representations by modeling potential dependencies among image patches. Notably, we incorporated self-distillation and masked image modeling (MIM) jointly to capture high-level semantic representations and fine-grained structural features, enriching spots’ representations. The model is pretrained on 1.79 million patches spanning 26 tissue types, with 80 million parameters. We validated SpaFoundation using 117 samples, demonstrating its flexibility across different spatial resolutions and superior performance in spatial gene expression prediction, as well as strong transferability to downstream tasks such as tumor detection and spatial domain clustering. Our results highlight the potential of large-scale foundation model to learn informative histological representations and underscore the benefits of domain-specific pretraining in extracting task-relevant representations, paving the way for foundation model-driven spatial gene expression inference. The implementation and pre-trained weights of SpaFoundation are publicly available at https://github.com/NingZhangCSUBio/SpaFoundation .
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1064462
+UR  - https://doi.org/10.1101/2025.08.07.669202
+ER  - 
+
+TY  - GEN
+AN  - PPR1300303
+DO  - 10.21203/rs.3.rs-10677502/v1
+TI  - HistAgent: an evidence-grounded agent for spatial molecular reasoning from routine histology
+AU  - Liu, Jin
+AU  - Li, Wenlin
+AU  - Liu, Hengrui
+AU  - Lu, Yan
+AU  - Liao, Xu
+AU  - Sun, Xiaobo
+AU  - Zhai, Weiwei
+AU  - Lin, Chengqi
+AB  - <title>Abstract</title> <p>Routine hematoxylin and eosin (H&E) staining is a widely used histology test in clinical practice and biomedical research, but it does not provide direct spatial molecular information. Spatial transcriptomics (ST) provides such data while preserving the tissue context, yet its high cost, technical complexity, and limited accessibility restrict its broad application. Methods for inferring spatial molecular information from H&E images could bridge this gap; however, current visual-omics algorithms often exhibit limited cross-dataset generalizability and do not sufficiently facilitate traceable biological interpretation. Here, we present HistAgent, a unified framework that couples a visual-omics foundation model with a spatial artificial intelligence (AI) module. The foundation model, trained on 2.23 million paired H&E–ST spots, generates ranked molecular readouts from local and contextual H\&E images. The spatial AI agentic module structures these readouts as evidence cards comprising data on the inferred cell composition, functional programs, and spatial context, thereby enabling question-driven multi-turn analysis. In tests, HistAgent recovered and interpreted literature-defined spatial findings, spanning immune, stromal, tumor, and anatomical states across tissues at lower cost and in less time than conventional ST workflows, and its molecular readouts accurately reproduced five standard ST analyses. Its intermediate visual-omics representations supported whole-slide predictions of molecular and histologic subtypes, tumor grade, and prognostic risk. Providing the module access to an evidence bank constructed from experimentally measured ST profiles enabled further natural-language and H&E–image retrieval as well as an analysis of molecular states. Overall, HistAgent enables generalizable spatial molecular analyses and traceable biological interpretation from routine histology.</p>
+PB  - Research Square
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1300303
+UR  - https://doi.org/10.21203/rs.3.rs-10677502/v1
+ER  - 
+
+TY  - EJOUR
+AN  - 42237201
+DB  - PubMed
+DO  - 10.1186/s13073-026-01683-1
+TI  - MGCL-ST: multi-view graph contrastive learning for spatial transcriptomics imputation
+AU  - Chen, Jiazhou
+AU  - Huang, Weitian
+AU  - Chen, Xiaojia
+AU  - Ding, Siqi
+AU  - Liao, Yi
+AU  - Cai, Shangyan
+AU  - Cai, Hongmin
+IS  - 1
+VL  - 18
+DA  - 2026/06//
+PY  - 2026
+T2  - Genome medicine
+J2  - Genome Med
+SN  - 1756-994X
+SP  - 120
+AB  - High-resolution, continuous spatial gene expression profiling is critical for dissecting complex tissue microenvironments, yet current spatial transcriptomics (ST) platforms suffer from spatial gaps and insufficient resolution. Here, we present MGCL-ST, a multi-view graph contrastive learning method for super-resolution ST imputation. By jointly modeling local and global spatial graphs with histological features derived from a pathology foundation model, MGCL-ST accurately imputes unmeasured gene expression across the tissue space. Evaluated across three diverse platforms, MGCL-ST outperforms state-of-the-art methods in imputation accuracy and spatial clustering, significantly enhancing biological interpretability and enabling the precise mapping of tumor microenvironments. MGCL-ST is available at https://github.com/guxin2002/MGCL-ST .
+AD  - School of Computer Science and Technology, Guangdong University of Technology, Guangzhou, 510006, China.
+LA  - eng
+KW  - Gene Expression Profiling
+KW  - Software
+KW  - Transcriptome
+KW  - Machine Learning
+KW  - Spatial Transcriptomics
+UR  - http://europepmc.org/abstract/MED/42237201
+UR  - https://doi.org/10.1186/s13073-026-01683-1
+UR  - https://europepmc.org/articles/PMC13450143
+UR  - https://europepmc.org/articles/PMC13450143?pdf=render
+ER  - 
+
+TY  - GEN
+AN  - PPR1127246
+DO  - 10.1101/2025.11.24.690313
+TI  - Integrative spatial multi-omics reveals prognostic tumor niches in female genital tumors
+AU  - Xu, Tian
+AU  - Lin, Siyu
+AU  - Wu, Yuling
+AU  - He, Yufeng
+AU  - Zhang, Zongxu
+AU  - Zhao, Yanping
+AU  - Zhang, Peng
+AU  - Zhao, Luyang
+AU  - Yang, Wen
+AU  - Ye, Mingxia
+AU  - Zhang, Rui
+AU  - Wen, Liang
+AU  - Ren, Pengfei
+AU  - Luo, Ce
+AU  - Zhang, Zhe
+AU  - Zeng, Zexian
+AU  - Meng, Yuanguang
+AB  - Female genital tumors (FGTs), including ovarian, endometrial, and cervical cancers, pose a major global health challenge, yet their spatial and molecular determinants of progression and therapy resistance remain poorly understood. Here we present a large-scale integrative spatial and multi-omics atlas of FGTs, combining exome, transcriptome, methylome, and miRNA sequencing with high-resolution Visium HD spatial transcriptomics, profiling over 62 million cells from 100 tumors. We show that HPV-driven suppression of TGFβ signaling in cervical cancer disrupts myofibroblast (myCAF) formation and reshapes immune infiltration, while serous tumors exhibit extensive oncogene amplifications that activate MYC and PI3K pathways, linking chromosomal instability (CIN) to proliferative, immune-cold phenotypes. In high-grade serous ovarian cancer, we identify a previously unrecognized malignant domain, the Proliferating Core Desert (PCD) niche, defined by CIN-high epithelial enrichment, immune exclusion, stromal protection, and chemotherapy resistance, maintained through crosstalk with macrophages and fibroblasts. Finally, we develop POWER, a pathology foundation model that predicts PCD niche abundance from routine H&E slides, enabling robust stratification of prognosis and anti-angiogenic therapy response.
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1127246
+UR  - https://doi.org/10.1101/2025.11.24.690313
+ER  - 
+
+TY  - GEN
+AN  - PPR1123471
+DO  - 10.1101/2025.11.20.689462
+TI  - USHER: Guiding Foundation Model Representations through Distribution Shifts
+AU  - Pratapa, Aditya
+AU  - Tata, Purushothama Rao
+AU  - Singh, Rohit
+AB  - Foundation models pre-trained on certain biological data modalities exhibit systematic representational biases when encountering out-of-distribution (OOD) data from new assays. The embedding drift largely arises from instrumentation and protocol-related artifacts rather than true biological variation in cell states or tissue morphology. These drifts are distinct from conventional batch effects and cannot be remedied by retraining as sample sizes are often insufficient, and modifying existing embeddings breaks downstream tools that depend on stable representations. We introduce USHER, an adaptable framework to learn simple transforms that return OOD embeddings to a foundation model’s reference space. USHER enables embedding transformation via an expectation maximization-style procedure. Given a reference in-distribution sample, USHER first estimates a Fused Gromov-Wasserstein coupling that aligns unpaired OOD (source) and reference (target) embeddings by minimizing transport distance while preserving local structure. To make optimal transport couplings more useful for down-stream tasks, we introduce the concept of entropic filtering to retain only high-confidence correspondences. In the second step, USHER learns a low-complexity transformation that reliably restores the model’s representation space for OOD data. We demonstrate this learned transformation generalizes to other OOD data from similar experimental conditions. We applied USHER to correct platform-specific biases seen when running scGPT on Xenium transcript counts: USHER maps Xenium embeddings back to the native scRNA-seq representation space, improving cell type clustering and cross-platform integration. Histopathology foundation models trained on H&E images fail on MALDI metabolite-profiled tissue images due to data-acquisition artifacts. USHER corrects these, enabling cell-type classification and protein abundance imputation. USHER offers a generalizable framework to make biological foundation models portable across a rapidly-evolving experimental landscape.
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1123471
+UR  - https://doi.org/10.1101/2025.11.20.689462
+ER  - 
+
+TY  - EJOUR
+AN  - 42134991
+DB  - PubMed
+DO  - 10.1101/gr.281603.125
+TI  - Accurate delineation of cellular niches via integrated spatial transcriptomics and histological imaging with SYMOL
+AU  - Wang, Daoyuan
+AU  - Zhou, Fengyi
+AU  - Chen, Wenlan
+AU  - Liang, Cheng
+AU  - Guo, Fei
+IS  - 6
+VL  - 36
+DA  - 2026/06//
+PY  - 2026
+T2  - Genome research
+J2  - Genome Res
+SN  - 1088-9051
+SP  - 1209
+EP  - 1220
+AB  - Spatial transcriptomics enable fine-scale characterization of spatial heterogeneity and cellular niches within tissues, and have substantially advanced our understanding of tissue architecture and functional organization. However, existing spatial transcriptomic integration methods often struggle to effectively capture the rich morphological information provided by the histology and thus further limit their capacity for comprehensive cross-modality learning. In this paper, we present SYMOL, a unified synergistic self-supervised multimodal framework that integrates spatial coordinates, gene expression, and histological images covering both multichannel immunohistochemistry (IHC) and hematoxylin and eosin (H&E) stains for effective spatial transcriptomic integration and representation learning. Specifically, SYMOL extracts distinct visual characteristics via several pretrained large vision models and synergistically aggregates cross-modal features into unified morphology-aware embeddings. Comprehensive benchmarking on multiple publicly available spatial transcriptomic data sets with multichannel IHC images and H&E images shows that SYMOL consistently surpasses state-of-the-art methods in various downstream tasks, including cellular niche identification, multislice integration, cross-data set label transfer, and gene expression enhancement. In addition, SYMOL accurately delineates tumor microenvironment in lung tissues with histopathological imaging and enables fine-scale mapping of cellular niches in the mouse brain, thereby demonstrating both clinical relevance and robustness in complex neuroanatomical settings.
+AD  - School of Computer Science and Engineering, Central South University, Changsha 410083, China.
+LA  - eng
+KW  - Image Processing, Computer-Assisted
+KW  - Transcriptome
+KW  - Spatial Transcriptomics
+UR  - http://europepmc.org/abstract/MED/42134991
+UR  - https://doi.org/10.1101/gr.281603.125
+ER  - 
+
+TY  - GEN
+AN  - PPR1286522
+DO  - 10.64898/2026.07.23.739686
+TI  - Spaceland: Histology-Guided Reconstruction of High-Resolution Whole-Organ 3D Molecular Atlases from Sparse Spatial Transcriptomics
+AU  - Xu, Fangfang
+AU  - Zhuang, Zhenfeng
+AU  - Zhu, Yun
+AU  - Ying, Bo
+AU  - Hou, Naiqiao
+AU  - Lin, Weiping
+AU  - Wang, Liansheng
+AU  - Yang, Chaoyong
+AU  - Song, Jia
+AB  - Reconstructing whole organs in three-dimensional molecular detail is a key step toward building virtual organs for modeling tissue organization, disease progression and drug perturbation responses. However, high-resolution whole-organ spatial transcriptomic profiling remains impractical, forcing a trade-off between reconstruction fidelity and sampling density. Here, we introduce Spaceland, a morphology-guided framework that reconstructs continuous, high-resolution 3D molecular landscapes from sparsely sampled spatial transcriptomic sections and serial H&E histology. Spaceland formulates this task as learning continuous gene-expression fields within a morphology-informed histological space. It constructs a dense 3D morphological scaffold by optical-flow interpolation of foundation model-derived H&E representations and decodes sparse spot-level transcriptomic measurements onto an 8 μm histology-aligned grid. Across mouse olfactory bulb, mouse hemibrain and spatiotemporal planarian regeneration, Spaceland generalized across platforms, tissue scales and biological contexts. In mouse benchmarks, Spaceland bridged 400 μm molecular gaps, resolved sub-spot organization, outperformed ST-based interpolation and 2D H&E-based prediction methods, and remained robust with 160-320 μm H&E intervals. In planarian regeneration, it enabled time-resolved whole-organism analysis from only four Visium sections per stage, revealing dynamic neoblast-neural spatial remodeling. Together, Spaceland shifts 3D molecular atlas construction from exhaustive experimental sampling toward data-driven virtual tissue and organ modeling, providing a scalable route to whole-organ molecular reconstruction.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1286522
+UR  - https://doi.org/10.64898/2026.07.23.739686
+ER  - 
+
+TY  - GEN
+AN  - PPR1044072
+DO  - 10.21203/rs.3.rs-6772872/v1
+TI  - Digital Pathology Predicts Immunotherapy Response and Maps Spatial Biomarkers in Gastric Cancer
+AU  - Noh, Myung-giun
+AU  - Lee, Jeong Hoon
+AU  - Kim, Tae-Hwan
+AU  - Lee, Seung Hyuk
+AU  - Cha, Seunghyun
+AU  - choi, yong won
+AU  - Choi, Jin Hyuk
+AU  - Choi, Yoo-Duk
+AU  - Kim, Seokhwi
+AU  - Choi, Jae-Il
+AU  - Lee, Dakeun
+AU  - Park, Hansoo
+AU  - Lee, Hyun Woo
+AU  - Hwang, Jun-Eul
+AU  - Shen, Jeanne
+AB  - <title>Abstract</title> <p>Background Biomarkers have limited reliability, making predictions of response to immune checkpoint inhibitors (ICIs) challenging in gastric cancer. We developed and validated an artificial intelligence (AI)-based model using whole slide images (WSIs) to predict ICI response and assess its prognostic and biological relevance. Methods In this multicenter retrospective study, we developed an AI model using a development cohort (internal) consisting of 272 slides from 107 patients and validated it externally on two independent cohorts comprising 373 slides from 127 patients and 25 slides from 18 patients, respectively. Three histopathology foundation models and eight multiple-instance learning algorithms were compared to optimize prediction performance. Spatial transcriptomics (Xenium 5K) data from 14 ICI-treated patients were used to identify spatial biomarkers by differential expression analysis. Gene ontology analysis was performed on transcriptomic data from TCGA-STAD to characterize the genes associated with the predictions of the AI model. Results The combination of the UNI foundation model with the CLAM algorithm achieved the best performance for the internal test cohort (AUROC = 0.844). High-attention patches revealed signet ring cells and fibrosis in non-responders versus nuclear hyperchromasia and enlarged nuclei in responders. The external validation revealed an AUROC of 0.7151 and 0.7545, respectively. Survival analysis revealed a significant association between the internal test cohort and progression-free and overall survival (<italic>p</italic> < 0.001), which was also observed in the external cohort (<italic>p</italic> < 0.05). Genes associated with AI predictions in TCGA showed immune activation in responders and increased cell cycle activity in non-responders. Spatial transcriptomics confirmed multi-compartmental <italic>FGFR2</italic> overexpression in non-responders and strong immune pathway enrichment in responders, particularly in densely infiltrated tumor regions. Conclusion Our results indicate that AI-powered histopathologic slide analysis represents a robust biomarker for predicting immunotherapy response and patient outcomes in gastric cancer. Integration with spatial and bulk transcriptomic data confirms its biological validity, thus supporting AI-guided pathology as a scalable approach for informed immunotherapy in gastric cancer.</p>
+PB  - Research Square
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1044072
+UR  - https://www.researchsquare.com/article/rs-6772872/latest.pdf
+UR  - https://doi.org/10.21203/rs.3.rs-6772872/v1
+ER  - 
+
+TY  - GEN
+AN  - PPR1009569
+DO  - 10.1101/2025.04.19.649665
+TI  - STPath: A Generative Foundation Model for Integrating Spatial Transcriptomics and Whole Slide Images
+AU  - Huang, Tinglin
+AU  - Liu, Tianyu
+AU  - Babadi, Mehrtash
+AU  - Ying, Rex
+AU  - Jin, Wengong
+AB  - Spatial transcriptomics (ST) has shown remarkable promise in pathology applications, shedding light on the spatial organization of gene expression and its relationship to the tumor microenvironment. However, its clinical adoption remains constrained due to the limited scalability of current sequencing technologies. While recent methods attempt to infer ST from whole slide images (WSIs) using pretrained image encoders, they remain restricted by limited gene coverage, organ-specific training, and the need for dataset-specific fine-tuning. In light of this, we introduce STPath , a generative foundation model pretrained on a large-scale collection of WSIs paired with ST profiles. This extensive pretraining enables STPath to directly predict gene expression across 38,984 genes and 17 organs without requiring downstream fine-tuning. STPath integrates multiple data modalities, including histological images, gene expressions, organ type, and sequencing technology information, within a novel geometry-aware Transformer architecture. Unlike previous methods that directly map WSIs to gene expression, STPath is trained using a masked gene expression prediction objective guided by tailored noise schedules, effectively balancing between capturing gene-gene dependencies and performing high-quality predictions. We evaluate STPath across 6 tasks spanning 23 datasets and 14 biomarkers, including gene expression prediction, spot imputation, spatial clustering, biomarker prediction, gene mutation prediction, and survival prediction. These results demonstrate STPath’s strong ability to infer spatially resolved gene expression and reveal crucial pathological structures within tissue samples, underscoring its promise for scalable ST-based pathology applications.
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1009569
+UR  - https://www.biorxiv.org/content/biorxiv/early/2025/04/24/2025.04.19.649665.full.pdf
+UR  - https://doi.org/10.1101/2025.04.19.649665
+ER  - 
+
+TY  - JOUR
+AN  - 42425050
+DB  - PubMed
+DO  - 10.1016/j.media.2026.104206
+TI  - STAG: Biologically guided spatial transcriptomics prediction via hypergraph learning
+AU  - Qu, Mingcheng
+AU  - Zhao, Yuchuan
+AU  - Yang, Guang
+AU  - Di, Donglin
+AU  - Su, Xiu
+AU  - Xu, Hongyan
+AU  - Song, Yang
+AU  - Fan, Lei
+VL  - 113
+DA  - 2026/09//
+PY  - 2026
+JO  - Medical image analysis
+J2  - Med Image Anal
+SN  - 1361-8415
+SP  - 104206
+AB  - Spatial transcriptomics (ST) enables spatially resolved gene expression profiling within intact tissue sections. However, its widespread adoption is constrained by the high cost and low throughput of current sequencing-based protocols. This has motivated growing interest in computationally predicting gene expression directly from routinely acquired histology images. Existing methods are largely restricted to isolated 2D tissue slices and fail to capture richer spatial relationships or structured dependencies among spot-level gene expression profiles. In this paper, we propose STAG, a dual-branch framework for gene-aware expression prediction and spatial context modeling. A Query branch predicts ST expression for an individual target spot, while a Neighbor branch acts as an auxiliary branch to model structured relationships among multiple spots. By leveraging hypergraph learning, the Neighbor branch captures higher-order spatial and molecular dependencies, enabling unified modeling of both intra-slice and inter-slice relationships. This design supports standard 2D settings (a single slice) and naturally extends to 3D scenarios when adjacent tissue sections are available. Moreover, STAG leverages gene semantic information as biological guidance by encoding gene names with a foundation model, enabling coordinated gene-aware interactions beyond independent gene prediction. STAG achieves an average gain of 5.16% in PCC@250 across six datasets. Under highly variable gene selection, STAG maintains the lowest RMSE and highest PCC@50 across three datasets. The effectiveness of the learned representations is further demonstrated in pseudo-3D prediction and downstream cancer classification tasks. Code is available at https://github.com/MCPathology/STAG.
+AD  - Faculty of Computing, Harbin Institute of Technology, Harbin, China.
+LA  - eng
+KW  - Gene Expression Profiling
+KW  - Machine Learning
+UR  - http://europepmc.org/abstract/MED/42425050
+UR  - https://doi.org/10.1016/j.media.2026.104206
+ER  - 
+
+TY  - EJOUR
+AN  - 39266614
+DB  - PubMed
+DO  - 10.1038/s42003-024-06814-1
+TI  - A graph self-supervised residual learning framework for domain identification and data integration of spatial transcriptomics
+AU  - Huang, Jinjin
+AU  - Fu, Xiaoqian
+AU  - Zhang, Zhuangli
+AU  - Xie, Yinfeng
+AU  - Liu, Shangkun
+AU  - Wang, Yarong
+AU  - Zhao, Zhihong
+AU  - Peng, Youmei
+IS  - 1
+VL  - 7
+DA  - 2024/09//
+PY  - 2024
+T2  - Communications biology
+J2  - Commun Biol
+SN  - 2399-3642
+SP  - 1123
+AB  - Spatial transcriptomics (ST) technologies allow for comprehensive characterization of gene expression patterns in the context of tissue microenvironment. However, accurately identifying domains with spatial coherence in both gene expression and histology in situ and effectively integrating data from multi-sample remains challenging. Here, we propose ResST, a graph self-supervised residual learning model based on graph neural network and Margin Disparity Discrepancy (MDD) theory. ResST aggregates gene expression, biological effects, spatial location, and morphological information to capture nonlinear relationships between a cell and surrounding cells for spatial domain identification. Also, ResST integrates multiple ST datasets and aligns latent embeddings based on MDD theory for correcting batch effects. Results show that ResST identifies continuous spatial domains at a finer scale in ten ST datasets acquired with different technologies. Moreover, ResST efficiently integrated data from multiple tissue sections vertically or horizontally while correcting batch effects. Overall, ResST demonstrates exceptional performance in analyzing ST datasets.
+AD  - Henan Key Laboratory for Pharmacology of Liver Diseases, BGI College & Henan Institute of Medical and Pharmaceutical Sciences, Zhengzhou University, Zhengzhou, China.
+LA  - eng
+KW  - Gene Expression Profiling
+KW  - Transcriptome
+UR  - http://europepmc.org/abstract/MED/39266614
+UR  - https://doi.org/10.1038/s42003-024-06814-1
+UR  - https://doi.org/10.1038/s42003-024-06814-1
+UR  - https://europepmc.org/articles/PMC11393357
+UR  - https://europepmc.org/articles/PMC11393357?pdf=render
+ER  - 
+
+TY  - JOUR
+AN  - 41407925
+DB  - PubMed
+DO  - 10.1038/s41592-025-02926-6
+TI  - High-parameter spatial multi-omics through histology-anchored integration
+AU  - Liu, Yonghao
+AU  - Wang, Chuyao
+AU  - Wang, Zhikang
+AU  - Chen, Liang
+AU  - Li, Zhi
+AU  - Song, Jiangning
+AU  - Zou, Qi
+AU  - Gao, Rui
+AU  - Qian, Bin-Zhi
+AU  - Feng, Xiaoyue
+AU  - Guan, Renchu
+AU  - Yuan, Zhiyuan
+IS  - 2
+VL  - 23
+DA  - 2026/02//
+PY  - 2026
+JO  - Nature methods
+J2  - Nat Methods
+SN  - 1548-7091
+SP  - 373
+EP  - 386
+AB  - Spatial omics face challenges in achieving high-parameter, multi-omics coprofiling. Serial-section profiling of complementary panels mitigates technical trade-offs but introduces the spatial diagonal integration problem. To address this, here we present SpatialEx and its extension SpatialEx+, computational frameworks leveraging histology as a universal anchor to integrate spatial molecular data across tissue sections. SpatialEx combines a pretrained hematoxylin and eosin foundation model with hypergraph and contrastive learning to predict single-cell omics from histology, encoding multi-neighborhood spatial dependencies and global tissue context. SpatialEx+ further introduces an omics cycle module that encourages cross-omics consistency via slice-invariant mappings, enabling seamless integration without comeasured training data. Extensive validations show superior hematoxylin and eosin-to-omics prediction, panel diagonal integration and omics diagonal integration across various biological scenarios. The frameworks scale to datasets exceeding 1 million cells, maintain robustness with nonoverlapping or heterogeneous sections and support unlimited omics layers in principle. Our work makes multimodal spatial profiling broadly accessible.
+AD  - Key Laboratory of Symbolic Computation and Knowledge Engineering of the Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, China.
+LA  - eng
+KW  - Computational Biology
+KW  - Genomics
+KW  - Single-Cell Analysis
+UR  - http://europepmc.org/abstract/MED/41407925
+UR  - https://doi.org/10.1038/s41592-025-02926-6
+ER  - 
+
+TY  - JOUR
+AN  - 40174325
+DB  - PubMed
+DO  - 10.1016/j.media.2025.103479
+TI  - TriDeNT : Triple deep network training for privileged knowledge distillation in histopathology
+AU  - Farndale, Lucas
+AU  - Insall, Robert
+AU  - Yuan, Ke
+VL  - 102
+DA  - 2025/05//
+PY  - 2025
+JO  - Medical image analysis
+J2  - Med Image Anal
+SN  - 1361-8415
+SP  - 103479
+AB  - Computational pathology models rarely utilise data that will not be available for inference. This means most models cannot learn from highly informative data such as additional immunohistochemical (IHC) stains and spatial transcriptomics. We present TriDeNT , a novel self-supervised method for utilising privileged data that is not available during inference to improve performance. We demonstrate the efficacy of this method for a range of different paired data including immunohistochemistry, spatial transcriptomics and expert nuclei annotations. In all settings, TriDeNT outperforms other state-of-the-art methods in downstream tasks, with observed improvements of up to 101%. Furthermore, we provide qualitative and quantitative measurements of the features learned by these models and how they differ from baselines. TriDeNT offers a novel method to distil knowledge from scarce or costly data during training, to create significantly better models for routine inputs.
+AD  - School of Cancer Sciences, University of Glasgow, Scotland, UK; Cancer Research UK Scotland Institute, Scotland, UK; School of Computing Science, University of Glasgow, Scotland, UK; School of Mathematics and Statistics, University of Glasgow, Scotland, UK. Electronic address: lucas.farndale@glasgow.ac.uk.
+LA  - eng
+KW  - Deep Learning
+UR  - http://europepmc.org/abstract/MED/40174325
+UR  - https://doi.org/10.1016/j.media.2025.103479
+ER  - 
+
+TY  - GEN
+AN  - PPR1251396
+DO  - 10.64898/2026.06.10.731246
+TI  - Robust integration of weakly anchored spatial multi-omics
+AU  - Wang, Chuyao
+AU  - Liu, Yonghao
+AU  - Wang, Zhikang
+AU  - Sun, Pinli
+AU  - Li, Zhi
+AU  - Li, Jieming
+AU  - Wang, Xueting
+AU  - Chen, Ke
+AU  - Zou, Qi
+AU  - Zhang, Daoliang
+AU  - Hu, Zheqi
+AU  - Du, Yixuan
+AU  - Qian, Binzhi
+AU  - Feng, Xiaoyue
+AU  - Yuan, Zhiyuan
+AU  - Guan, Renchu
+AB  - Spatial multi-omics holds great promise for dissecting complex biological processes, though inherent technical constraints continue to limit its widespread adoption. Currently, most studies therefore measure distinct omics features on separate tissue sections, necessitating spatial diagonal integration. An emerging practical solution is to leverage hematoxylin and eosin (H&E) images as an integration anchor, given their ubiquity, low cost, and compatibility across tissue preparations. However, this anchor is frequently compromised in real-world settings by variations in H&E staining style, absence of reliable histological landmarks, and mismatches in spatial resolutions across omics modalities. To address this, we introduce SpaWeaver, a computational framework that couples a pathology foundation model with a graph Transformer and a latent feature aligner module, providing a highly robust solution for weakly anchored spatial omics data diagonal integration. Extensive experiments demonstrate that SpaWeaver exhibits superior robustness against isolated or synergistic weak-anchoring factors. The spatial multi-omics profiles generated by SpaWeaver link molecular features originally separated on two sections, unlocking diverse downstream analyses once exclusive to co-assayed spatial multi-omics data, including niche-aware cell–cell communication inference and multi-omics resolved cell state. In this study, it unveils tumor-distance-dependent fibroblast–CD4□T-cell signaling in human colon adenocarcinoma and identifies a hypoxic glycolytic tumor state with pyknotic nuclei in human ovarian cancer. Overall, our approach bridges readily accessible single-omics measurements across weakly anchored tissue sections, enabling unified spatial multi-omics characterization and system-level tissue analysis.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1251396
+UR  - https://doi.org/10.64898/2026.06.10.731246
+ER  - 
+
+TY  - JOUR
+AN  - 40758493
+DB  - PubMed
+DO  - 10.1109/jbhi.2025.3595101
+TI  - KAFSTExp: Kernel Adaptive Filtering With Nyström Approximation for Predicting Spatial Gene Expression From Histology Images
+AU  - Liu, Haoran
+AU  - Farahani, Hossein
+AU  - Li, Xifeng
+AU  - Xie, Yongle
+AU  - Bashashati, Ali
+IS  - 3
+VL  - 30
+DA  - 2026/03//
+PY  - 2026
+JO  - IEEE journal of biomedical and health informatics
+J2  - IEEE J Biomed Health Inform
+SN  - 2168-2194
+SP  - 2203
+EP  - 2216
+AB  - Spatial transcriptomics (ST), known as an expensive medical examination, plays an important role in analyzing the spatial heterogeneity of tumors. When considering the correlation between tissue morphological patterns and gene profiles, predicting corresponding gene expression from pathology images obtained from affordable biopsies is regarded as an instantaneous and cost-effective alternative. However, accurately modeling the complex and nonlinear relationship between histological features and gene expression remains challenging. Existing deep learning models often struggle to generalize on limited ST datasets due to their large and overparameterized architectures. The primary advantage of kernel adaptive filtering (KAF) lies in its ability to transform a challenging nonlinear problem arising in the original space into a linear regression problem in the higher-dimensional feature space via kernel methods. Therefore, this paper proposes a framework called KAFSTExp, which utilizes the state-of-the-art pathology foundation model UNI to extract image feature vectors, and then introduces the kernel least mean square algorithm with Nyström approximation to predict the normalized transcript counts of specific genes. Extensive experiments show that KAFSTExp significantly improves prediction accuracy while reducing computational cost and training time. KAFSTExp demonstrates consistent performance gains across multiple ST datasets, achieving relative improvements in Pearson correlation coefficient ranging from 1.24% to 94.23%, with an average increase of 19.80% over the best-performing non-KAF methods. External validation and further clinical analysis confirm the generalization performance and clinical application value of the proposed KAFSTExp.
+LA  - eng
+KW  - Image Interpretation, Computer-Assisted
+KW  - Gene Expression Profiling
+KW  - Image Processing, Computer-Assisted
+KW  - Transcriptome
+UR  - http://europepmc.org/abstract/MED/40758493
+UR  - https://doi.org/10.1109/JBHI.2025.3595101
+ER  - 
+
+TY  - GEN
+AN  - PPR1225496
+DO  - 10.64898/2026.01.16.697961
+TI  - Spatial Decoding of Tertiary Lymphoid Structure Maturation in Non-Small Cell Lung Cancer Using Deep Neural Networks
+AU  - Chen, Bob
+AU  - Foo, Conrad
+AU  - Andersson, Alma
+AU  - Kayser, Brandon
+AU  - Yang, Yiming
+AU  - Missarova, Alsu
+AU  - Kulkarni, Priyanka
+AU  - Huetter, Jan-Christian
+AU  - Chatterjee, Sharmila
+AU  - Kim, Youngmi
+AU  - Liang, Yan
+AU  - Killinbeck, Emily
+AU  - Murphy, Sarah
+AU  - Fuentes, Eloisa
+AU  - Giltnane, Jennifer
+AU  - Jesudason, Raj
+AU  - Li, Bo
+AU  - BenTaieb, Aicha
+AU  - Richmond, David
+AU  - Biancalani, Tommaso
+AU  - Johnston, Robert
+AU  - Lubeck, Eric
+AU  - Risom, Tyler
+AU  - Rozenblatt-Rosen, Orit
+AU  - Wei, Runmin
+AU  - McGinnis, Lisa
+AB  - Understanding the role of tertiary lymphoid structures (TLS) is crucial in non-small cell lung cancer (NSCLC), as they are associated with patient prognosis and treatment outcomes. Specific cellular ecosystems that originate anti-tumor activity or predict immunotherapy response remain poorly characterized. To this end, we developed a high-resolution, multimodal spatial atlas jointly profiling transcriptomics, proteomics, and histology to characterize TLS maturation in NSCLC alongside secondary lymph organs as a baseline. Using this atlas, we proposed a pathologist-in-the-loop framework that combines a variational graph autoencoder (VGAE) with diffusion pseudotime to refine human expert annotations and characterize TLS maturation. These spatial molecular representations were extended to H&E whole-slide images via a vision transformer-based foundation model. Next, we resolved cellular composition, spatial organization, and cell-cell interactions within these data and defined two divergent spatial ecosystems. Clinical evidence suggests that these ecosystems are associated with distinct patient outcomes: a mature germinal center niche with favorable prognoses, and a tumor-macrophage-fibroblast niche with unfavorable prognoses. In summary, our work decodes key components of TLS heterogeneity, identifies hallmark spatial patterns involved in NSCLC adaptive immunity, and provides a framework for translating spatial omics insights into clinical applications.
+PB  - bioRxiv
+PY  - 2026
+DA  - 2026///
+UR  - http://europepmc.org/abstract/PPR/PPR1225496
+UR  - https://doi.org/10.64898/2026.01.16.697961
+ER  - 
+
+TY  - GEN
+AN  - PPR871807
+DO  - 10.1101/2024.06.19.599672
+TI  - DiffuST: a latent diffusion model for spatial transcriptomics denoising
+AU  - Jiao, Shaoqing
+AU  - Lu, Dazhi
+AU  - Zeng, Xi
+AU  - Wang, Tao
+AU  - Wang, Yongtian
+AU  - Dong, Yunwei
+AU  - Peng, Jiajie
+AB  - Spatial transcriptomics technologies have enabled comprehensive measurements of gene expression profiles while retaining spatial information and matched pathology images. However, noise resulting from low RNA capture efficiency and experimental steps needed to keep spatial information may corrupt the biological signals and obstruct analyses. Here, we develop a latent diffusion model DiffuST to denoise spatial transcriptomics. DiffuST employs a graph autoencoder and a pre-trained model to extract different scale features from spatial information and pathology images. Then, a latent diffusion model is leveraged to map different scales of features to the same space for denoising. The evaluation based on various spatial transcriptomics datasets showed the superiority of DiffuST over existing denoising methods. Furthermore, the results demonstrated that DiffuST can enhance downstream analysis of spatial transcriptomics and yield significant biological insights.
+PB  - bioRxiv
+PY  - 2024
+DA  - 2024///
+UR  - http://europepmc.org/abstract/PPR/PPR871807
+UR  - https://doi.org/10.1101/2024.06.19.599672
+UR  - https://doi.org/10.1101/2024.06.19.599672
+ER  - 
+
+TY  - GEN
+AN  - PPR1103977
+DO  - 10.1101/2025.10.16.682972
+TI  - Agent SPI-WSI: In context learning for computationally spatial pathway inferring on whole slide histopathology images conditioned on bulk RNA sequencing using pathologist in the loop
+AU  - Vashistha, Rajat
+AU  - Brosda, Sandra
+AU  - Belle, Clemence
+AU  - Aoude, Lauren
+AU  - Waddell, Nic
+AU  - Ghosh, Soumen
+AU  - Cooper, Caroline
+AU  - Barbour, Andrew
+AU  - Vegh, Viktor
+AB  - Bulk RNA sequencing, while cost-effective compared to high-resolution spatial transcriptomics, averages gene expression across heterogeneous cell populations and thus lacks spatial context. To address this limitation, we introduce a structured, human–guided, multi-stage computational AI agent SPI-WSI, that iteratively generates, evaluates, and refines biologically informative natural-language prompts, thereby localizing bulk-derived pathway activity within histopathology slides. Our pipeline uses in-context prompting in large language models (LLMs) to adapt dynamically to the task of prompt generation. Candidate prompts are first produced by the LLM and then subjected to a secondary pathologist critiquing by the same LLM that cross-references PubMed to ensure both biological plausibility and specificity. Each approved prompt against their image tile is scored using the vision language foundation model (CONCH). We benchmarked different LLMs, Gemini 2.0, Gemini 2.5, Claude 3.7 and Claude 4.0, and found that Claude 4.0 achieves the highest cosine similarity (0.7) between image and prompt embeddings. Pathologist-driven scoring and manual segmentation confirm that our method accurately identifies clusters of spatial pathological morphologies. In addition, we have validated the method against ground-truth spatial transcriptomic spots using inhouse and public datasets. Overall, the trend emphasized by ground-truth spatial RNA sequencing prompts is closely aligned with those from bulk prompt. This pathologist-in-the-loop workflow enables large-scale, reproducible tissue profiling and grounds AI-driven spatial annotations.
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR1103977
+UR  - https://doi.org/10.1101/2025.10.16.682972
+ER  - 
+
+TY  - GEN
+AN  - PPR984010
+DO  - 10.1101/2025.02.23.639721
+TI  - High-Parameter Spatial Multi-Omics through Histology-Anchored Integration
+AU  - Liu, Yonghao
+AU  - Wang, Chuyao
+AU  - Wang, Zhikang
+AU  - Chen, Liang
+AU  - Li, Zhi
+AU  - Song, Jiangning
+AU  - Zou, Qi
+AU  - Gao, Rui
+AU  - Qian, Bin-Zhi
+AU  - Feng, Xiaoyue
+AU  - Guan, Renchu
+AU  - Yuan, Zhiyuan
+AB  - Spatial omics face challenges in achieving high-parameter, multi-omics co-profiling. Serial-section profiling of complementary panels mitigates technical trade-offs but introduces the spatial diagonal integration problem. To address this, we present SpatialEx and its extension SpatialEx+, computational frameworks leveraging histology as a universal anchor to integrate spatial molecular data across tissue sections. SpatialEx combines a pre-trained H&E foundation model with hypergraph and contrastive learning to predict single-cell omics from histology, encoding multi-neighborhood spatial dependencies and global tissue context. SpatialEx+ further introduces an omics cycle module that encourages cross-omics consistency via slice-invariant mappings, enabling seamless integration without co-measured training data. Extensive validations show superior H&E-to-omics prediction, panel diagonal integration, and omics diagonal integration across various biological scenarios. The frameworks scale to datasets exceeding one million cells, maintain robustness with non-overlapping or heterogeneous sections, and support unlimited omics layers in principle. Our work makes multi-modal spatial profiling broadly accessible.
+PB  - bioRxiv
+PY  - 2025
+DA  - 2025///
+UR  - http://europepmc.org/abstract/PPR/PPR984010
+UR  - https://doi.org/10.1101/2025.02.23.639721
+ER  - 
+
+TY  - GEN
+AN  - PPR445152
+DO  - 10.21203/rs.3.rs-1067780/v1
+TI  - Position-informed contrastive learning for spatially resolved omics deciphers hierarchical tissue structure at both cellular and niche levels
+AU  - Yang, Meng
+AU  - Wang, Yue
+AU  - Liu, Xingmin
+AU  - Huang, Haiping
+AU  - Lan, Linqi
+AU  - Ni, Ming
+AU  - Han, Yuchen
+AU  - Yang, Huanming
+AU  - Mu, Feng
+AB  - Spatial omics and multiplexed imaging technologies provide unprecedented spatial context to characterize molecular variation in complex tissues. Developing unsupervised computational pipeline in a discovery mode is of vital importance to interpret spatially resolved data and derive novel biological insights. We develop Stereo, a unified framework leveraging contrastive learning to jointly model molecular and spatial information in a self-supervised manner. Stereo consists of two modules, StereoCell for neighbor-aware cell identity inference and clustering on spatial transcriptomics data, and StereoNiche for biologically-relevant niche identification on spatial proteomics data. StereoCell uses graph attention to aggregate immediate neighbors’ content for each cell while StereoNiche exploits vision Transformer to explicitly relate position coordinates with marker readouts within certain receptive field. We validate StereoCell’s superior utility on both simulated and real transcriptomics datasets of brain tissues acquired by various technologies with different resolutions. StereoCell can operate on all genes, extract layer-specific signature genes at single-cell resolution and identify clear layer-wise structure with state-of-the-art performance. Applied on tumor tissue sections, StereoCell enables detailed characterization of intratumoral heterogeneity and reveals invasive or metastasis behaviors concordant with expert annotations. Evaluated on a multiplexed fluorescence imaging dataset for colorectal cancer (CRC) patients, StereoNiche refines niche assignments, recapitulates classical follicle structure, and validates enriched T cells-macrophages interdigitation. Via self-distillation operation, StereoNiche also enables extracting bounded layout of tertiary lymphoid structure with no supervision, representing classical Crohn’s-like reaction behavior. Local explanations are derived for a tree-based survival model to validate the clinical relevance of identified niches. For mass spectrometry profiled triple-negative breast cancer (TNBC) samples, StereoNiche recognizes differential tumor-immune interactions to separate compartmentalized from mixed pattern. In brief, Stereo is applicable to a variety of spatial technologies, serving as a powerful method to interrogate context-aware biological process and facilitate hierarchical signature discovery in neuroscience and computational pathology.
+PB  - Research Square
+PY  - 2022
+DA  - 2022///
+UR  - http://europepmc.org/abstract/PPR/PPR445152
+UR  - https://www.researchsquare.com/article/rs-1067780/latest.pdf
+UR  - https://doi.org/10.21203/rs.3.rs-1067780/v1
+ER  - 
+
